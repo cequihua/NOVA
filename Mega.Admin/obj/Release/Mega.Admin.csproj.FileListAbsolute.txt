@@ -1,0 +1,7 @@
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Admin.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Admin.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\log4net.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Release\Mega.Admin.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Release\Mega.Admin.pdb

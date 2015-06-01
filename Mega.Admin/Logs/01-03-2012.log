@@ -1,0 +1,17 @@
+2012-01-03 11:02:51,257 ERROR Mega.Admin.Code.CommonPage – System.Web.HttpException (0x80004005): DataBinding: 'Mega.Common.UDC' no contiene una propiedad con el nombre 'IdName'.
+   en System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName)
+   en System.Web.UI.DataBinder.GetPropertyValue(Object container, String propName, String format)
+   en System.Web.UI.WebControls.ListControl.PerformDataBinding(IEnumerable dataSource)
+   en System.Web.UI.WebControls.ListControl.OnDataBinding(EventArgs e)
+   en System.Web.UI.WebControls.ListControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en System.Web.UI.WebControls.BaseDataBoundControl.EnsureDataBound()
+   en System.Web.UI.WebControls.ListControl.OnPreRender(EventArgs e)
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Control.PreRenderRecursiveInternal()
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-03 11:02:57,685 ERROR Mega.Admin.Code.CommonPage – Error enviando mail de Error.El buzón de correo no está disponible. La respuesta del servidor fue: 5.1.1 User unknown: deisbel@gmail.com
+2012-01-03 11:10:39,264 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Subproceso anulado.

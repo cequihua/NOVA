@@ -1,0 +1,10 @@
+2012-02-22 12:56:36,611 [11] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-22 13:00:12,023 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-22 13:00:12,375 [12] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Comenzando el proceso de Exportación del POS para la tienda 7201.
+2012-02-22 13:00:12,442 [12] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 01/11/2012 12:00 a.m..
+2012-02-22 13:01:07,363 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-22 13:01:31,091 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-22 17:21:14,574 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-22 17:29:59,046 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-22 17:34:21,235 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-22 18:12:32,090 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.

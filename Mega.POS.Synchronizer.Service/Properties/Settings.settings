@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mega.POS.Synchronizer.Service.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MegaAdminConnectionString" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Data Source=.\sqlexpress2005;Initial Catalog=MegaAdmin;Integrated Security=True</Value>
+    </Setting>
+    <Setting Name="CurrentShop" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">12345678</Value>
+    </Setting>
+    <Setting Name="ImportURLFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ftp://201.122.158.54/MegaFtp/IN/{0}-WebExport.zip</Value>
+    </Setting>
+    <Setting Name="FtpUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="FtpPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ExportURLFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ftp://201.122.158.54/MegaFtp/OUT/{0}-PosExport.zip</Value>
+    </Setting>
+    <Setting Name="PROCESS_PERIOD" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

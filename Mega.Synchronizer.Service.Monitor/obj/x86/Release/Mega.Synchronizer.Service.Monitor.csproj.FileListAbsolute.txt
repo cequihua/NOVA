@@ -1,0 +1,5 @@
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Release\Mega.Synchronizer.Service.Monitor.ChangeExportDate.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Release\Mega.Synchronizer.Service.Monitor.Main.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Release\Mega.Synchronizer.Service.Monitor.Properties.Resources.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Release\Mega.Synchronizer.Service.Monitor.ViewTraces.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Release\Mega.Synchronizer.Service.Monitor.csproj.GenerateResource.Cache

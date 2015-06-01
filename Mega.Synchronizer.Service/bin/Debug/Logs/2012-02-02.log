@@ -1,0 +1,15 @@
+2012-02-02 16:31:26,619 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-02 16:32:31,767 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-02 16:34:34,663 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-02 16:56:42,775 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-02 16:57:12,572 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Comenzando el proceso de Importación del POS para la tienda 7201
+2012-02-02 16:57:35,238 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/IN/7201-WebExport.zip.
+2012-02-02 16:58:18,729 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Error! El proceso de Importación del POS ha Fallado para la tienda 7201. System.Exception: Error! Descargando el archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/IN/7201-WebExport.zip. ---> System.Net.WebException: No es posible conectar con el servidor remoto
+   en System.Net.FtpWebRequest.GetResponse()
+   en Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) en D:\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:línea 20
+   en Mega.Synchronizer.Service.Helpers.POSOperations.Import() en D:\Mega\source\Mega.Synchronizer.Service\Helpers\POSOperations.cs:línea 44
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.Synchronizer.Service.Helpers.POSOperations.Import() en D:\Mega\source\Mega.Synchronizer.Service\Helpers\POSOperations.cs:línea 50
+2012-02-02 16:58:24,935 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-02 16:58:34,168 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Comenzando el proceso de Importación del POS para la tienda 7201
+2012-02-02 17:06:49,271 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.

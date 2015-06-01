@@ -1,0 +1,78 @@
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe.config
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\log4net.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.ProjectInstaller.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.SynchronizerService.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.pdb
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe.config
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.pdb
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\log4net.dll
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.dll
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.pdb
+C:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.ProjectInstaller.resources
+C:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.SynchronizerService.resources
+C:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.exe
+C:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.pdb
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe.config
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.pdb
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\log4net.dll
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.dll
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.pdb
+D:\Mega\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.ProjectInstaller.resources
+D:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.SynchronizerService.resources
+D:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.exe
+D:\Mega\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe.config
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\log4net.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.csprojResolveAssemblyReference.cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.ProjectInstaller.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.SynchronizerService.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.csproj.GenerateResource.Cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe.config
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Service.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\log4net.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.ProjectInstaller.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.SynchronizerService.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Debug\Mega.Synchronizer.Service.pdb

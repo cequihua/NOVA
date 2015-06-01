@@ -1,0 +1,120 @@
+2011-06-07 22:20:20,151 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-06-07 22:20:20,253 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.21/MegaFtp/OUT/7201-PosExport.zip.
+2011-06-07 22:20:41,639 [10] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7201. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.21/MegaFtp/OUT/7201-PosExport.zip. ---> System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 37
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+2011-06-07 22:20:41,664 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7241
+2011-06-07 22:20:41,670 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7241 desde ftp://192.168.1.21/MegaFtp/OUT/7241-PosExport.zip.
+2011-06-07 22:24:46,373 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-06-07 22:25:01,720 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.21/MegaFtp/OUT/7201-PosExport.zip.
+2011-06-07 22:26:59,420 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-06-07 22:26:59,468 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/OUT/7201-PosExport.zip.
+2011-06-07 22:27:15,355 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7201.
+2011-06-07 22:27:17,009 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:27:31,151 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:45:39,293 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-06-07 22:45:39,346 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/OUT/7201-PosExport.zip.
+2011-06-07 22:45:50,500 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7201.
+2011-06-07 22:45:51,108 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:46:02,067 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:47:51,073 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-06-07 22:47:51,136 [10] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! No existen en el Sistema configuraciones de Sincronización para la tienda 7201.
+2011-06-07 22:47:51,137 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Agregando configuraciones de Sincronización por defecto para la tienda 7201.
+2011-06-07 22:47:51,271 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Configuraciones de Sincronización por defecto agregadas satisfactoriamente para la tienda 7201.
+2011-06-07 22:47:51,273 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/OUT/7201-PosExport.zip.
+2011-06-07 22:47:51,798 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7201.
+2011-06-07 22:47:51,910 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:47:52,061 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:48:02,670 [10] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7201. Error: System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Operation_Pay'. Cannot insert duplicate key in object 'dbo.Operation_Pay'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Mega.Synchronizer.Common.Helpers.OutInDataHelper.ExecuteSimpleScript(String simpleScript, String connString) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Helpers\OutInDataHelper.cs:line 116
+   at Mega.Synchronizer.Common.Helpers.OutInDataHelper.WebImportSynchonizeTables() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Helpers\OutInDataHelper.cs:line 236
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 74
+2011-06-07 22:48:02,709 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7241
+2011-06-07 22:48:02,715 [10] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! No existen en el Sistema configuraciones de Sincronización para la tienda 7241.
+2011-06-07 22:48:02,716 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Agregando configuraciones de Sincronización por defecto para la tienda 7241.
+2011-06-07 22:48:02,726 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Configuraciones de Sincronización por defecto agregadas satisfactoriamente para la tienda 7241.
+2011-06-07 22:48:02,727 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7241 desde ftp://192.168.1.14/MegaFtp/OUT/7241-PosExport.zip.
+2011-06-07 22:48:06,760 [10] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7241. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7241 desde ftp://192.168.1.14/MegaFtp/OUT/7241-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 37
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+2011-06-07 22:54:56,326 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-06-07 22:54:56,379 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! No existen en el Sistema configuraciones de Sincronización para la tienda 7201.
+2011-06-07 22:54:56,380 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Agregando configuraciones de Sincronización por defecto para la tienda 7201.
+2011-06-07 22:54:56,443 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Configuraciones de Sincronización por defecto agregadas satisfactoriamente para la tienda 7201.
+2011-06-07 22:54:56,444 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/OUT/7201-PosExport.zip.
+2011-06-07 22:54:56,777 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7201.
+2011-06-07 22:54:56,863 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:54:56,937 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:57:19,572 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7201. Error: System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_Operation_Pay'. Cannot insert duplicate key in object 'dbo.Operation_Pay'.
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Mega.Synchronizer.Common.Helpers.OutInDataHelper.ExecuteSimpleScript(String simpleScript, String connString) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Helpers\OutInDataHelper.cs:line 116
+   at Mega.Synchronizer.Common.Helpers.OutInDataHelper.WebImportSynchonizeTables() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Helpers\OutInDataHelper.cs:line 236
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 74
+2011-06-07 22:57:19,599 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7241
+2011-06-07 22:57:19,603 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! No existen en el Sistema configuraciones de Sincronización para la tienda 7241.
+2011-06-07 22:57:19,605 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Agregando configuraciones de Sincronización por defecto para la tienda 7241.
+2011-06-07 22:57:19,623 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Configuraciones de Sincronización por defecto agregadas satisfactoriamente para la tienda 7241.
+2011-06-07 22:57:19,624 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7241 desde ftp://192.168.1.14/MegaFtp/OUT/7241-PosExport.zip.
+2011-06-07 22:57:21,750 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7241. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7241 desde ftp://192.168.1.14/MegaFtp/OUT/7241-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 37
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+2011-06-07 22:58:57,595 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-06-07 22:58:57,641 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! No existen en el Sistema configuraciones de Sincronización para la tienda 7201.
+2011-06-07 22:58:57,642 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Agregando configuraciones de Sincronización por defecto para la tienda 7201.
+2011-06-07 22:58:57,705 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Configuraciones de Sincronización por defecto agregadas satisfactoriamente para la tienda 7201.
+2011-06-07 22:58:57,706 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/OUT/7201-PosExport.zip.
+2011-06-07 22:58:58,037 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7201.
+2011-06-07 22:58:58,127 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:58:58,200 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7201.
+2011-06-07 22:59:16,425 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha Terminado con éxito para la tienda 7201.
+2011-06-07 22:59:16,456 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7241
+2011-06-07 22:59:16,460 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! No existen en el Sistema configuraciones de Sincronización para la tienda 7241.
+2011-06-07 22:59:16,461 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Agregando configuraciones de Sincronización por defecto para la tienda 7241.
+2011-06-07 22:59:16,473 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Configuraciones de Sincronización por defecto agregadas satisfactoriamente para la tienda 7241.
+2011-06-07 22:59:16,473 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7241 desde ftp://192.168.1.14/MegaFtp/OUT/7241-PosExport.zip.
+2011-06-07 22:59:24,474 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7241. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7241 desde ftp://192.168.1.14/MegaFtp/OUT/7241-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 37
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44

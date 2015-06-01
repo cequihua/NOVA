@@ -1,0 +1,144 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mega.Common.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CFG_SYSTEM_ADMIN_ROLE_UDCITEM_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">43</Value>
+    </Setting>
+    <Setting Name="CFG_USER_PSW_VALID_DAYS_UDCITEM_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="ROLES_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ROL</Value>
+    </Setting>
+    <Setting Name="COUNTRIES_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CN</Value>
+    </Setting>
+    <Setting Name="POPULATION_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">POP</Value>
+    </Setting>
+    <Setting Name="STATE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">STATE</Value>
+    </Setting>
+    <Setting Name="DIMTYPE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DIMTYP</Value>
+    </Setting>
+    <Setting Name="MARITAL_STATUS_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MARSTA</Value>
+    </Setting>
+    <Setting Name="CFG_NULL_ROW_VALUE_UDCITEM_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+    <Setting Name="CURRENCY_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CURR</Value>
+    </Setting>
+    <Setting Name="SEX_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SEX</Value>
+    </Setting>
+    <Setting Name="OPERATION_TYPE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TOPINV</Value>
+    </Setting>
+    <Setting Name="ExceptionMsgDuplicateKeyOnInsert" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">key that is already in use</Value>
+    </Setting>
+    <Setting Name="ExceptionMsgDuplicateKeyOnInsert2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">duplicate key</Value>
+    </Setting>
+    <Setting Name="OPERATION_STATUS_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">STATOP</Value>
+    </Setting>
+    <Setting Name="IVATYPE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IVATYP</Value>
+    </Setting>
+    <Setting Name="CFG_BARCODE_MAX_SIZE_UDCITEM_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="CURRENCY_CHANGE_RATE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CURCHG</Value>
+    </Setting>
+    <Setting Name="MOV_PAY_TYPE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PAYTYP</Value>
+    </Setting>
+    <Setting Name="BANK_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BANK</Value>
+    </Setting>
+    <Setting Name="CFG_DIM_MAX_SIZE_UDCITEM_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="CFG_INVOICE_NAME_IN_TICKET_UDCITEM_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="IVAGROUP_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IVAGRP</Value>
+    </Setting>
+    <Setting Name="IVAVALUE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IVAVAL</Value>
+    </Setting>
+    <Setting Name="WEB_SYNCH_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">12</Value>
+    </Setting>
+    <Setting Name="MegaAdminConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;User ID=sa;Password=m3g4&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;User ID=sa;Password=m3g4</Value>
+    </Setting>
+    <Setting Name="INVENTORY_OP_TYPE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TOPINV</Value>
+    </Setting>
+    <Setting Name="OPERATION_SUBTYPE_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SUBTYP</Value>
+    </Setting>
+    <Setting Name="DIFFUSION_MEDIA_UDC_KEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DIFFUS</Value>
+    </Setting>
+    <Setting Name="MAX_DAYS_RETURN_CONSIGNATION_UDC_KEY" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">13</Value>
+    </Setting>
+    <Setting Name="DATA_GRIDVIEW_PAGE_SIZE" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">14</Value>
+    </Setting>
+    <Setting Name="_7201ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;User ID=sa;Password=m3g4&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;User ID=sa;Password=m3g4</Value>
+    </Setting>
+    <Setting Name="INVOICE_STATUS_PENDIENTE_XSA_UDCITEM_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INPEN</Value>
+    </Setting>
+    <Setting Name="INVOICE_STATUS_FACTURADO_XSA_UDCITEM_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INFAC</Value>
+    </Setting>
+    <Setting Name="INVOICE_TYPE_GENERAL_UDCITEM_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">INGEN</Value>
+    </Setting>
+    <Setting Name="INVOICE_TYPE_INDIVIDUAL_UDCITEM_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ININD</Value>
+    </Setting>
+    <Setting Name="RFC_Company" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">RFCCOM</Value>
+    </Setting>
+    <Setting Name="TIPO_COMPROBANTE_FISCAL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">COMPF</Value>
+    </Setting>
+    <Setting Name="TOKEN_XSA_CODE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">KEYXSA</Value>
+    </Setting>
+    <Setting Name="ID_SERIE_INVOICE" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SERIE</Value>
+    </Setting>
+    <Setting Name="MegaAdminConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;User ID=sa&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;User ID=sa</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

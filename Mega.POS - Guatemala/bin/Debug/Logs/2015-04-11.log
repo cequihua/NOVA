@@ -1,0 +1,74 @@
+2015-04-11 10:45:09,563 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-04-11 11:11:05,561 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-04-11 11:19:16,717 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-04-11 12:09:14,775 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-04-11 12:32:17,490 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-04-11 12:38:45,198 ERROR Mega.POS.Operation.SaleEdit – Error CountTextBox_Validating
+System.InvalidOperationException: La secuencia contiene más de un elemento
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   en Mega.POS.Operation.SaleEdit.CountTextBox_Validating(Object sender, CancelEventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1625
+2015-04-11 12:38:52,795 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 275
+2015-04-11 12:39:01,750 ERROR Mega.POS.Operation.SaleEdit – Existen filas de Inventario Duplicadas para el Producto: 03-HMN1, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE
+2015-04-11 12:39:08,177 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 275 OfficialConsecutive 156 Tipo Venta
+System.Exception: Existen filas de Inventario Duplicadas para el Producto: 03-HMN1, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE ---> System.InvalidOperationException: La secuencia contiene más de un elemento
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 845
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 855
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 472
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1868
+2015-04-11 12:39:20,516 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 275
+2015-04-11 12:39:27,490 ERROR Mega.POS.Operation.SaleEdit – Existen filas de Inventario Duplicadas para el Producto: 03-HMN1, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE
+2015-04-11 12:39:39,860 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 275 OfficialConsecutive 156 Tipo Venta
+System.Exception: Existen filas de Inventario Duplicadas para el Producto: 03-HMN1, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE ---> System.InvalidOperationException: La secuencia contiene más de un elemento
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 845
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 855
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 472
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1868
+2015-04-11 12:40:03,338 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 275
+2015-04-11 12:40:12,714 ERROR Mega.POS.Operation.SaleEdit – Existen filas de Inventario Duplicadas para el Producto: 03-HX03, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE
+2015-04-11 12:40:14,352 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 275 OfficialConsecutive 156 Tipo Venta
+System.Exception: Existen filas de Inventario Duplicadas para el Producto: 03-HX03, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE ---> System.InvalidOperationException: La secuencia contiene más de un elemento
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 845
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 855
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 472
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1868
+2015-04-11 12:40:24,461 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 275
+2015-04-11 12:45:10,113 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 276
+2015-04-11 12:45:33,170 ERROR Mega.POS.Operation.SaleEdit – Error imprimiendo Ticket con numero: 157
+System.ComponentModel.Win32Exception (0x80004005): La operación se completó correctamente
+   en System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   en System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   en System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   en System.Drawing.Printing.PrintDocument.Print()
+   en Mega.POS.Operation.SaleEdit.PrintTicket(Boolean rePrint) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 567
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 509
+2015-04-11 12:46:09,939 ERROR Mega.POS.Operation.SaleEdit – Error PrintButton_Click
+System.ComponentModel.Win32Exception (0x80004005): La operación se completó correctamente
+   en System.Drawing.Printing.StandardPrintController.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   en System.Windows.Forms.PrintControllerWithStatusDialog.OnStartPrint(PrintDocument document, PrintEventArgs e)
+   en System.Drawing.Printing.PrintController.Print(PrintDocument document)
+   en System.Drawing.Printing.PrintDocument.Print()
+   en Mega.POS.Operation.SaleEdit.PrintTicket(Boolean rePrint) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 567
+   en Mega.POS.Operation.SaleEdit.PrintButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1983
+2015-04-11 13:05:09,122 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400

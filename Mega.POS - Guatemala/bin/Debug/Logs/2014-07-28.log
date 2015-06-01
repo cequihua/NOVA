@@ -1,0 +1,35 @@
+2014-07-28 18:36:44,825 ERROR Mega.POS.Login – El usuario g9201 no tiene permiso para autenticarse en esta Tienda/UDC
+2014-07-28 18:37:38,676 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-28 18:39:15,740 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [TUXT-534 no pertenece a este tipo de comprobante.]
+2014-07-28 18:41:35,532 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-07-28 18:41:46,108 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 456
+2014-07-28 18:42:02,910 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 217
+2014-07-28 18:42:30,350 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-28 18:42:38,275 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 1145, Tipo. Apertura de Caja
+2014-07-28 18:45:15,679 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 14069
+2014-07-28 18:45:54,945 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 14070
+2014-07-28 18:46:25,177 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 14071
+2014-07-28 18:46:46,737 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-07-28 18:46:52,821 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 456
+2014-07-28 19:27:05,624 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-28 19:27:12,862 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 1146, Tipo. Apertura de Caja
+2014-07-28 19:27:32,269 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 14072
+2014-07-28 19:31:39,583 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-28 19:31:53,935 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 14073

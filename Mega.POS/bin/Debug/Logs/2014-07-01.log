@@ -1,0 +1,849 @@
+2014-07-01 12:36:48,908 ERROR Mega.POS.Login – El usuario g9201 no tiene permiso para autenticarse en esta Tienda/UDC
+2014-07-01 12:36:55,788 ERROR Mega.POS.Login – El usuario c9201 no tiene permiso para autenticarse en esta Tienda/UDC
+2014-07-01 12:38:35,176 ERROR Mega.POS.Login – El usuario c9201 no tiene permiso para autenticarse en esta Tienda/UDC
+2014-07-01 12:38:40,168 ERROR Mega.POS.Login – El usuario e9201 o la contraseña son incorrectos
+2014-07-01 12:38:44,785 ERROR Mega.POS.Login – El usuario e9201 o la contraseña son incorrectos
+2014-07-01 12:38:50,838 ERROR Mega.POS.Login – El usuario e9201 o la contraseña son incorrectos
+2014-07-01 12:38:56,142 ERROR Mega.POS.Login – El usuario e9201 o la contraseña son incorrectos
+2014-07-01 13:06:10,276 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 13:06:43,208 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2014-07-01 13:06:43,255 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: Operación no válida, se ha terminado la conexión.
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+2014-07-01 13:11:24,570 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 13:12:19,607 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2014-07-01 13:12:22,212 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: Operación no válida, se ha terminado la conexión.
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+2014-07-01 13:15:02,369 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 13:16:12,975 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2014-07-01 13:16:13,006 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: Operación no válida, se ha terminado la conexión.
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+2014-07-01 13:33:28,707 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 13:34:36,396 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2014-07-01 13:34:36,427 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: Operación no válida, se ha terminado la conexión.
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+2014-07-01 13:35:19,982 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 13:36:35,814 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:64e56de3-71f6-428c-8884-0643fd72ad1e
+2014-07-01 13:36:49,776 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 13:37:39,119 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 13:38:38,118 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:8222806c-c875-495a-98aa-932b665fd049
+2014-07-01 14:05:28,150 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 14:06:27,618 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2014-07-01 14:06:27,649 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: Operación no válida, se ha terminado la conexión.
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+2014-07-01 16:48:45,728 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 16:49:20,703 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:e8d879b0-843d-4e68-bde3-497e97c39784
+2014-07-01 16:51:19,092 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 16:52:11,430 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2014-07-01 16:52:15,314 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: Operación no válida, se ha terminado la conexión.
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+2014-07-01 16:54:49,333 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 16:57:49,373 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:00:49,335 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:03:49,360 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:06:49,353 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:09:49,361 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:12:49,370 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:15:49,379 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:18:49,403 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:21:49,396 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:24:49,452 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:27:49,429 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:30:49,438 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:33:49,462 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:36:49,440 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:39:49,449 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:42:49,473 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:45:49,466 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:48:49,506 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:51:49,499 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:54:49,523 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 17:57:49,532 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 18:00:49,541 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 18:03:49,534 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 18:06:49,558 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde. ---> System.ComponentModel.Win32Exception (0x80004005): Tiempo de espera de la operación de espera agotado
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 18:09:19,552 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetInvoiceGeneralByCasherCloseDetailTXT' expects parameter '@tipo', which was not supplied.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 18:12:19,577 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetInvoiceGeneralByCasherCloseDetailTXT' expects parameter '@tipo', which was not supplied.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 18:15:19,554 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.Data.SqlClient.SqlException (0x80131904): Procedure or function 'GetInvoiceGeneralByCasherCloseDetailTXT' expects parameter '@typeInv', which was not supplied.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.GetInvoiceGeneralByCasherCloseDetailTXT(Nullable`1 idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 483
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 212
+ClientConnectionId:7538cd3c-3b6f-48fe-a42e-1bc4f74d19c0
+2014-07-01 18:21:58,371 ERROR Mega.POS.Login – El usuario g9201 no tiene permiso para autenticarse en esta Tienda/UDC
+2014-07-01 18:22:48,978 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 18:23:06,902 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [TUXT-534 no pertenece a este tipo de comprobante.]
+2014-07-01 18:23:29,989 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9227
+2014-07-01 18:25:43,260 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 14065
+2014-07-01 18:26:43,694 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 14066

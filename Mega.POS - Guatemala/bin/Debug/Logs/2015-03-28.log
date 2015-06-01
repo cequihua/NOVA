@@ -1,0 +1,61 @@
+2015-03-28 00:04:22,671 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:05:00,738 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:06:26,123 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:10:46,278 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:13:55,107 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:14:21,611 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 253
+2015-03-28 00:18:05,237 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 254
+2015-03-28 00:21:59,852 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:24:51,281 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 256
+2015-03-28 00:26:57,205 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 257
+2015-03-28 00:31:19,975 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:34:14,879 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:38:16,254 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:41:28,827 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:43:42,098 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:45:42,920 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 00:46:00,158 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 259
+2015-03-28 00:48:00,091 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 01:10:00,478 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 01:11:10,631 INFO  Mega.POS.Operation.ReceiptEdit – Iniciando la Confirmación del Recibo: Consecutive 99192
+2015-03-28 01:21:45,872 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 01:25:09,125 INFO  Mega.POS.Operation.ReceiptEdit – Iniciando la Confirmación del Recibo: Consecutive 99986
+2015-03-28 01:27:47,293 ERROR Mega.POS.Operation.ReceiptEdit – Existen filas de Inventario Duplicadas para el Producto: 03-HAMA, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE
+2015-03-28 01:27:54,766 ERROR Mega.POS.Operation.ReceiptEdit – Error confirmando el Recibo de Mercancia. Consecutive 99986
+System.Exception: Existen filas de Inventario Duplicadas para el Producto: 03-HAMA, Ubicación: c1d6dc9e-d617-466b-9d7f-3b3feb085a9a, Lote: SIN_LOTE ---> System.InvalidOperationException: La secuencia contiene más de un elemento
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   en Mega.POS.Operation.ReceiptEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 370
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.POS.Operation.ReceiptEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 381
+   en Mega.POS.Operation.ReceiptEdit.ConfirmOperationButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 187
+2015-03-28 01:56:26,473 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:01:39,368 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:10:32,298 ERROR Mega.POS.Login – El usuario g9200 o la contraseña son incorrectos
+2015-03-28 02:10:36,822 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:19:15,030 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:20:02,205 ERROR Mega.POS.Operation.ReceiptEdit – Error actualizando Importe
+System.Exception: La cantidad Recibida no puede ser mayor a la enviada
+   en Mega.POS.Operation.ReceiptEdit.dataGridView1_CellValueChanged(Object sender, DataGridViewCellEventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 284
+2015-03-28 02:20:14,435 ERROR Mega.POS.Operation.ReceiptEdit – Error actualizando Importe
+System.Exception: La cantidad Recibida no puede ser mayor a la enviada
+   en Mega.POS.Operation.ReceiptEdit.dataGridView1_CellValueChanged(Object sender, DataGridViewCellEventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 284
+2015-03-28 02:21:21,016 ERROR Mega.POS.Operation.ReceiptEdit – Error actualizando Importe
+System.Exception: La cantidad Recibida no puede ser mayor a la enviada
+   en Mega.POS.Operation.ReceiptEdit.dataGridView1_CellValueChanged(Object sender, DataGridViewCellEventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 284
+2015-03-28 02:22:48,757 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:23:16,728 ERROR Mega.POS.Operation.ReceiptEdit – Error actualizando Importe
+System.Exception: La cantidad Recibida no puede ser mayor a la enviada
+   en Mega.POS.Operation.ReceiptEdit.dataGridView1_CellValueChanged(Object sender, DataGridViewCellEventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 284
+2015-03-28 02:25:26,169 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:28:05,148 ERROR Mega.POS.Operation.ReceiptEdit – Error actualizando Importe
+System.Exception: La cantidad ingresada no puede ser mayor a la cantidad recibida
+   en Mega.POS.Operation.ReceiptEdit.dataGridView1_CellValueChanged(Object sender, DataGridViewCellEventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\ReceiptEdit.cs:línea 284
+2015-03-28 02:34:27,132 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:35:57,955 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 261
+2015-03-28 02:39:16,591 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 02:41:48,738 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-28 12:47:44,206 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400

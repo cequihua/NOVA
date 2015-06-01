@@ -1,0 +1,71 @@
+2014-04-22 10:10:26,152 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 10:10:44,778 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: Error durante la validación del XML de Tralix [Error en la validación del XML. Se han encontrado errores en el documento de entrada]
+2014-04-22 10:19:41,637 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 10:19:58,829 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: Error durante la validación del XML de Tralix [Error en la validación del XML. Se han encontrado errores en el documento de entrada]
+2014-04-22 10:34:41,587 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 10:35:00,042 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: Error durante la validación del XML de Tralix [Error en la validación del XML. Se han encontrado errores en el documento de entrada]
+2014-04-22 10:38:47,569 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario G9201
+2014-04-22 10:38:58,005 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: Error durante la validación del XML de Tralix [Error en la validación del XML. Se han encontrado errores en el documento de entrada]
+2014-04-22 11:05:56,851 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 11:06:06,960 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: Error durante la validación del XML de Tralix [Error en la validación del XML. Se han encontrado errores en el documento de entrada]
+2014-04-22 12:12:50,847 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 12:13:13,155 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: 
+2014-04-22 17:41:54,824 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 17:42:14,293 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: Error durante la validación del XML de Tralix [Error en la validación del XML. Se han encontrado errores en el documento de entrada]
+2014-04-22 18:06:43,816 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 18:06:53,051 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:18:37,532 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 18:19:00,652 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:21:14,172 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.guardarDocumento(String in0, String in1, String in2, String in3, String in4) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 122
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 198
+2014-04-22 18:21:14,188 ERROR Mega.POS.SyncroFacturacionXSA – Fallo la conexion a XSA
+2014-04-22 18:21:14,188 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 41 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:42:50,223 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 18:43:00,285 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:43:17,101 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 18:43:42,405 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:44:19,236 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5879
+2014-04-22 18:44:21,093 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-22 18:44:34,992 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 5879 OfficialConsecutive 4514 Tipo Venta
+System.Exception: La Confirmacion no se puede realizar porque generaria Inventarios negativos sobre el Producto: 03-HA08, Almacen mostrador, Cantidad a Vender: 1, Cantidad final en Inventario: -1
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 840
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 467
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1768
+2014-04-22 18:45:29,343 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.guardarDocumento(String in0, String in1, String in2, String in3, String in4) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 122
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 198
+2014-04-22 18:45:29,343 ERROR Mega.POS.SyncroFacturacionXSA – Fallo la conexion a XSA
+2014-04-22 18:45:29,343 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 41 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:46:29,528 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5880
+2014-04-22 18:46:31,400 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-22 18:47:09,401 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 188
+2014-04-22 18:47:09,401 ERROR Mega.POS.SyncroFacturacionXSA – Fallo la conexion a XSA
+2014-04-22 18:47:09,401 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 42 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:48:36,434 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 188
+2014-04-22 18:48:45,326 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 18:48:50,833 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 40 en XSA: El folio requerido no está diponible [PED-286 no pertenece a este tipo de comprobante.]
+2014-04-22 18:50:42,170 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 18:50:52,700 ERROR Mega.POS.SyncroFacturacionXSA – Ocurrio un error al generar el CFDI de la factura con Id 43 en XSA: El folio requerido no está diponible [PED-488 no pertenece a este tipo de comprobante.]
+2014-04-22 19:00:47,826 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-22 19:00:53,379 INFO  Mega.POS.SyncroFacturacionXSA – La factura 43 se realizo con exito

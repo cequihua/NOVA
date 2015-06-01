@@ -1,0 +1,74 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mega.POS.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MailSmtpPort" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="MailFromName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">MegaPOS</Value>
+    </Setting>
+    <Setting Name="MailSSLEnabled" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MailSmtpNeedsAuthentication" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MailLogoImageName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">CompanyLogo.png</Value>
+    </Setting>
+    <Setting Name="MailDateFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">dd/MM/yyyy</Value>
+    </Setting>
+    <Setting Name="MailSmtpServer" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">mail.megagdl.com.mx</Value>
+    </Setting>
+    <Setting Name="MailFromEMail" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">megapos@megagdl.com.mx</Value>
+    </Setting>
+    <Setting Name="MailSmtpAuthenticationUser" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">megapos@megagdl.com.mx</Value>
+    </Setting>
+    <Setting Name="MailSmtpAuthenticationPassword" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">megapos</Value>
+    </Setting>
+    <Setting Name="MailAdminAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">deisbel@gmail.com</Value>
+    </Setting>
+    <Setting Name="ReportRenderMethod" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">IMAGE</Value>
+    </Setting>
+    <Setting Name="EMFDeviceInfoOutputFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EMF</Value>
+    </Setting>
+    <Setting Name="MegaAdminConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;Persist Security Info=True;User ID=sa;Password=m3g4&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=VM90_DESARROLLO;Initial Catalog=MegaAdmin;Persist Security Info=True;User ID=sa;Password=m3g4</Value>
+    </Setting>
+    <Setting Name="Mega_POS_mx_com_redmega_cfdi_FileReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://cfdi.redmega.com.mx/xsamanager/services/FileReceiverService</Value>
+    </Setting>
+    <Setting Name="TimeMinutesSendXSA_Automatic" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="Mega_POS_XSAService_FileReceiverService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://cfdi.redmega.com.mx/xsamanager/services/FileReceiverService</Value>
+    </Setting>
+    <Setting Name="CurrentShop" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">9400</Value>
+    </Setting>
+    <Setting Name="CurrentCashier" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">e337da9c-d0db-4c08-96c0-24e88626aa94</Value>
+    </Setting>
+    <Setting Name="DistribuitionData" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AmericaCenterCountry" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

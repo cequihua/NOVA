@@ -1,0 +1,3 @@
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Release\Mega.Synchronizer.Service.ProjectInstaller.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Release\Mega.Synchronizer.Service.SynchronizerService.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service\obj\x86\Release\Mega.Synchronizer.Service.csproj.GenerateResource.Cache

@@ -1,0 +1,426 @@
+2014-05-19 18:36:36,482 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 399
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Main.cs:línea 51
+2014-05-19 18:40:55,764 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 18:46:02,133 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-295 no pertenece a este tipo de comprobante.]
+2014-05-19 18:46:12,320 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:47:52,425 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED297 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.guardarDocumento(String in0, String in1, String in2, String in3, String in4) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 122
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 290
+2014-05-19 18:47:52,425 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:47:52,425 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:47:54,999 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6001
+2014-05-19 18:48:45,965 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6002
+2014-05-19 18:49:30,035 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-05-19 18:49:32,484 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED305 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 280
+2014-05-19 18:49:32,484 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:49:32,484 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:51:12,558 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED306 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 280
+2014-05-19 18:51:12,558 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:51:12,558 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:51:55,380 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 458
+2014-05-19 18:52:36,237 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED295 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.guardarDocumento(String in0, String in1, String in2, String in3, String in4) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 122
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 290
+2014-05-19 18:52:36,237 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 18:52:36,237 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 18:52:52,617 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED307 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 280
+2014-05-19 18:52:52,617 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:52:52,617 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:53:48,761 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED343 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 280
+2014-05-19 18:53:51,975 ERROR Mega.POS.Movement.CashierClose – 
+2014-05-19 18:54:16,295 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED296 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 280
+2014-05-19 18:54:16,295 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 18:54:16,295 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 18:54:32,675 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED308 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 280
+2014-05-19 18:54:32,675 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:54:32,675 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 18:57:33,977 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 18:57:41,356 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-295 no pertenece a este tipo de comprobante.]
+2014-05-19 18:57:41,964 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 545, Tipo. Apertura de Caja
+2014-05-19 18:58:08,048 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6003
+2014-05-19 18:58:44,973 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6004
+2014-05-19 18:59:21,430 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED296 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.guardarDocumento(String in0, String in1, String in2, String in3, String in4) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 122
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 290
+2014-05-19 18:59:21,430 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-295 no pertenece a este tipo de comprobante.]
+2014-05-19 18:59:21,430 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-295 no pertenece a este tipo de comprobante.]
+2014-05-19 19:00:16,389 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-05-19 19:00:29,946 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 458
+2014-05-19 19:01:01,489 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED297 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 280
+2014-05-19 19:01:01,489 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-295 no pertenece a este tipo de comprobante.]
+2014-05-19 19:01:01,489 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-295 no pertenece a este tipo de comprobante.]
+2014-05-19 19:02:15,230 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 19:02:22,578 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-295 no pertenece a este tipo de comprobante.]
+2014-05-19 19:02:24,559 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 546, Tipo. Apertura de Caja
+2014-05-19 19:02:32,687 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-296 no pertenece a este tipo de comprobante.]
+2014-05-19 19:02:35,448 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-05-19 19:03:08,910 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 211
+2014-05-19 22:06:02,744 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:08:22,879 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:08:32,676 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 547, Tipo. Apertura de Caja
+2014-05-19 22:08:51,490 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6005
+2014-05-19 22:12:59,424 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:13:28,627 ERROR Mega.POS.Operation.InvoicesOperations – Error de datos fiscales de la factura PED345 en XSA System.Web.Services.Protocols.SoapException: No se encontro el documento con el nombre proporcionado.
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:13:28,627 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 22:13:28,627 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 22:13:40,343 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6006
+2014-05-19 22:16:09,466 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 399
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Main.cs:línea 51
+2014-05-19 22:16:21,210 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 399
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Main.cs:línea 51
+2014-05-19 22:18:20,613 ERROR Mega.POS.Login – El usuario g9201 no tiene permiso para autenticarse en esta Tienda/UDC
+2014-05-19 22:18:25,262 ERROR Mega.POS.Login – El usuario g9201 no tiene permiso para autenticarse en esta Tienda/UDC
+2014-05-19 22:18:53,517 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:19:07,916 ERROR Mega.POS.Operation.InvoicesOperations – Error de datos fiscales de la factura PED345 en XSA System.Web.Services.Protocols.SoapException: No se encontro el documento con el nombre proporcionado.
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:19:07,916 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 22:19:07,916 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 22:21:07,880 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:21:07,880 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 22:21:07,880 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 22:21:07,880 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 22:22:52,306 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:23:23,943 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:28:38,051 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:28:54,369 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:29:20,031 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6007
+2014-05-19 22:29:46,629 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:29:57,627 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.guardarDocumento(String in0, String in1, String in2, String in3, String in4) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 122
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 293
+2014-05-19 22:30:37,251 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:30:53,756 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:31:14,473 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:31:14,473 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:31:14,473 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:38:16,517 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:38:30,035 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:39:06,695 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:39:06,695 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:39:06,695 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:40:56,753 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:40:56,753 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:40:56,753 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:41:29,669 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:41:29,669 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:41:29,669 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:41:56,720 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:41:56,720 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:41:56,720 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:42:56,764 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:42:56,780 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:42:56,780 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:43:37,839 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:43:37,839 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:43:37,839 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:43:56,793 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:43:56,793 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:43:56,793 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:44:36,823 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:44:36,823 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:44:36,823 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:44:56,807 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:44:56,807 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:44:56,807 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:45:36,852 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:45:36,852 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:45:36,852 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:45:56,789 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:45:56,789 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:45:56,789 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:46:36,865 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:46:36,865 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:46:36,865 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:46:56,786 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:46:56,786 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:46:56,786 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:48:42,040 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:49:03,833 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:49:32,085 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:49:32,085 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:49:32,085 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:51:29,771 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:51:29,771 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:51:29,787 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:51:56,042 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:51:56,042 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:51:56,042 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:52:25,214 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:52:25,214 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:52:25,214 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:54:33,551 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 22:54:41,772 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:54:53,987 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6008
+2014-05-19 22:55:04,564 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:55:04,564 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:55:04,564 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 22:55:59,741 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6009
+2014-05-19 22:56:14,826 ERROR Mega.POS.Operation.SaleEdit – Ha ocurrido un error Enviado el mensaje de Exceso de Efectivo
+System.FormatException: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+   en System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   en System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendPlainTextMessage(String mailSubject, String plainTextBody, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 87
+   en Mega.POS.Helper.MailTemplateHelper.SendPlainTextMessage(String subject, String plainTextBody, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 144
+   en Mega.POS.Operation.SaleEdit.VerifyCashLimit() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1972
+2014-05-19 22:57:10,066 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-05-19 22:57:17,242 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:57:17,242 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:57:17,242 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:57:39,020 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 22:57:39,020 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:57:39,020 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:57:39,098 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 459
+2014-05-19 22:57:57,631 ERROR Mega.POS.SyncroFacturacionXSA – Valor de Timeout caducado. El período de tiempo de espera caducó antes de completar la operación o el servidor no responde.
+2014-05-19 22:58:02,685 ERROR Mega.POS.SyncroFacturacionXSA – La secuencia no contiene elementos
+2014-05-19 22:58:06,959 ERROR Mega.POS.Movement.CashierClose – Error haciendo el Cierre. MakeCloseButton_Click
+System.InvalidOperationException: Ya hay un DataReader abierto asociado a este Command, debe cerrarlo primero.
+   en System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   en System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   en System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicUpdate(TrackedObject item)
+   en System.Data.Linq.ChangeDirector.StandardChangeDirector.Update(TrackedObject item)
+   en System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges()
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 475
+   en Mega.POS.Movement.CashierClose.MakeCloseButton_Click(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 329
+2014-05-19 22:58:16,086 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:58:16,086 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:58:16,086 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:58:43,900 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-05-19 22:58:59,298 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 459
+2014-05-19 22:59:59,061 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 22:59:59,061 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 22:59:59,061 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 23:00:16,970 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED346 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 23:00:16,970 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 23:00:16,970 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 23:00:50,651 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED348 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 23:00:54,036 ERROR Mega.POS.Movement.CashierClose – 
+2014-05-19 23:03:38,462 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 23:03:55,560 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 23:03:56,527 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 548, Tipo. Apertura de Caja
+2014-05-19 23:05:02,562 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED347 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 23:05:02,562 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 23:05:02,562 ERROR Mega.POS.SyncroFacturacionXSA – El folio requerido no está diponible [PED-346 no pertenece a este tipo de comprobante.]
+2014-05-19 23:05:02,593 ERROR Mega.POS.SyncroFacturacionXSA – Ya hay un DataReader abierto asociado a este Command, debe cerrarlo primero.
+2014-05-19 23:05:02,624 ERROR Mega.POS.SyncroFacturacionXSA – Ya hay un DataReader abierto asociado a este Command, debe cerrarlo primero.
+2014-05-19 23:05:43,184 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-05-19 23:05:55,633 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 459
+2014-05-19 23:06:02,029 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 213
+2014-05-19 23:06:44,851 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED348 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetResponse()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 282
+2014-05-19 23:06:44,851 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 23:06:44,851 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 23:13:05,639 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-19 23:13:12,644 ERROR Mega.POS.Operation.InvoicesOperations – Error de datos fiscales de la factura PED346 en XSA System.Web.Services.Protocols.SoapException: No se encontro el documento con el nombre proporcionado.
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 23:13:12,644 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 23:13:12,644 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 23:13:17,729 ERROR Mega.POS.Operation.InvoicesOperations – Error de datos fiscales de la factura PED347 en XSA System.Web.Services.Protocols.SoapException: No se encontro el documento con el nombre proporcionado.
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 23:13:17,729 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 23:13:17,729 ERROR Mega.POS.SyncroFacturacionXSA – No se encontro el documento con el nombre proporcionado.
+2014-05-19 23:13:36,980 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura PED348 en XSA System.Net.WebException: Se excedió el tiempo de espera de la operación
+   en System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   en System.Net.HttpWebRequest.GetRequestStream()
+   en System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   en Mega.POS.mx.com.redmega.cfdi.FileReceiverService.obtenerEstadoDocumento(String in0, String in1, String in2) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Web References\mx.com.redmega.cfdi\Reference.cs:línea 89
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 301
+2014-05-19 23:13:36,980 ERROR Mega.POS.SyncroFacturacionXSA – 
+2014-05-19 23:13:36,980 ERROR Mega.POS.SyncroFacturacionXSA – 

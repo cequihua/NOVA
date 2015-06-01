@@ -1,0 +1,370 @@
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe.config
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TTF
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TXT
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\MailTemplate\error-mail.xslt
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\MailTemplate\Images\CompanyLogo.png
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.pdb
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AboutBox.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Login.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Main.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.MoneyMovement.MovementAdd.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportSelector.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportViewer.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Test.resources
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.cache
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.compiled
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.exe
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\MailTemplate\receipt-notification-mail.xslt
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TTF
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TXT
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\MailTemplate\error-mail.xslt
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\MailTemplate\Images\CompanyLogo.png
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe.config
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe.manifest
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.application
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.POS.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\log4net.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AboutBox.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.Pager.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Login.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Main.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.MovementAdd.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.GeneralPay.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.CreditCollect.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.EntryExitOperationEdit.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportSelector.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportViewer.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Test.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.compiled
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.TrustInfo.xml
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.exe.manifest
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.application
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.pdb
+C:\Mega\source\Mega.POS\bin\Debug\MailTemplate\receipt-notification-mail.xslt
+C:\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+C:\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TTF
+C:\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TXT
+C:\Mega\source\Mega.POS\bin\Debug\MailTemplate\error-mail.xslt
+C:\Mega\source\Mega.POS\bin\Debug\MailTemplate\Images\CompanyLogo.png
+C:\Mega\source\Mega.POS\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+C:\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe.config
+C:\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe.manifest
+C:\Mega\source\Mega.POS\bin\Debug\Mega.POS.application
+C:\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe
+C:\Mega\source\Mega.POS\bin\Debug\Mega.POS.pdb
+C:\Mega\source\Mega.POS\bin\Debug\log4net.dll
+C:\Mega\source\Mega.POS\bin\Debug\Mega.Common.dll
+C:\Mega\source\Mega.POS\bin\Debug\Mega.Common.pdb
+C:\Mega\source\Mega.POS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AboutBox.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.Pager.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Login.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Main.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.MovementAdd.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.GeneralPay.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.CreditCollect.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.EntryExitOperationEdit.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportSelector.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportViewer.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Test.resources
+C:\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.cache
+C:\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.compiled
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.TrustInfo.xml
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.exe.manifest
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.application
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.exe
+C:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.pdb
+D:\Mega\source\Mega.POS\bin\Debug\MailTemplate\receipt-notification-mail.xslt
+D:\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+D:\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TTF
+D:\Mega\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TXT
+D:\Mega\source\Mega.POS\bin\Debug\MailTemplate\error-mail.xslt
+D:\Mega\source\Mega.POS\bin\Debug\MailTemplate\Images\CompanyLogo.png
+D:\Mega\source\Mega.POS\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+D:\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe.config
+D:\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe.manifest
+D:\Mega\source\Mega.POS\bin\Debug\Mega.POS.application
+D:\Mega\source\Mega.POS\bin\Debug\Mega.POS.exe
+D:\Mega\source\Mega.POS\bin\Debug\Mega.POS.pdb
+D:\Mega\source\Mega.POS\bin\Debug\log4net.dll
+D:\Mega\source\Mega.POS\bin\Debug\Mega.Common.dll
+D:\Mega\source\Mega.POS\bin\Debug\Mega.Common.pdb
+D:\Mega\source\Mega.POS\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AboutBox.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.Pager.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Login.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Main.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.MovementAdd.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.GeneralPay.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.CreditCollect.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.EntryExitOperationEdit.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportSelector.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportViewer.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.Test.resources
+D:\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Mega\source\Mega.POS\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.cache
+D:\Mega\source\Mega.POS\obj\x86\Debug\RdlCompile.compiled
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.TrustInfo.xml
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.exe.manifest
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.application
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.exe
+D:\Mega\source\Mega.POS\obj\x86\Debug\Mega.POS.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\receipt-notification-mail.xslt
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TTF
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TXT
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\error-mail.xslt
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\Images\CompanyLogo.png
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.exe.config
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.exe.manifest
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.application
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\log4net.dll
+C:\Users\CaRLoS\Documents\V
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.csprojResolveAssemblyReference.cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.AboutBox.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FormFiscalData.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.Pager.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Login.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Main.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.MovementAdd.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.FormInvoicePreView.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.GeneralPay.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.CreditCollect.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.EntryExitOperationEdit.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportSelector.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportViewer.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Test.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.csproj.GenerateResource.Cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\RdlCompile.cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\RdlCompile.compiled
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.TrustInfo.xml
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.exe.manifest
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.application
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.exe.config
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\receipt-notification-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TTF
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Font\free3of9\FREE3OF9.TXT
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\error-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\Images\CompanyLogo.png
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.exe.manifest
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.application
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.POS.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\log4net.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.AboutBox.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FormFiscalData.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.Pager.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Login.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Main.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Movement.MovementAdd.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.FormInvoicePreView.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.GeneralPay.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.CreditCollect.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.EntryExitOperationEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportSelector.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.ReportViewer.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Test.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\RdlCompile.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.TrustInfo.xml
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.exe.manifest
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.application
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Client.FormDistributionData.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\obj\x86\Debug\Mega.POS.Products.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Mega.POS.exe.config
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\MailTemplate\receipt-notification-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Font\free3of9\FREE3OF9.TTF
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Font\free3of9\FREE3OF9.TXT
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\MailTemplate\error-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\MailTemplate\Images\CompanyLogo.png
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Mega.POS.exe.manifest
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Mega.POS.application
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Mega.POS.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Mega.POS.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\log4net.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\bin\Debug\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.AboutBox.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Client.FormDistributionData.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Client.FormFiscalData.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Client.Pager.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Login.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Main.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Movement.MovementAdd.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.FormInvoicePreView.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.GeneralPay.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.CreditCollect.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.EntryExitOperationEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Products.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.ReportSelector.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.ReportViewer.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.Test.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\RdlCompile.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.TrustInfo.xml
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.exe.manifest
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Centroamerica\obj\x86\Debug\Mega.POS.application
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Mega.POS.exe.config
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\MailTemplate\receipt-notification-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Font\free3of9\FRE3OF9X.TTF
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Font\free3of9\FREE3OF9.TTF
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Font\free3of9\FREE3OF9.TXT
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\MailTemplate\error-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\MailTemplate\Images\CompanyLogo.png
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\MailTemplate\cashier-close-notification-mail.xslt
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Mega.POS.exe.manifest
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Mega.POS.application
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Mega.POS.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Mega.POS.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\log4net.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\bin\Debug\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.AboutBox.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.AuthorizationRequired.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Client.ClientAdd.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Client.ClientList.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Client.FormDistributionData.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Client.FindClient.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Client.FormFiscalData.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Client.Pager.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Login.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Main.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Movement.CashierClose.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Movement.MovementAdd.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.FormInvoicePreView.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.GeneralPay.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.CreditCollect.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.EntryExitOperationEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.OperationList.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.Pay.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.ReceiptEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Operation.SaleEdit.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Products.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Properties.Resources.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.ReportSelector.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.ReportViewer.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.Test.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\RdlCompile.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\RdlCompile.compiled
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.TrustInfo.xml
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.exe.manifest
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.application
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.FormResolutionFiscal.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\obj\x86\Debug\Mega.POS.FormResolutionFiscalList.resources

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B514A418-5765-4B96-90DD-E7F078F55654}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mega.Admin</RootNamespace>
+    <AssemblyName>Mega.Admin</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Resources\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\UserAdd.aspx" />
+    <Content Include="Account\UserEdit.aspx" />
+    <Content Include="Account\UserList.aspx" />
+    <Content Include="DBScripts\ExecutedScripts.aspx" />
+    <Content Include="Dim\Dim.aspx" />
+    <Content Include="Dim\DimList.aspx" />
+    <Content Include="Error.aspx" />
+    <Content Include="MailTemplate\user-notification-mail.xslt" />
+    <Content Include="MailTemplate\error-mail.xslt" />
+    <Content Include="MailTemplate\Images\CompanyLogo.png" />
+    <Content Include="Operation\Receipt.aspx" />
+    <Content Include="Product\Product.aspx" />
+    <Content Include="Product\ProductList.aspx" />
+    <Content Include="Scripts\jquery.ui.datepicker-es.js" />
+    <Content Include="Scripts\jquery.ui.js" />
+    <Content Include="Scripts\jquery.ui.core.js" />
+    <Content Include="Scripts\jquery.ui.timepicker.js" />
+    <Content Include="Scripts\jquery.ui.widget.js" />
+    <Content Include="Shop\CompanyList.aspx" />
+    <Content Include="Shop\ShopList.aspx" />
+    <Content Include="Shop\ShopAdd.aspx" />
+    <Content Include="Shop\ShopEdit.aspx" />
+    <Content Include="Styles\css\jquery-ui-custom.css" />
+    <Content Include="Styles\Images\information.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_flat_0_dcf7a8_40x100.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_glass_75_99cc33_1x400.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_glass_75_dcf7a8_1x400.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_highlight-soft_75_dcf7a8_1x100.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-bg_inset-soft_95_fef1ec_1x100.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-icons_217bc0_256x240.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-icons_4b6e05_256x240.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Styles\Images\jquery-ui\ui-icons_d8e7f3_256x240.png" />
+    <Content Include="Styles\Images\spinner.gif" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Synchronization\Logs.aspx" />
+    <Content Include="Synchronization\POSConfiguration.aspx" />
+    <Content Include="Synchronization\ServerConfiguration.aspx" />
+    <Content Include="Synchronization\POSConfigurationEdit.aspx" />
+    <Content Include="UDC\UdcItem.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\UserAdd.aspx.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\UserAdd.aspx.designer.cs">
+      <DependentUpon>UserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\UserEdit.aspx.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\UserEdit.aspx.designer.cs">
+      <DependentUpon>UserEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\UserList.aspx.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\UserList.aspx.designer.cs">
+      <DependentUpon>UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\CommonStrings.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CommonStrings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Code\CommonPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Code\ConstantUI.cs" />
+    <Compile Include="Code\Helpers\MailTemplateHelper.cs" />
+    <Compile Include="Code\Helpers\PortalHelper.cs" />
+    <Compile Include="Code\WebConfiguration.cs" />
+    <Compile Include="DBScripts\ExecutedScripts.aspx.cs">
+      <DependentUpon>ExecutedScripts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DBScripts\ExecutedScripts.aspx.designer.cs">
+      <DependentUpon>ExecutedScripts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dim\Dim.aspx.cs">
+      <DependentUpon>Dim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dim\Dim.aspx.designer.cs">
+      <DependentUpon>Dim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dim\DimList.aspx.cs">
+      <DependentUpon>DimList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dim\DimList.aspx.designer.cs">
+      <DependentUpon>DimList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Operation\Receipt.aspx.cs">
+      <DependentUpon>Receipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Operation\Receipt.aspx.designer.cs">
+      <DependentUpon>Receipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product\Product.aspx.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product\Product.aspx.designer.cs">
+      <DependentUpon>Product.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Product\ProductList.aspx.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Product\ProductList.aspx.designer.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shop\CompanyList.aspx.cs">
+      <DependentUpon>CompanyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\CompanyList.aspx.designer.cs">
+      <DependentUpon>CompanyList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\ShopList.aspx.cs">
+      <DependentUpon>ShopList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\ShopList.aspx.designer.cs">
+      <DependentUpon>ShopList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\ShopAdd.aspx.cs">
+      <DependentUpon>ShopAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\ShopAdd.aspx.designer.cs">
+      <DependentUpon>ShopAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop\ShopEdit.aspx.cs">
+      <DependentUpon>ShopEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop\ShopEdit.aspx.designer.cs">
+      <DependentUpon>ShopEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronization\Logs.aspx.cs">
+      <DependentUpon>Logs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Synchronization\Logs.aspx.designer.cs">
+      <DependentUpon>Logs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronization\POSConfiguration.aspx.cs">
+      <DependentUpon>POSConfiguration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Synchronization\POSConfiguration.aspx.designer.cs">
+      <DependentUpon>POSConfiguration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronization\ServerConfiguration.aspx.cs">
+      <DependentUpon>ServerConfiguration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Synchronization\ServerConfiguration.aspx.designer.cs">
+      <DependentUpon>ServerConfiguration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Synchronization\POSConfigurationEdit.aspx.cs">
+      <DependentUpon>POSConfigurationEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Synchronization\POSConfigurationEdit.aspx.designer.cs">
+      <DependentUpon>POSConfigurationEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UDC\UdcItem.aspx.cs">
+      <DependentUpon>UdcItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UDC\UdcItem.aspx.designer.cs">
+      <DependentUpon>UdcItem.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Styles\web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\CommonStrings.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>CommonStrings.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Mega.Common\Mega.Common.csproj">
+      <Project>{5EEEB4B8-DC6D-43B0-A91E-E3A7BEE9B8FB}</Project>
+      <Name>Mega.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>3364</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/Mega.Admin</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

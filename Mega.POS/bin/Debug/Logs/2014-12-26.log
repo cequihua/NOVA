@@ -1,0 +1,11 @@
+2014-12-26 14:14:52,838 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Main.cs:línea 51
+2014-12-26 14:18:40,464 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400

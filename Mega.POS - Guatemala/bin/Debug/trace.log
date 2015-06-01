@@ -1,0 +1,388 @@
+2011-05-11 17:17:50,395 ERROR Mega.POS.Login – El usuario admin o la contraseña son incorrectos
+2011-05-14 13:32:31,310 ERROR Mega.POS.Operation.OperationList – Error cargando el Formulario OperationList
+System.Data.SqlClient.SqlException (0x80131904): Invalid column name 'EffectiveDate'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at System.Data.Linq.Provider.BindingList.Create[T](DataContext context, IEnumerable`1 sequence)
+   at System.Data.Linq.DataQuery`1.GetNewBindingList()
+   at System.Data.Linq.DataQuery`1.System.ComponentModel.IListSource.GetList()
+   at System.Windows.Forms.CurrencyManager.SetDataSource(Object dataSource)
+   at System.Windows.Forms.CurrencyManager..ctor(Object dataSource)
+   at System.Windows.Forms.BindingContext.EnsureListManager(Object dataSource, String dataMember)
+   at System.Windows.Forms.DataGridView.DataGridViewDataConnection.ShouldChangeDataMember(Object newDataSource)
+   at System.Windows.Forms.DataGridView.set_DataSource(Object value)
+   at Mega.POS.Operation.OperationList.LoadList() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\OperationList.cs:line 255
+   at Mega.POS.Operation.OperationList.OperationList_Load(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\OperationList.cs:line 135
+2011-05-16 11:35:48,452 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:35:58,337 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoPreviousOrderButton_Click
+2011-05-16 11:36:04,944 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:36:06,583 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoPreviousOrderButton_Click
+2011-05-16 11:36:08,609 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:36:09,936 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoNextOrderButton_Click
+2011-05-16 11:39:23,258 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:39:54,086 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoPreviousOrderButton_Click
+2011-05-16 11:40:08,765 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:40:22,318 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoPreviousOrderButton_Click
+2011-05-16 11:40:47,472 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:41:17,266 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoPreviousOrderButton_Click
+2011-05-16 11:42:38,547 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:43:05,329 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoPreviousOrderButton_Click
+2011-05-16 11:43:45,713 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en EntryExitOperationEdit_Load
+System.ArgumentNullException: Value cannot be null.
+Parameter name: key
+   at System.Windows.Forms.CurrencyManager.Find(PropertyDescriptor property, Object key, Boolean keepIndex)
+   at System.Windows.Forms.ListControl.set_SelectedValue(Object value)
+   at Mega.POS.Operation.EntryExitOperationEdit.LoadResumeControls() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 182
+   at Mega.POS.Operation.EntryExitOperationEdit.LoadCurrentOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 119
+   at Mega.POS.Operation.EntryExitOperationEdit.EntryExitOperationEdit_Load(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 59
+2011-05-16 11:56:32,365 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 11:58:10,966 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1246
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1328
+2011-05-16 12:44:18,133 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:44:33,515 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:44:38,614 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:44:48,472 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:44:51,171 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:46:08,271 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:53:10,703 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:53:15,945 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:53:16,782 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1262
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1344
+2011-05-16 12:58:24,983 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 12:58:27,833 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 12:58:28,703 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 12:58:38,094 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:01:34,769 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:04:53,370 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1256
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1338
+2011-05-16 13:05:38,592 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:06:53,484 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:12,145 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:17,527 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:24,070 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:27,437 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:31,891 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:35,232 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:38,348 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:40,597 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:50,190 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:07:54,107 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:08:00,234 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 13:32:42,673 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 13:33:30,296 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 13:33:37,301 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:09:29,444 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:10:47,851 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:11:10,742 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:11:19,298 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:11:25,425 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:13:16,019 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:14:34,113 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:14:36,949 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:14:38,209 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:15:00,227 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:15:08,607 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:15:20,109 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1258
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1340
+2011-05-16 14:16:51,900 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 14:19:36,545 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 14:20:40,708 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 14:21:00,170 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error LocationComboBox_SelectedIndexChanged
+System.InvalidOperationException: Nullable object must have a value.
+   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at Mega.POS.Operation.EntryExitOperationEdit.get_IsExitOperation() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1257
+   at Mega.POS.Operation.EntryExitOperationEdit.LocationComboBox_SelectedIndexChanged(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS\Operation\EntryExitOperationEdit.cs:line 1339
+2011-05-16 15:25:45,543 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoPreviousOrderButton_Click
+2011-05-16 15:25:49,938 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoNextOrderButton_Click
+2011-05-16 15:25:55,999 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoNextOrderButton_Click
+2011-05-16 15:26:10,972 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoNextOrderButton_Click
+2011-05-16 15:26:29,654 ERROR Mega.POS.Operation.EntryExitOperationEdit – Error en GotoNextOrderButton_Click

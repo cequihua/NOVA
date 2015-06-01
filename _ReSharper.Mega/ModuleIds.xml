@@ -1,0 +1,12 @@
+<Modules>
+  <Module PersistentId="B514A418-5765-4B96-90DD-E7F078F55654" ModuleId="Mega.Admin" />
+  <Module PersistentId="5EEEB4B8-DC6D-43B0-A91E-E3A7BEE9B8FB" ModuleId="Mega.Common" />
+  <Module PersistentId="A0ECACF5-3637-43AC-B874-8CB660378C56" ModuleId="Mega.POS" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="System.Windows.Forms" />
+  <Module PersistentId="324B1A1D-3711-4FDB-BB1E-FC04016BB946" ModuleId="Mega.POSSynchronizer" />
+  <Module PersistentId="EB746159-2866-4870-8E0A-A07CABBC50E9" ModuleId="Mega.Synchronizer.Common" />
+  <Module PersistentId="100147CD-6A47-452B-8B65-2DA8447F1813" ModuleId="Mega.Synchronizer.Service" />
+  <Module PersistentId="81AB70DE-A38F-4885-9BE1-036F32A2D178" ModuleId="Mega.Synchronizer.Service.Monitor" />
+  <Module PersistentId="68160CBD-CF10-43F9-B104-A9B8650941EB" ModuleId="Mega.Configurator" />
+  <Module PersistentId="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Windows.Forms_1" />
+</Modules>

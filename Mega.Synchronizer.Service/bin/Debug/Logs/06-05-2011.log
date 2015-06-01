@@ -1,0 +1,217 @@
+2011-06-05 21:17:37,010 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:17:37,201 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:25:06,979 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:25:06,982 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:25:07,064 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error !Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:25:39,319 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Exception: Error !Compactando Archivo generado para la tienda 7201. ---> System.IO.FileNotFoundException: That file or directory (D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\bin\Debug\TempFiles\WebExport.xml) does not exist!
+   at Ionic.Zip.ZipFile.AddItem(String fileOrDirectoryName, String directoryPathInArchive)
+   at Mega.Synchronizer.Common.Helpers.ZipHelper.Zip(String zipFileName, String entryName) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Helpers\ZipHelper.cs:line 23
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:25:39,341 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:26:43,694 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:32:41,942 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:32:59,370 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:34:19,864 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:39:19,513 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:39:21,534 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:39:26,191 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:39:33,249 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:39:33,253 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:39:33,441 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:39:54,506 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:39:54,510 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:39:54,514 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:39:55,372 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:39:55,374 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:39:55,529 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:40:16,594 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:40:18,624 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:40:18,630 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:40:19,363 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:40:19,366 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:40:19,514 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:40:40,593 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:40:40,597 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:40:40,606 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:40:41,469 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:40:41,471 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:40:41,699 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:41:02,758 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:41:04,773 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:41:04,779 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:41:05,429 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:41:05,431 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:41:05,574 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:41:26,648 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:41:26,651 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:41:26,656 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:41:27,300 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:41:27,306 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:41:27,568 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:41:48,624 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:41:50,640 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:41:50,650 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:41:51,257 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:41:51,259 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:41:51,415 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:42:12,468 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:42:12,471 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:42:12,476 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:42:13,018 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:42:13,020 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:42:13,205 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:42:34,275 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:42:36,298 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:42:36,307 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:42:36,952 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:42:36,954 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:42:37,173 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:42:58,233 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:42:58,238 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:42:58,243 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:42:58,811 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:42:58,815 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:42:58,994 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:43:20,047 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:43:22,140 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:43:22,146 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:43:23,284 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:43:23,286 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:43:23,474 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:43:44,571 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:43:44,577 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:43:44,581 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:43:45,631 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:43:45,634 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:43:45,819 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:44:06,879 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:44:08,903 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:44:08,908 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:44:09,694 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:44:09,701 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:44:09,972 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:44:34,368 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:44:34,383 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:44:34,452 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:44:37,323 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:44:37,354 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:44:38,852 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:45:00,005 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:45:02,031 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:45:02,036 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:45:02,665 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:45:02,668 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:45:02,845 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:45:23,920 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:45:23,925 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:45:23,931 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:45:24,482 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:45:24,484 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:45:24,656 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:45:45,715 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:45:51,933 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:45:51,939 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:45:52,548 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:45:52,550 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:45:52,695 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:46:13,765 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:46:13,769 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:46:13,773 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:46:14,496 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:46:14,499 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:46:14,700 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.
+2011-06-05 21:46:35,745 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7241 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:46:37,809 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2011-06-05 21:46:37,816 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:46:38,358 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7201.
+2011-06-05 21:46:38,360 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2011-06-05 21:46:38,518 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.1.21/MegaFtp/IN/7201-WebExport.zip.
+2011-06-05 21:46:59,576 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetRequestStream()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 60
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop)
+2011-06-05 21:46:59,580 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7241
+2011-06-05 21:46:59,585 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7241 desde la ultima fecha de Exportación 06/05/1991 12:00 a.m..
+2011-06-05 21:47:00,144 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Archivo de Exportación generado satisfactoriamente para la tienda 7241.
+2011-06-05 21:47:00,147 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7241.
+2011-06-05 21:47:00,308 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7241 al FTP ftp://192.168.1.21/MegaFtp/IN/7241-WebExport.zip.

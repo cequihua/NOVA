@@ -1,0 +1,123 @@
+2015-03-26 09:19:45,665 ERROR Mega.POS.Login – El usuario g9400 no tiene permiso para autenticarse en esta Tienda/UDC
+2015-03-26 09:21:22,215 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 09:22:00,406 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 235
+2015-03-26 09:23:55,411 ERROR Mega.POS.Operation.SaleEdit – Error imprimiendo Ticket con numero: 129
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 399
+   en Mega.POS.Operation.SaleEdit.PrintTicket(Boolean rePrint) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 663
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 616
+2015-03-26 09:23:56,862 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 235 OfficialConsecutive 129 Tipo Venta
+System.Transactions.TransactionAbortedException: Se anuló la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionStateAborted.BeginCommit(InternalTransaction tx, Boolean asyncCommit, AsyncCallback asyncCallback, Object asyncState)
+   en System.Transactions.CommittableTransaction.Commit()
+   en System.Transactions.TransactionScope.InternalDispose()
+   en System.Transactions.TransactionScope.Dispose()
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1958
+2015-03-26 09:25:38,873 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 09:25:59,045 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 236
+2015-03-26 09:48:18,130 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 09:49:05,461 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 237
+2015-03-26 09:49:38,720 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 238
+2015-03-26 09:50:23,144 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 239
+2015-03-26 09:50:39,635 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 240
+2015-03-26 09:51:07,434 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 241
+2015-03-26 10:01:46,820 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario G9400
+2015-03-26 10:02:11,313 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 242
+2015-03-26 10:05:07,250 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 10:05:27,222 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 243
+2015-03-26 10:12:22,139 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 10:12:46,303 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 244
+2015-03-26 12:45:09,771 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 12:46:26,581 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 12:47:01,265 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 12:47:40,291 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 12:48:05,611 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 13:09:23,889 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 13:11:07,240 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 13:11:43,884 ERROR Mega.POS.FormResolutionFiscal – Error al guardar la informacion del Dim
+System.InvalidOperationException: No se pueden ejecutar operaciones Create, Update o Delete en 'Table(ResolutionFiscal)' porque no tiene una clave principal.
+   en System.Data.Linq.Table`1.CheckReadOnly()
+   en System.Data.Linq.Table`1.InsertOnSubmit(TEntity entity)
+   en Mega.POS.FormResolutionFiscal.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\FormResolutionFiscal.cs:línea 49
+2015-03-26 13:13:16,919 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:04:25,040 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:20:28,297 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:23:34,063 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:31:25,314 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:46:22,990 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:48:55,648 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:55:34,450 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 14:56:26,711 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 15:02:14,568 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 15:18:30,285 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 15:19:42,437 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 15:23:31,085 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 15:26:20,566 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 15:29:01,112 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 15:30:32,945 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 18:19:22,442 ERROR Mega.POS.Login – El usuario g9800 o la contraseña son incorrectos
+2015-03-26 18:19:27,247 ERROR Mega.POS.Login – El usuario g9804 o la contraseña son incorrectos
+2015-03-26 18:19:32,411 ERROR Mega.POS.Login – El usuario g9804 o la contraseña son incorrectos
+2015-03-26 18:19:37,949 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 18:22:21,646 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 18:27:25,105 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 18:28:11,575 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 18:30:30,929 ERROR Mega.POS.Login – El usuario g9200 o la contraseña son incorrectos
+2015-03-26 18:30:37,044 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 20:21:42,704 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 20:30:53,977 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 20:31:56,518 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 20:52:01,492 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 20:52:09,541 ERROR Mega.POS.FormResolutionFiscal – Error al editar la resolucion fiscal: 
+System.InvalidCastException: No se puede convertir un objeto de tipo '<>f__AnonymousType7`5[System.Int32,System.Nullable`1[System.DateTime],System.Nullable`1[System.DateTime],System.String,System.String]' al tipo 'Mega.POS.ResolutionObj'.
+   en Mega.POS.FormResolutionFiscalList.btnEditar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\FormResolutionFiscalList.cs:línea 89
+2015-03-26 20:54:38,724 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 20:55:38,238 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:09:13,027 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:24:21,783 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:26:45,710 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:27:33,150 ERROR Mega.POS.FormResolutionFiscal – Error al guardar la informacion del Dim
+System.OverflowException: Valor demasiado grande o demasiado pequeño para Int16.
+   en System.Int16.Parse(String s, NumberStyles style, NumberFormatInfo info)
+   en System.Convert.ToInt16(String value)
+   en Mega.POS.FormResolutionFiscal.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\FormResolutionFiscal.cs:línea 94
+2015-03-26 21:29:01,974 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:43:16,966 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:45:11,501 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:54:26,768 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:55:37,149 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:57:10,921 ERROR Mega.POS.FormResolutionFiscal – Error al guardar la informacion del Dim
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   en Mega.POS.FormResolutionFiscal.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\FormResolutionFiscal.cs:línea 90
+2015-03-26 21:57:48,798 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 21:58:42,397 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 22:06:12,538 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-26 22:10:53,916 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400

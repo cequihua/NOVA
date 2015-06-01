@@ -1,0 +1,273 @@
+2015-03-27 11:01:50,899 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 11:02:58,884 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 245
+2015-03-27 11:33:16,121 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 11:36:04,820 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 11:36:43,227 ERROR Mega.POS.FormResolutionFiscal – Error al guardar la informacion del Dim
+System.NotSupportedException: El método 'Mega.Common.UDC GetSerie(Mega.Common.AdminDataContext)' no admite la conversión a SQL.
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitMethodCall(SqlMethodCall mc)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitMember(SqlMember m)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitBinaryOperator(SqlBinary bo)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitBinaryOperator(SqlBinary bo)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitSelectCore(SqlSelect select)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitSelect(SqlSelect select)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Convert(SqlNode node, SqlFactory sql, ProviderMode providerMode)
+   en System.Data.Linq.SqlClient.SqlProvider.BuildQuery(ResultShape resultShape, Type resultType, SqlNode node, ReadOnlyCollection`1 parentParameters, SqlNodeAnnotations annotations)
+   en System.Data.Linq.SqlClient.SqlProvider.BuildQuery(Expression query, SqlNodeAnnotations annotations)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   en Mega.POS.FormResolutionFiscal.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\FormResolutionFiscal.cs:línea 116
+2015-03-27 11:37:01,651 ERROR Mega.POS.FormResolutionFiscal – Error al guardar la informacion del Dim
+System.NotSupportedException: El método 'Mega.Common.UDC GetSerie(Mega.Common.AdminDataContext)' no admite la conversión a SQL.
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitMethodCall(SqlMethodCall mc)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitMember(SqlMember m)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitBinaryOperator(SqlBinary bo)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitBinaryOperator(SqlBinary bo)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitExpression(SqlExpression exp)
+   en System.Data.Linq.SqlClient.SqlVisitor.VisitSelectCore(SqlSelect select)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Visitor.VisitSelect(SqlSelect select)
+   en System.Data.Linq.SqlClient.SqlVisitor.Visit(SqlNode node)
+   en System.Data.Linq.SqlClient.PostBindDotNetConverter.Convert(SqlNode node, SqlFactory sql, ProviderMode providerMode)
+   en System.Data.Linq.SqlClient.SqlProvider.BuildQuery(ResultShape resultShape, Type resultType, SqlNode node, ReadOnlyCollection`1 parentParameters, SqlNodeAnnotations annotations)
+   en System.Data.Linq.SqlClient.SqlProvider.BuildQuery(Expression query, SqlNodeAnnotations annotations)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source, Expression`1 predicate)
+   en Mega.POS.FormResolutionFiscal.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\FormResolutionFiscal.cs:línea 116
+2015-03-27 11:40:08,467 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 11:44:19,779 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 11:47:36,262 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 11:47:55,403 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2015-03-27 11:48:15,574 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2015-03-27 11:51:52,445 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 11:52:03,677 ERROR Mega.POS.Operation.SaleEdit – Error en DimTextBox_TextChanged
+2015-03-27 11:57:21,578 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:17:16,783 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:19:02,333 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:33:04,549 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:33:49,218 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:34:18,062 ERROR Mega.POS.Login – El usuario c9367 no tiene permiso para autenticarse en esta Tienda/UDC
+2015-03-27 12:37:14,374 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario c9367
+2015-03-27 12:37:29,553 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:39:20,637 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:40:01,323 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:41:33,488 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:45:34,399 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:46:36,210 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:51:45,919 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:53:13,731 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:54:31,884 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 12:55:06,875 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 248
+2015-03-27 12:57:02,222 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 249
+2015-03-27 12:57:54,622 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 250
+2015-03-27 13:02:03,993 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 13:02:31,730 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 251
+2015-03-27 22:22:44,581 ERROR Mega.POS.Login – El usuario g9401 no tiene permiso para autenticarse en esta Tienda/UDC
+2015-03-27 22:22:52,256 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 23:20:38,832 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 23:54:01,294 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 23:55:24,468 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-27 23:55:51,596 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 252
+2015-03-27 23:57:30,001 ERROR Mega.POS.Client.FormFiscalData – Error al guardar la informacion del Dim
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 405
+   en Mega.POS.Client.FormFiscalData.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 225
+2015-03-27 23:57:37,037 ERROR Mega.POS.Client.FormFiscalData – Error al guardar la informacion del Dim
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 405
+   en Mega.POS.Client.FormFiscalData.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 225
+2015-03-27 23:57:40,328 ERROR Mega.POS.Client.FormFiscalData – Error al guardar la informacion del Dim
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 405
+   en Mega.POS.Client.FormFiscalData.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 225
+2015-03-27 23:57:42,824 ERROR Mega.POS.Client.FormFiscalData – Error al guardar la informacion del Dim
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 405
+   en Mega.POS.Client.FormFiscalData.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 225
+2015-03-27 23:57:44,774 ERROR Mega.POS.Client.FormFiscalData – Error al guardar la informacion del Dim
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 405
+   en Mega.POS.Client.FormFiscalData.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 225
+2015-03-27 23:57:48,128 ERROR Mega.POS.Client.FormFiscalData – Error al guardar la informacion del Dim
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 405
+   en Mega.POS.Client.FormFiscalData.btnAceptar_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 225
+2015-03-27 23:57:56,053 ERROR Mega.POS.Operation.SaleEdit – Error imprimiendo Ticket con numero: 142
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 405
+   en Mega.POS.Operation.SaleEdit.PrintTicket(Boolean rePrint) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 552
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 505
+2015-03-27 23:57:57,816 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 252 OfficialConsecutive 142 Tipo Venta
+System.Transactions.TransactionAbortedException: Se anuló la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionStateAborted.BeginCommit(InternalTransaction tx, Boolean asyncCommit, AsyncCallback asyncCallback, Object asyncState)
+   en System.Transactions.CommittableTransaction.Commit()
+   en System.Transactions.TransactionScope.InternalDispose()
+   en System.Transactions.TransactionScope.Dispose()
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1866

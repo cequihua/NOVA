@@ -1,0 +1,2762 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Qualified:Mega.Common.Properties.Settings">
+      <Item value="UserPswValidDays" priority="0" />
+      <Item value="ROLES_UDC_KEY" priority="0" />
+      <Item value="COUNTRIES_UDC_KEY" priority="1" />
+      <Item value="POPULATION_UDC_KEY" priority="0" />
+      <Item value="STATE_UDC_KEY" priority="0" />
+      <Item value="DIMTYPE_UDC_KEY" priority="0" />
+      <Item value="MARITAL_STATUS_UDC_KEY" priority="0" />
+      <Item value="CURRENCY_UDC_KEY" priority="0" />
+      <Item value="SYSTEM_CURRENCY_UDCITEM_KEY" priority="0" />
+      <Item value="SEX_UDC_KEY" priority="0" />
+      <Item value="OPERATION_TYPE_UDC_KEY" priority="0" />
+      <Item value="BANK_UDC_KEY" priority="0" />
+      <Item value="CFG_TICKET_PAGE_SIZE_UDCITEMS_KEY" priority="0" />
+      <Item value="DIFFUSION_MEDIA_UDC_KEY" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Default">
+      <Item value="CheckBox`0" priority="0" />
+      <Item value="try" priority="65" />
+      <Item value="this" priority="129" />
+      <Item value="ex" priority="16" />
+      <Item value="Response" priority="0" />
+      <Item value="LoginTextBox" priority="12" />
+      <Item value="if" priority="213" />
+      <Item value="IsPostBack" priority="2" />
+      <Item value="public" priority="59" />
+      <Item value="static" priority="31" />
+      <Item value="string" priority="291" />
+      <Item value="return" priority="160" />
+      <Item value="PortalHelper`0" priority="19" />
+      <Item value="using" priority="11" />
+      <Item value="System" priority="14" />
+      <Item value="Linq" priority="6" />
+      <Item value="u" priority="32" />
+      <Item value="ConstantUI`0" priority="0" />
+      <Item value="Common" priority="20" />
+      <Item value="Constant`0" priority="41" />
+      <Item value="Mega" priority="3" />
+      <Item value="int" priority="88" />
+      <Item value="void" priority="25" />
+      <Item value="message" priority="4" />
+      <Item value="Logger`0" priority="17" />
+      <Item value="DateTime`0" priority="83" />
+      <Item value="days" priority="0" />
+      <Item value="PasswordTextBox" priority="7" />
+      <Item value="DataHelper`0" priority="86" />
+      <Item value="IsValid" priority="2" />
+      <Item value="else" priority="96" />
+      <Item value="thr" priority="0" />
+      <Item value="Exception`0" priority="6" />
+      <Item value="Resources" priority="1" />
+      <Item value="Resource1`0" priority="0" />
+      <Item value="CommonStrings`0" priority="2" />
+      <Item value="Page`0" priority="0" />
+      <Item value="AdminDataContext`0" priority="7" />
+      <Item value="User`0" priority="4" />
+      <Item value="new" priority="146" />
+      <Item value="User" priority="7" />
+      <Item value="Id" priority="31" />
+      <Item value="Name" priority="6" />
+      <Item value="NameTextBox" priority="4" />
+      <Item value="Email" priority="1" />
+      <Item value="EmailTextBox" priority="3" />
+      <Item value="Disabled" priority="3" />
+      <Item value="false" priority="148" />
+      <Item value="Password" priority="0" />
+      <Item value="ValidDate" priority="0" />
+      <Item value="ValidaDateTextBox" priority="0" />
+      <Item value="Convert`0" priority="80" />
+      <Item value="UserControl`0" priority="0" />
+      <Item value="HttpRequest`0" priority="1" />
+      <Item value="auditableObjetc" priority="0" />
+      <Item value="HttpContext`0" priority="3" />
+      <Item value="newUser" priority="0" />
+      <Item value="dc" priority="153" />
+      <Item value="prop" priority="0" />
+      <Item value="String`0" priority="7" />
+      <Item value="Request" priority="1" />
+      <Item value="protected" priority="8" />
+      <Item value="throw" priority="7" />
+      <Item value="AbandonedMutexException" priority="0" />
+      <Item value="ArgumentNullException`0" priority="0" />
+      <Item value="var" priority="70" />
+      <Item value="user" priority="23" />
+      <Item value="ValidDateTextBox" priority="2" />
+      <Item value="LinkButton`0" priority="0" />
+      <Item value="Mega.Common" priority="0" />
+      <Item value="Properties" priority="40" />
+      <Item value="Settings`0" priority="47" />
+      <Item value="foreach" priority="20" />
+      <Item value="RolesCheckBoxList" priority="2" />
+      <Item value="r" priority="26" />
+      <Item value="asignedRoles" priority="0" />
+      <Item value="allShops" priority="0" />
+      <Item value="item" priority="27" />
+      <Item value="User_Rol`0" priority="0" />
+      <Item value="IdRol" priority="1" />
+      <Item value="IdUser" priority="0" />
+      <Item value="ShopsCheckBoxList" priority="0" />
+      <Item value="DisableUserButton" priority="3" />
+      <Item value="bool" priority="25" />
+      <Item value="gotoDisable" priority="0" />
+      <Item value="LoadDataControls`0" priority="0" />
+      <Item value="RefreshDisableButton`0" priority="0" />
+      <Item value="userLegend" priority="1" />
+      <Item value="LoadUserData`0" priority="0" />
+      <Item value="TreeNode`0" priority="1" />
+      <Item value="true" priority="126" />
+      <Item value="object" priority="4" />
+      <Item value="data" priority="2" />
+      <Item value="roles" priority="5" />
+      <Item value="userRol" priority="0" />
+      <Item value="WebConfiguration`0" priority="1" />
+      <Item value="UDCDropDownList" priority="2" />
+      <Item value="UDCLinqDataSource" priority="0" />
+      <Item value="udc" priority="1" />
+      <Item value="UDCStateLabel" priority="0" />
+      <Item value="UDCItemsGridView" priority="3" />
+      <Item value="UDCItemsLinqDataSource" priority="1" />
+      <Item value="e" priority="46" />
+      <Item value="None" priority="0" />
+      <Item value="UdcItem`0" priority="0" />
+      <Item value="UdcItem" priority="0" />
+      <Item value="ID" priority="0" />
+      <Item value="UDCItem`0" priority="18" />
+      <Item value="IdTextBox" priority="4" />
+      <Item value="IdUDC" priority="0" />
+      <Item value="Code" priority="1" />
+      <Item value="Optional1" priority="0" />
+      <Item value="Optional1TextBox" priority="0" />
+      <Item value="Optional2" priority="0" />
+      <Item value="Optional2TextBox" priority="0" />
+      <Item value="Shop" priority="4" />
+      <Item value="newItem" priority="0" />
+      <Item value="IdCompany" priority="0" />
+      <Item value="CompanyDropDownList" priority="2" />
+      <Item value="Address" priority="0" />
+      <Item value="AddressTextBox" priority="2" />
+      <Item value="IdCountry" priority="1" />
+      <Item value="CountryDropDownList" priority="4" />
+      <Item value="Phone1" priority="1" />
+      <Item value="Phone1TextBox" priority="3" />
+      <Item value="LastSynchonizeDateTextBox" priority="1" />
+      <Item value="ControlIDConverter`0" priority="0" />
+      <Item value="ArgIterator`0" priority="0" />
+      <Item value="DisabledCheckBox" priority="8" />
+      <Item value="CheckBoxField`0" priority="0" />
+      <Item value="Location`0" priority="1" />
+      <Item value="LocationNameTextBox" priority="0" />
+      <Item value="IsSalePoint" priority="0" />
+      <Item value="LocationIsSalePointCheckBox" priority="0" />
+      <Item value="Xml`0" priority="0" />
+      <Item value="x" priority="0" />
+      <Item value="AboutBox`0" priority="0" />
+      <Item value="IWin32Window`0" priority="1" />
+      <Item value="parent" priority="0" />
+      <Item value="msg" priority="6" />
+      <Item value="OK" priority="11" />
+      <Item value="Environment`0" priority="7" />
+      <Item value="private" priority="43" />
+      <Item value="const" priority="4" />
+      <Item value="DialogResult`0" priority="10" />
+      <Item value="Log" priority="0" />
+      <Item value="Application`0" priority="7" />
+      <Item value="Close`0" priority="33" />
+      <Item value="CloseApplication`0" priority="1" />
+      <Item value="receptionToolStripMenuItem" priority="0" />
+      <Item value="DialogHelper`0" priority="87" />
+      <Item value="Login`0" priority="1" />
+      <Item value="Login" priority="1" />
+      <Item value="f" priority="21" />
+      <Item value="Error" priority="2" />
+      <Item value="result" priority="2" />
+      <Item value="tabControl1" priority="2" />
+      <Item value="Client" priority="1" />
+      <Item value="null" priority="85" />
+      <Item value="ApplicationHelper`0" priority="99" />
+      <Item value="OkButton" priority="2" />
+      <Item value="AuthenticateButton" priority="1" />
+      <Item value="Exception" priority="7" />
+      <Item value="RolesComboBox" priority="5" />
+      <Item value="DialogResult" priority="7" />
+      <Item value="ApplicationIdentity`0" priority="0" />
+      <Item value="ClientAdd`0" priority="3" />
+      <Item value="IsAdding" priority="3" />
+      <Item value="AddedDateDateTimePicker" priority="2" />
+      <Item value="LowDateDateTimePicker3" priority="1" />
+      <Item value="LowDateLabel" priority="0" />
+      <Item value="float" priority="9" />
+      <Item value="Dim`0" priority="7" />
+      <Item value="Dim" priority="6" />
+      <Item value="client" priority="0" />
+      <Item value="d" priority="12" />
+      <Item value="CurrentClient" priority="6" />
+      <Item value="LowDateDateTimePicker" priority="2" />
+      <Item value="EnvironmentVariableTarget`0" priority="0" />
+      <Item value="DataColumn`0" priority="0" />
+      <Item value="DimTextBox" priority="20" />
+      <Item value="AcceptButton" priority="0" />
+      <Item value="AddButton" priority="1" />
+      <Item value="StringBuilder" priority="3" />
+      <Item value="sb" priority="9" />
+      <Item value="StatusTextBox" priority="2" />
+      <Item value="credit" priority="0" />
+      <Item value="MaxCreditTextBox" priority="3" />
+      <Item value="out" priority="5" />
+      <Item value="MaxConsignableValueTextBox" priority="2" />
+      <Item value="Address1TextBox" priority="1" />
+      <Item value="currentHttpContext" priority="0" />
+      <Item value="currentClient" priority="32" />
+      <Item value="PopulationComboBox" priority="4" />
+      <Item value="comboBox" priority="1" />
+      <Item value="TypeComboBox" priority="8" />
+      <Item value="SexComboBox" priority="1" />
+      <Item value="ArrayList`0" priority="4" />
+      <Item value="list" priority="31" />
+      <Item value="MaritalStatusComboBox" priority="3" />
+      <Item value="StateComboBox" priority="3" />
+      <Item value="CountryComboBox" priority="5" />
+      <Item value="SponsorComboBox" priority="6" />
+      <Item value="ua" priority="2" />
+      <Item value="as" priority="2" />
+      <Item value="i" priority="32" />
+      <Item value="IDictionary`0" priority="0" />
+      <Item value="items" priority="0" />
+      <Item value="nullItem" priority="0" />
+      <Item value="IQueryable`0" priority="4" />
+      <Item value="IdType" priority="12" />
+      <Item value="IdSponsor" priority="0" />
+      <Item value="AddedDate" priority="6" />
+      <Item value="Status" priority="0" />
+      <Item value="FullName" priority="1" />
+      <Item value="FullNameTextBox" priority="0" />
+      <Item value="IsOfficialIdCheckBox" priority="1" />
+      <Item value="HasAddressProof" priority="0" />
+      <Item value="HasAddressProofCheckBox" priority="0" />
+      <Item value="CoHolder" priority="0" />
+      <Item value="CoHolderTextBox" priority="0" />
+      <Item value="Spouse" priority="0" />
+      <Item value="SpouseTextBox" priority="0" />
+      <Item value="CURP" priority="0" />
+      <Item value="CURPTextBox" priority="0" />
+      <Item value="TaxRegister" priority="0" />
+      <Item value="TaxRegisterTextBox" priority="0" />
+      <Item value="BirthDate" priority="1" />
+      <Item value="BirthDateDateTimePicker" priority="0" />
+      <Item value="LowDate" priority="0" />
+      <Item value="Bank" priority="0" />
+      <Item value="BankTextBox" priority="0" />
+      <Item value="BankAccount" priority="0" />
+      <Item value="BankAccountTextBox" priority="5" />
+      <Item value="udcNullRow" priority="0" />
+      <Item value="Sex" priority="0" />
+      <Item value="IdMaritalStatus" priority="0" />
+      <Item value="TaxRetention" priority="0" />
+      <Item value="TaxRetentionCheckBox" priority="1" />
+      <Item value="Address1" priority="0" />
+      <Item value="IdPopulation" priority="0" />
+      <Item value="IdState" priority="0" />
+      <Item value="CP" priority="0" />
+      <Item value="CPTextBox" priority="0" />
+      <Item value="Phone2" priority="0" />
+      <Item value="Phone2TextBox" priority="0" />
+      <Item value="MaxCredit" priority="0" />
+      <Item value="MaxConsignableAmount" priority="0" />
+      <Item value="Consignable" priority="0" />
+      <Item value="ConsignableCheckBox" priority="1" />
+      <Item value="Notes" priority="2" />
+      <Item value="NotesTextBox" priority="4" />
+      <Item value="Op1" priority="0" />
+      <Item value="CL1TextBox" priority="0" />
+      <Item value="Op2" priority="0" />
+      <Item value="CL2TextBox" priority="0" />
+      <Item value="Op3" priority="0" />
+      <Item value="CL3TextBox" priority="0" />
+      <Item value="Op4" priority="0" />
+      <Item value="CL4TextBox" priority="0" />
+      <Item value="Op5" priority="0" />
+      <Item value="CL5TextBox" priority="0" />
+      <Item value="Op6" priority="0" />
+      <Item value="CL6TextBox" priority="0" />
+      <Item value="ModifiedBy" priority="5" />
+      <Item value="ThreadExceptionDialog`0" priority="1" />
+      <Item value="ModifiedDate" priority="0" />
+      <Item value="ModifiedOn" priority="0" />
+      <Item value="DisabledLabel" priority="0" />
+      <Item value="dimBindingSource" priority="3" />
+      <Item value="LoadDimData`0" priority="3" />
+      <Item value="SaleProhibited" priority="0" />
+      <Item value="Net" priority="0" />
+      <Item value="Dns`0" priority="0" />
+      <Item value="namespace" priority="0" />
+      <Item value="IList`0" priority="9" />
+      <Item value="AddNullValueItem`0" priority="1" />
+      <Item value="GetUDCPopulation`0" priority="1" />
+      <Item value="dataGridView1" priority="22" />
+      <Item value="ClientAdd" priority="0" />
+      <Item value="dynamic" priority="2" />
+      <Item value="Deactivate" priority="0" />
+      <Item value="FindTextBox" priority="5" />
+      <Item value="Capture" priority="1" />
+      <Item value="GetUDCCountries`0" priority="0" />
+      <Item value="c" priority="20" />
+      <Item value="country" priority="0" />
+      <Item value="s" priority="10" />
+      <Item value="stateCode" priority="0" />
+      <Item value="p" priority="51" />
+      <Item value="stateId" priority="0" />
+      <Item value="tmpValue" priority="0" />
+      <Item value="GenericUriParser`0" priority="0" />
+      <Item value="Collections" priority="0" />
+      <Item value="Generic" priority="0" />
+      <Item value="List" priority="4" />
+      <Item value="IdNameItem`0" priority="5" />
+      <Item value="ctor" priority="6" />
+      <Item value="id" priority="7" />
+      <Item value="name" priority="1" />
+      <Item value="IdNameItem" priority="0" />
+      <Item value="ReceiptEdit`0" priority="1" />
+      <Item value="Operation" priority="8" />
+      <Item value="OperationTypeComboBox" priority="2" />
+      <Item value="o" priority="54" />
+      <Item value="OperationList`0" priority="1" />
+      <Item value="ClientList`0" priority="0" />
+      <Item value="Operation`0" priority="7" />
+      <Item value="base" priority="0" />
+      <Item value="UDCItem" priority="3" />
+      <Item value="OperationTypeId" priority="4" />
+      <Item value="Guid`0" priority="27" />
+      <Item value="Text" priority="3" />
+      <Item value="Cashier" priority="2" />
+      <Item value="currentItem" priority="155" />
+      <Item value="ConsecutiveLabel" priority="0" />
+      <Item value="OfficialConsecutiveLabel" priority="0" />
+      <Item value="ShopLabel" priority="0" />
+      <Item value="PedimentLabel" priority="0" />
+      <Item value="CurrencyLabel" priority="0" />
+      <Item value="OperationAmountLabel" priority="1" />
+      <Item value="AddedDateLabel" priority="0" />
+      <Item value="StatusLabel" priority="1" />
+      <Item value="ModifiedDateLabel" priority="1" />
+      <Item value="ConfirmOperationButton" priority="5" />
+      <Item value="CancelOperationButton" priority="1" />
+      <Item value="switch" priority="9" />
+      <Item value="case" priority="18" />
+      <Item value="break" priority="12" />
+      <Item value="FillStates`0" priority="0" />
+      <Item value="FillPopulations`0" priority="0" />
+      <Item value="AutoCompleteMode`0" priority="0" />
+      <Item value="ComboBoxStyle`0" priority="0" />
+      <Item value="AutoCompleteStringCollection`0" priority="0" />
+      <Item value="AutoCompleteStringCollection" priority="0" />
+      <Item value="Count`0" priority="0" />
+      <Item value="default" priority="6" />
+      <Item value="SaveButton" priority="1" />
+      <Item value="Product" priority="4" />
+      <Item value="Location" priority="3" />
+      <Item value="Location1" priority="0" />
+      <Item value="decimal" priority="35" />
+      <Item value="currentRate" priority="2" />
+      <Item value="detail" priority="0" />
+      <Item value="Math`0" priority="21" />
+      <Item value="opAmount" priority="1" />
+      <Item value="Length" priority="0" />
+      <Item value="Yes" priority="5" />
+      <Item value="OperationDetail`0" priority="4" />
+      <Item value="DataGridViewTriState`0" priority="0" />
+      <Item value="DataGridViewSelectionMode`0" priority="0" />
+      <Item value="isDirty" priority="8" />
+      <Item value="No" priority="1" />
+      <Item value="OperationStatus`0" priority="16" />
+      <Item value="UpdateResumeOperationValues`0" priority="1" />
+      <Item value="Refresh`0" priority="9" />
+      <Item value="ModifiedDateDateTimePicker" priority="0" />
+      <Item value="Form`0" priority="3" />
+      <Item value="OperationType`0" priority="37" />
+      <Item value="StatusComboBox" priority="1" />
+      <Item value="Kardex`0" priority="0" />
+      <Item value="Kardex" priority="0" />
+      <Item value="Inventory`0" priority="3" />
+      <Item value="Inventory" priority="0" />
+      <Item value="op" priority="34" />
+      <Item value="inv" priority="12" />
+      <Item value="IdLocation" priority="5" />
+      <Item value="IdProduct" priority="4" />
+      <Item value="IdOperation" priority="5" />
+      <Item value="IdOperationType" priority="0" />
+      <Item value="IdOperationCurrency" priority="11" />
+      <Item value="OperationDate" priority="0" />
+      <Item value="ChangeRate" priority="5" />
+      <Item value="IdUM" priority="1" />
+      <Item value="Lot" priority="5" />
+      <Item value="OperationPrice" priority="1" />
+      <Item value="OperationCount" priority="0" />
+      <Item value="Pack" priority="1" />
+      <Item value="isCanceling" priority="2" />
+      <Item value="sign" priority="5" />
+      <Item value="ByCancelation" priority="0" />
+      <Item value="adminDataContext" priority="2" />
+      <Item value="UDCItem1" priority="5" />
+      <Item value="value" priority="2" />
+      <Item value="catch" priority="3" />
+      <Item value="dim" priority="13" />
+      <Item value="SponsorTextBox" priority="9" />
+      <Item value="GetSponsorItem`0" priority="0" />
+      <Item value="ResultTextBox" priority="3" />
+      <Item value="StringBuilder`0" priority="0" />
+      <Item value="FindClient`0" priority="1" />
+      <Item value="BirthDateTextBox" priority="2" />
+      <Item value="CancelAddButton" priority="0" />
+      <Item value="DimNameLabel" priority="2" />
+      <Item value="GetDimItem`0" priority="2" />
+      <Item value="FiscalRegisterLabel" priority="1" />
+      <Item value="IdShop" priority="3" />
+      <Item value="IdSubType" priority="0" />
+      <Item value="IdCashier" priority="3" />
+      <Item value="Guid" priority="9" />
+      <Item value="Consecutive" priority="3" />
+      <Item value="sale" priority="3" />
+      <Item value="GetNextConsecutive`0" priority="0" />
+      <Item value="OperationAmount" priority="9" />
+      <Item value="Amount" priority="4" />
+      <Item value="IdStatus" priority="0" />
+      <Item value="EffectiveDate" priority="0" />
+      <Item value="EffectivedateDateTimePicker" priority="2" />
+      <Item value="SaleEdit`0" priority="2" />
+      <Item value="IdDim" priority="2" />
+      <Item value="maxId" priority="1" />
+      <Item value="Parent" priority="2" />
+      <Item value="TaxRegisterLabel" priority="0" />
+      <Item value="SaleDetailAdd`0" priority="0" />
+      <Item value="AddProductButton" priority="6" />
+      <Item value="DeleteProductButton" priority="0" />
+      <Item value="operationId" priority="5" />
+      <Item value="IdProductTextBox" priority="13" />
+      <Item value="UMComboBox" priority="4" />
+      <Item value="ReloadGridDetails`0" priority="0" />
+      <Item value="UMName" priority="0" />
+      <Item value="LocationComboBox" priority="7" />
+      <Item value="l" priority="4" />
+      <Item value="Product`0" priority="0" />
+      <Item value="currentProduct" priority="27" />
+      <Item value="prices" priority="6" />
+      <Item value="currentPrice" priority="12" />
+      <Item value="ProductDescription" priority="1" />
+      <Item value="PriceLabel" priority="1" />
+      <Item value="PointLabel" priority="1" />
+      <Item value="ManagementLabel" priority="1" />
+      <Item value="locations" priority="6" />
+      <Item value="LocationCountLabel" priority="2" />
+      <Item value="SetLocationCountValue`0" priority="0" />
+      <Item value="CountTextBox" priority="8" />
+      <Item value="double" priority="7" />
+      <Item value="count" priority="9" />
+      <Item value="OperationDetail" priority="0" />
+      <Item value="LotTextBox" priority="7" />
+      <Item value="Count" priority="4" />
+      <Item value="salePrice" priority="0" />
+      <Item value="Points" priority="0" />
+      <Item value="Management" priority="0" />
+      <Item value="subTotalOpAmount" priority="2" />
+      <Item value="totalManagement" priority="1" />
+      <Item value="TotalManagementLabel" priority="0" />
+      <Item value="TotalPointsLabel" priority="1" />
+      <Item value="totalPoints" priority="1" />
+      <Item value="SubTotalLabel1" priority="0" />
+      <Item value="TotalIVALabel" priority="0" />
+      <Item value="totalOpAmount" priority="2" />
+      <Item value="IVAApplied" priority="0" />
+      <Item value="currentDim" priority="12" />
+      <Item value="IVADimLabel" priority="0" />
+      <Item value="Roles`0" priority="2" />
+      <Item value="details" priority="0" />
+      <Item value="SaleAdd`0" priority="0" />
+      <Item value="AccessibleName" priority="0" />
+      <Item value="LotComboBox" priority="5" />
+      <Item value="invLots" priority="2" />
+      <Item value="IList" priority="1" />
+      <Item value="invCount" priority="2" />
+      <Item value="FillLots`0" priority="0" />
+      <Item value="price" priority="2" />
+      <Item value="DiscountTextBox" priority="5" />
+      <Item value="IVAToApplyComboBox" priority="4" />
+      <Item value="DiscountPercent" priority="0" />
+      <Item value="IVAToApply" priority="0" />
+      <Item value="IdIVAToApply" priority="0" />
+      <Item value="LotAddedDate" priority="0" />
+      <Item value="currentOperation" priority="23" />
+      <Item value="operation" priority="3" />
+      <Item value="DimInfoLabel" priority="0" />
+      <Item value="AmountOperationLabel" priority="0" />
+      <Item value="CurrencyOperationLabel" priority="0" />
+      <Item value="ByPayLabel" priority="0" />
+      <Item value="Pay`0" priority="0" />
+      <Item value="UDC`0" priority="0" />
+      <Item value="payDataGridView" priority="3" />
+      <Item value="amountPayed" priority="0" />
+      <Item value="Operation_Pay" priority="0" />
+      <Item value="CashReceivedTextBox" priority="6" />
+      <Item value="CashChangeTextBox" priority="1" />
+      <Item value="IFeatureSupport`0" priority="1" />
+      <Item value="byPay" priority="15" />
+      <Item value="PayAndConfirmButton" priority="1" />
+      <Item value="RefreshDataAndSave`0" priority="0" />
+      <Item value="CalculateResumeOperationValuesAndRefreshControls`0" priority="0" />
+      <Item value="AddCashButton" priority="1" />
+      <Item value="DoPayButton" priority="3" />
+      <Item value="toPay" priority="3" />
+      <Item value="discount" priority="1" />
+      <Item value="AmountCreditDate" priority="0" />
+      <Item value="AmountCredit" priority="0" />
+      <Item value="ConsignableAmount" priority="0" />
+      <Item value="ConsignableAmountDate" priority="0" />
+      <Item value="PointAmount" priority="1" />
+      <Item value="PointAmountDate" priority="1" />
+      <Item value="ParentForm" priority="0" />
+      <Item value="PrintButton" priority="4" />
+      <Item value="PayType`0" priority="1" />
+      <Item value="printDocument1" priority="2" />
+      <Item value="PrintTicket`0" priority="2" />
+      <Item value="Font" priority="0" />
+      <Item value="PageSettings" priority="1" />
+      <Item value="PrinterSettings" priority="1" />
+      <Item value="Margins" priority="2" />
+      <Item value="ev" priority="1" />
+      <Item value="printFont" priority="0" />
+      <Item value="charPerLine" priority="2" />
+      <Item value="InvokeRequired" priority="0" />
+      <Item value="for" priority="2" />
+      <Item value="substrCount" priority="1" />
+      <Item value="line" priority="1" />
+      <Item value="PrinterResolution`0" priority="0" />
+      <Item value="Test`0" priority="4" />
+      <Item value="ReportDataSource" priority="1" />
+      <Item value="ds" priority="4" />
+      <Item value="reportViewer1" priority="5" />
+      <Item value="UDCItem3" priority="1" />
+      <Item value="OperationDetails" priority="0" />
+      <Item value="SubTotalOperationAmount" priority="0" />
+      <Item value="TotalOperationDiscount" priority="0" />
+      <Item value="TotalIVAOperation" priority="0" />
+      <Item value="LocalReport" priority="3" />
+      <Item value="PageSettings`0" priority="0" />
+      <Item value="ps" priority="5" />
+      <Item value="PaperSize" priority="1" />
+      <Item value="Company`0" priority="0" />
+      <Item value="Company" priority="0" />
+      <Item value="ReportViewer" priority="1" />
+      <Item value="rViewer" priority="4" />
+      <Item value="ds1" priority="2" />
+      <Item value="Pediment" priority="1" />
+      <Item value="operationPriceDataGridViewTextBoxColumn" priority="3" />
+      <Item value="CardAmountTextBox" priority="2" />
+      <Item value="AddCardButton" priority="1" />
+      <Item value="in" priority="1" />
+      <Item value="MoneyMovement`0" priority="9" />
+      <Item value="MoneyMovement" priority="6" />
+      <Item value="pay" priority="14" />
+      <Item value="IdCurrency" priority="0" />
+      <Item value="idSourceCurrency" priority="3" />
+      <Item value="currentShop" priority="2" />
+      <Item value="idTargetCurrency" priority="0" />
+      <Item value="GetChangeRate`0" priority="0" />
+      <Item value="changeRate" priority="1" />
+      <Item value="CardAuthNumber" priority="0" />
+      <Item value="CardNumber" priority="0" />
+      <Item value="CardValidity" priority="0" />
+      <Item value="IsCreditCard" priority="0" />
+      <Item value="CardNumberTextBox" priority="7" />
+      <Item value="CardAuthorizationTextBox" priority="2" />
+      <Item value="CardValidityTextBox" priority="1" />
+      <Item value="Type`0" priority="0" />
+      <Item value="IsCanceling" priority="6" />
+      <Item value="IsManual" priority="1" />
+      <Item value="Thread`0" priority="2" />
+      <Item value="AmountTextBox" priority="4" />
+      <Item value="amount" priority="3" />
+      <Item value="CurrencyComboBox" priority="5" />
+      <Item value="MovementAdd`0" priority="0" />
+      <Item value="t" priority="1" />
+      <Item value="Movement" priority="1" />
+      <Item value="cashier" priority="10" />
+      <Item value="exception" priority="0" />
+      <Item value="CashierNameLabel" priority="0" />
+      <Item value="m" priority="24" />
+      <Item value="LastCloseLabel" priority="1" />
+      <Item value="lastCloseMovement" priority="7" />
+      <Item value="resume" priority="1" />
+      <Item value="from" priority="0" />
+      <Item value="byte" priority="1" />
+      <Item value="by" priority="0" />
+      <Item value="Select`0" priority="1" />
+      <Item value="into" priority="1" />
+      <Item value="select" priority="1" />
+      <Item value="group" priority="2" />
+      <Item value="TotalOperationAmount" priority="0" />
+      <Item value="YourOperationAmount" priority="0" />
+      <Item value="g" priority="11" />
+      <Item value="orderby" priority="1" />
+      <Item value="TypeName" priority="2" />
+      <Item value="mm" priority="9" />
+      <Item value="CashierClose`0" priority="3" />
+      <Item value="CashierClose" priority="3" />
+      <Item value="InitialCloseMovement" priority="0" />
+      <Item value="currentCashierClose" priority="23" />
+      <Item value="IsOK" priority="0" />
+      <Item value="CashierCloseDetail`0" priority="0" />
+      <Item value="CashierCloseDetail" priority="0" />
+      <Item value="IdCashierClose" priority="0" />
+      <Item value="IdMovementType" priority="0" />
+      <Item value="LastChangeRate" priority="1" />
+      <Item value="CashierOperationAmount" priority="1" />
+      <Item value="OverwriteCurrentValues" priority="2" />
+      <Item value="row" priority="0" />
+      <Item value="diff" priority="0" />
+      <Item value="attempts" priority="2" />
+      <Item value="CloseCashier`0" priority="0" />
+      <Item value="isOk" priority="0" />
+      <Item value="MovementType`0" priority="8" />
+      <Item value="newClose" priority="0" />
+      <Item value="last" priority="0" />
+      <Item value="MakeCloseButton" priority="1" />
+      <Item value="CardNumberHiddenTextBox" priority="3" />
+      <Item value="ReportPrintDocumentHelper" priority="0" />
+      <Item value="saleReport" priority="2" />
+      <Item value="rp" priority="1" />
+      <Item value="Cursor" priority="5" />
+      <Item value="Cursor`0" priority="0" />
+      <Item value="LastName" priority="1" />
+      <Item value="MotherMaidenName" priority="1" />
+      <Item value="DimValidationTextBox" priority="7" />
+      <Item value="dimErrorProvider1" priority="1" />
+      <Item value="bankAccountRrrorProvider" priority="0" />
+      <Item value="keyAccountErrorProvider" priority="1" />
+      <Item value="BankAccountValidationTextBox_Validating`0" priority="0" />
+      <Item value="BankAccountValidationTextBox" priority="2" />
+      <Item value="KeyAccountTextBox" priority="4" />
+      <Item value="KeyAccountValidationTextBox" priority="2" />
+      <Item value="LastNameTextBox" priority="3" />
+      <Item value="MotherMiadenNameTextBox" priority="3" />
+      <Item value="SpouseGroupBox" priority="0" />
+      <Item value="SpouseNameTextBox" priority="0" />
+      <Item value="SpouseLastNameTextBox" priority="2" />
+      <Item value="SpouseMotherMiadenNameTextBox" priority="2" />
+      <Item value="KeyAccount" priority="0" />
+      <Item value="SpouseLastName" priority="0" />
+      <Item value="SpouseMotherMaidenName" priority="0" />
+      <Item value="MaritalStatus`0" priority="0" />
+      <Item value="maritalStatus" priority="0" />
+      <Item value="isMarried" priority="0" />
+      <Item value="CreditAmountDateTextBox" priority="1" />
+      <Item value="ConsignableAmountDateTextBox" priority="1" />
+      <Item value="CreditAmountTextBox" priority="1" />
+      <Item value="ConsignableAmountTextBox" priority="0" />
+      <Item value="BirthDateLabel" priority="0" />
+      <Item value="DragDrop" priority="0" />
+      <Item value="tmp" priority="2" />
+      <Item value="PointTextBox" priority="0" />
+      <Item value="PointDateTextBox" priority="0" />
+      <Item value="PhoneCellTextBox" priority="1" />
+      <Item value="PhoneOfficeTextBox2" priority="0" />
+      <Item value="BankComboBox" priority="6" />
+      <Item value="SucursalTextBox" priority="0" />
+      <Item value="SinpeTextBox" priority="0" />
+      <Item value="ReferenceTextBox" priority="3" />
+      <Item value="rol" priority="0" />
+      <Item value="RolesEnumHelper`0" priority="0" />
+      <Item value="hasAccess" priority="4" />
+      <Item value="FindButton" priority="5" />
+      <Item value="Keys`0" priority="11" />
+      <Item value="Control`0" priority="2" />
+      <Item value="targetControl" priority="0" />
+      <Item value="targerControl" priority="5" />
+      <Item value="selectedValue" priority="0" />
+      <Item value="LoadList`0" priority="0" />
+      <Item value="ResultInfoLabel" priority="0" />
+      <Item value="LoadCurrentSale`0" priority="4" />
+      <Item value="RequestNewSale`0" priority="3" />
+      <Item value="LoadLastSale`0" priority="0" />
+      <Item value="HideNewSalePanel" priority="0" />
+      <Item value="NewSaleButton" priority="4" />
+      <Item value="DIMTextBox" priority="0" />
+      <Item value="checkRetentionAndDisabled" priority="0" />
+      <Item value="ReturnDim`0" priority="0" />
+      <Item value="IsValidDim`0" priority="0" />
+      <Item value="lastAddded" priority="0" />
+      <Item value="DeleteSaleButton" priority="1" />
+      <Item value="HiddenPanel" priority="4" />
+      <Item value="Hide`0" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="Int64`0" priority="0" />
+      <Item value="month" priority="2" />
+      <Item value="year" priority="1" />
+      <Item value="currentYear" priority="2" />
+      <Item value="AnchorStyles`0" priority="0" />
+      <Item value="UpdateZOrder`0" priority="0" />
+      <Item value="Size" priority="0" />
+      <Item value="ColorDepth`0" priority="0" />
+      <Item value="KeyAccountLabel" priority="0" />
+      <Item value="shop" priority="2" />
+      <Item value="KeyAccountValidationLabel" priority="0" />
+      <Item value="dimSize" priority="3" />
+      <Item value="selecetedDim" priority="2" />
+      <Item value="idNameToFind" priority="2" />
+      <Item value="DimNameTextBox" priority="0" />
+      <Item value="KeyPreview" priority="2" />
+      <Item value="InsertNewSale`0" priority="1" />
+      <Item value="errorProvider1" priority="0" />
+      <Item value="SelectDimButton" priority="0" />
+      <Item value="ActiveControl" priority="9" />
+      <Item value="FindSaleButton" priority="1" />
+      <Item value="textBox1" priority="0" />
+      <Item value="OperationConsecutiveTextBox" priority="1" />
+      <Item value="findDate" priority="0" />
+      <Item value="GotoPreviousOrderButton" priority="0" />
+      <Item value="currencyToExclude" priority="0" />
+      <Item value="CurrencyToPayLabel" priority="1" />
+      <Item value="received" priority="0" />
+      <Item value="changerate" priority="0" />
+      <Item value="receivedConverted" priority="0" />
+      <Item value="change" priority="0" />
+      <Item value="AddCurrencyPayButton" priority="1" />
+      <Item value="IDataErrorInfo`0" priority="0" />
+      <Item value="currency" priority="2" />
+      <Item value="CurrencyChangeTextBox" priority="0" />
+      <Item value="code" priority="0" />
+      <Item value="UpdateCurrencyPayValues`0" priority="0" />
+      <Item value="ReceivedAmountOperation" priority="1" />
+      <Item value="CurrencyChangeRateTextBox" priority="0" />
+      <Item value="ChangeAmount" priority="1" />
+      <Item value="currencies" priority="2" />
+      <Item value="AwayFromZero" priority="0" />
+      <Item value="maxDiffChangeRate" priority="0" />
+      <Item value="ConfirmSale`0" priority="1" />
+      <Item value="where" priority="1" />
+      <Item value="PrintCloseCashier" priority="4" />
+      <Item value="IsClosed" priority="0" />
+      <Item value="InitialDate" priority="0" />
+      <Item value="lastClose" priority="5" />
+      <Item value="FinalDate" priority="0" />
+      <Item value="ApplicationContext`0" priority="0" />
+      <Item value="AppSettingsReader`0" priority="0" />
+      <Item value="Configuration" priority="1" />
+      <Item value="ConfigurationSettings`0" priority="1" />
+      <Item value="ConfigurationException`0" priority="0" />
+      <Item value="movementsByCurrency" priority="0" />
+      <Item value="CloseByMoneyDataGridView" priority="2" />
+      <Item value="User1" priority="0" />
+      <Item value="AuthorizedBy" priority="0" />
+      <Item value="authorizedBy" priority="6" />
+      <Item value="requiredRol" priority="0" />
+      <Item value="authorizedRoles" priority="0" />
+      <Item value="Contains`1" priority="0" />
+      <Item value="get" priority="0" />
+      <Item value="InfoToUser" priority="1" />
+      <Item value="infoToUser" priority="0" />
+      <Item value="InfoToUserLabel" priority="0" />
+      <Item value="AuthorizationRequired" priority="0" />
+      <Item value="NoteTextBox" priority="0" />
+      <Item value="loginTabPage" priority="0" />
+      <Item value="ReportParameter" priority="2" />
+      <Item value="rePrint" priority="0" />
+      <Item value="DimType`0" priority="4" />
+      <Item value="UDCItems`0" priority="0" />
+      <Item value="payTabControl" priority="1" />
+      <Item value="tabPageCash" priority="1" />
+      <Item value="tabPageDivisa" priority="1" />
+      <Item value="InitialDateTimePicker" priority="5" />
+      <Item value="FinalDateTimePicker" priority="5" />
+      <Item value="CurrencyManager`0" priority="0" />
+      <Item value="CultureInfo" priority="0" />
+      <Item value="ProcessingMode`0" priority="0" />
+      <Item value="InitialDateCheckBox" priority="3" />
+      <Item value="InventoryReportRadioButton" priority="2" />
+      <Item value="SelectedReport" priority="0" />
+      <Item value="SaleReportRadioButton" priority="0" />
+      <Item value="CashierCloseReportRadioButton" priority="0" />
+      <Item value="KardexReportRadioButton" priority="0" />
+      <Item value="ReceiptReportRadioButton" priority="0" />
+      <Item value="BetterEmployeesRadioButton" priority="0" />
+      <Item value="MoreSaleProductReportRadioButton" priority="0" />
+      <Item value="ProductListReportRadioButton" priority="1" />
+      <Item value="LocatioComboBox" priority="0" />
+      <Item value="ProductComboBox" priority="1" />
+      <Item value="FinalDateCheckBox" priority="2" />
+      <Item value="UserComboBox" priority="2" />
+      <Item value="BirthDateMaskedTextBox" priority="2" />
+      <Item value="birthDateErrorProvider" priority="0" />
+      <Item value="CashierComboBox" priority="0" />
+      <Item value="CashierMovementRadioButton" priority="0" />
+      <Item value="ReportSelector`0" priority="1" />
+      <Item value="Constraint`0" priority="0" />
+      <Item value="invent" priority="6" />
+      <Item value="prodcut" priority="1" />
+      <Item value="report" priority="2" />
+      <Item value="reportToShow" priority="1" />
+      <Item value="reportEmbeddedResourceName" priority="0" />
+      <Item value="rv" priority="2" />
+      <Item value="emptyList" priority="0" />
+      <Item value="ArrayList" priority="0" />
+      <Item value="nullList" priority="3" />
+      <Item value="IEnumerable`0" priority="0" />
+      <Item value="pro" priority="0" />
+      <Item value="products" priority="0" />
+      <Item value="users" priority="1" />
+      <Item value="cashiers" priority="0" />
+      <Item value="PedimentTextBox" priority="2" />
+      <Item value="MakeCashierVerify`0" priority="0" />
+      <Item value="CashierVerifyButton" priority="0" />
+      <Item value="Shop`0" priority="2" />
+      <Item value="PrintMovement`0" priority="1" />
+      <Item value="currentMovement" priority="2" />
+      <Item value="isCashierClose" priority="0" />
+      <Item value="isCashierVerification" priority="8" />
+      <Item value="IsCashierVerification" priority="0" />
+      <Item value="DataGridViewElement`0" priority="0" />
+      <Item value="SupervisedBy" priority="1" />
+      <Item value="SaleRetentionCheckBox" priority="0" />
+      <Item value="PhoneHomeTextBox" priority="0" />
+      <Item value="PhoneOfficeTextBox" priority="0" />
+      <Item value="ContextMenu" priority="0" />
+      <Item value="saleType" priority="16" />
+      <Item value="SaleTypeRadioButton" priority="2" />
+      <Item value="Sale" priority="6" />
+      <Item value="ConsignableSaleTypeRadioButton" priority="1" />
+      <Item value="ConsignableSale" priority="2" />
+      <Item value="Operation_Pay`0" priority="0" />
+      <Item value="IsDimEntry" priority="2" />
+      <Item value="DimName" priority="0" />
+      <Item value="LocationName" priority="0" />
+      <Item value="PrinterSettings`0" priority="0" />
+      <Item value="margins" priority="0" />
+      <Item value="sender" priority="2" />
+      <Item value="ToolHelper`0" priority="0" />
+      <Item value="isTicket" priority="1" />
+      <Item value="invDim" priority="0" />
+      <Item value="SaleType" priority="11" />
+      <Item value="DimTypeComboBox" priority="1" />
+      <Item value="ExcludeZeroCountCheckBox" priority="1" />
+      <Item value="ConsignationInventoryRadioButton" priority="1" />
+      <Item value="TotalInventoryRadioButton" priority="1" />
+      <Item value="CashierVerificationRadioButton" priority="0" />
+      <Item value="ConsignationAccountStateReportRadioButton" priority="0" />
+      <Item value="CreditAmountStateRadioButton" priority="0" />
+      <Item value="ConsignationReturnRadioButton" priority="0" />
+      <Item value="InventoryMovementRadioButton" priority="0" />
+      <Item value="dimType" priority="0" />
+      <Item value="AuthenticatedLogin" priority="0" />
+      <Item value="AuthenticatedRolName" priority="0" />
+      <Item value="loginToolStripButton" priority="0" />
+      <Item value="login" priority="0" />
+      <Item value="newSaleToolStripMenuItem_Click`0" priority="0" />
+      <Item value="salesToolStripMenuItem_Click`0" priority="0" />
+      <Item value="addMovementToolStripMenuItem_Click`0" priority="0" />
+      <Item value="movementType" priority="0" />
+      <Item value="movementTypeToDo" priority="3" />
+      <Item value="OperationGroupBox" priority="0" />
+      <Item value="currentCashier" priority="0" />
+      <Item value="mov" priority="1" />
+      <Item value="GetDefaultCurrencyShop`0" priority="0" />
+      <Item value="OwnedForms" priority="0" />
+      <Item value="curr" priority="2" />
+      <Item value="tabPagePayroll" priority="0" />
+      <Item value="PayrollCurrentMonthAmountTextBox" priority="0" />
+      <Item value="PayrollMaxByMonthTextBox" priority="0" />
+      <Item value="AddPayrollButton" priority="1" />
+      <Item value="PayRollAmountTextBox" priority="0" />
+      <Item value="tabPageCredit" priority="0" />
+      <Item value="pays" priority="0" />
+      <Item value="tabPageCard" priority="0" />
+      <Item value="CurrencyReceivedTextBox" priority="0" />
+      <Item value="PayrollAmountTextBox" priority="0" />
+      <Item value="CardNumberTextBox_MouseClick`0" priority="0" />
+      <Item value="idType" priority="3" />
+      <Item value="IdTypeNew" priority="1" />
+      <Item value="Key" priority="0" />
+      <Item value="OrderedParallelQuery" priority="2" />
+      <Item value="ObjectDisposedException`0" priority="0" />
+      <Item value="Enum`0" priority="4" />
+      <Item value="typeof" priority="3" />
+      <Item value="IsSaleType" priority="2" />
+      <Item value="additionalInfo" priority="1" />
+      <Item value="pageSizes" priority="1" />
+      <Item value="pageMargins" priority="1" />
+      <Item value="m_pageSize" priority="1" />
+      <Item value="m_pageMargins" priority="1" />
+      <Item value="m_pageSettings" priority="0" />
+      <Item value="ticketPageSizes" priority="0" />
+      <Item value="ticketPageMargins" priority="0" />
+      <Item value="IdProductType" priority="3" />
+      <Item value="IdProductParent" priority="0" />
+      <Item value="ProductType`0" priority="10" />
+      <Item value="child" priority="5" />
+      <Item value="det" priority="1" />
+      <Item value="List&lt;OperationDetail&gt;" priority="0" />
+      <Item value="idLocation" priority="0" />
+      <Item value="idProduct" priority="2" />
+      <Item value="GetLots`0" priority="0" />
+      <Item value="idProductSimple" priority="0" />
+      <Item value="lots" priority="2" />
+      <Item value="lot" priority="2" />
+      <Item value="_IdProductType" priority="0" />
+      <Item value="ProductName" priority="1" />
+      <Item value="IdProductComposite" priority="1" />
+      <Item value="product" priority="3" />
+      <Item value="ParentRow" priority="1" />
+      <Item value="productId" priority="1" />
+      <Item value="roundOpAmount" priority="2" />
+      <Item value="lastCashierClose" priority="3" />
+      <Item value="GetLastCashierClose`0" priority="0" />
+      <Item value="unchecked" priority="0" />
+      <Item value="totalAmountCash" priority="0" />
+      <Item value="maxCashAllowed" priority="0" />
+      <Item value="MailHelper`0" priority="0" />
+      <Item value="plainTextBody" priority="0" />
+      <Item value="GetUDCItemRow`0" priority="2" />
+      <Item value="idOperationCurrency" priority="0" />
+      <Item value="ListPriceType`0" priority="0" />
+      <Item value="pprices" priority="0" />
+      <Item value="NewSaleToolStripButton" priority="1" />
+      <Item value="SaleQueryToolStripButton" priority="0" />
+      <Item value="CashExtractToolStripButton" priority="0" />
+      <Item value="openForm" priority="2" />
+      <Item value="GetDateFormat`0" priority="0" />
+      <Item value="IdPriceType" priority="0" />
+      <Item value="EntryExitOperationEdit`0" priority="0" />
+      <Item value="NewOperationButton" priority="1" />
+      <Item value="DeleteOperationButton" priority="1" />
+      <Item value="operationType" priority="17" />
+      <Item value="TargetLocationComboBox" priority="0" />
+      <Item value="k" priority="4" />
+      <Item value="IsExitOperation" priority="1" />
+      <Item value="VATIncluded" priority="0" />
+      <Item value="ApplyDiscount" priority="0" />
+      <Item value="Location2ComboBox" priority="0" />
+      <Item value="Transfer" priority="1" />
+      <Item value="invCont" priority="0" />
+      <Item value="IdLocation2" priority="0" />
+      <Item value="AutoGeneratedFieldProperties`0" priority="0" />
+      <Item value="Helpers" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="synData" priority="1" />
+      <Item value="lastDate" priority="0" />
+      <Item value="XDocument`0" priority="0" />
+      <Item value="XDocument" priority="0" />
+      <Item value="xdoc" priority="1" />
+      <Item value="XElement`0" priority="0" />
+      <Item value="XElement" priority="0" />
+      <Item value="root" priority="1" />
+      <Item value="xmlOp" priority="0" />
+      <Item value="XmlSerializer" priority="0" />
+      <Item value="Runtime" priority="0" />
+      <Item value="Serialization" priority="0" />
+      <Item value="PosExportDataSet`0" priority="1" />
+      <Item value="PosExportDataSet" priority="0" />
+      <Item value="InventoryDataTable" priority="0" />
+      <Item value="InventoryTableAdapter`0" priority="0" />
+      <Item value="adapter" priority="5" />
+      <Item value="InventoryTableAdapter" priority="0" />
+      <Item value="PosOutDataHelper`0" priority="0" />
+      <Item value="dataHelper" priority="0" />
+      <Item value="DoExport`0" priority="0" />
+      <Item value="OutInDataHelper`0" priority="7" />
+      <Item value="ExteriorNumberTextBox" priority="3" />
+      <Item value="ExteriorNumber" priority="0" />
+      <Item value="InteriorNumber" priority="0" />
+      <Item value="InteriorNumberTextBox" priority="1" />
+      <Item value="IVAAppliedToManagement" priority="0" />
+      <Item value="NeedInvoiceCheckBox" priority="1" />
+      <Item value="NeedInvoice" priority="0" />
+      <Item value="IdIVAAppliedToManagement" priority="0" />
+      <Item value="TypeCode`0" priority="0" />
+      <Item value="typeCode" priority="1" />
+      <Item value="groupCode" priority="1" />
+      <Item value="idIVAGroup" priority="0" />
+      <Item value="idIVAType" priority="0" />
+      <Item value="ProductIVACodeApplied" priority="0" />
+      <Item value="ProductIVAApplied" priority="0" />
+      <Item value="IVAGroupDropDownList" priority="1" />
+      <Item value="IVATypeByManagementDropDownList" priority="2" />
+      <Item value="date" priority="0" />
+      <Item value="ActiveForm" priority="0" />
+      <Item value="Activate`0" priority="0" />
+      <Item value="ownedForm" priority="0" />
+      <Item value="ShopComboBox" priority="3" />
+      <Item value="SqlDataAdapter" priority="0" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="PosInDataSetTableAdapters" priority="0" />
+      <Item value="cnn" priority="0" />
+      <Item value="SqlCommand`0" priority="0" />
+      <Item value="SqlCommand" priority="0" />
+      <Item value="cmd" priority="0" />
+      <Item value="DataTable`0" priority="0" />
+      <Item value="DataTable" priority="0" />
+      <Item value="tbl" priority="1" />
+      <Item value="GetWebLastExportationDateToShop`0" priority="0" />
+      <Item value="shopId" priority="3" />
+      <Item value="CurrencyCode" priority="0" />
+      <Item value="movType" priority="0" />
+      <Item value="cash" priority="0" />
+      <Item value="currencyId" priority="0" />
+      <Item value="cashierId" priority="5" />
+      <Item value="MovementTypeLabel" priority="1" />
+      <Item value="MovementTypeComboBox" priority="8" />
+      <Item value="GetChildAtPointSkip`0" priority="0" />
+      <Item value="operationTypeId" priority="0" />
+      <Item value="panelTop" priority="0" />
+      <Item value="OperationTypeIdEx" priority="0" />
+      <Item value="NotFiniteNumberException`0" priority="0" />
+      <Item value="RequestNewOperation`0" priority="0" />
+      <Item value="opType" priority="1" />
+      <Item value="FillInventoryMovementTypes`0" priority="0" />
+      <Item value="opName" priority="0" />
+      <Item value="Logger" priority="15" />
+      <Item value="NewInventoryMovementToolStripButton" priority="0" />
+      <Item value="QueryInventoryMovementToolStripButton" priority="0" />
+      <Item value="NewInvnetoryMovementToolStripMenuItem_Click`0" priority="0" />
+      <Item value="QueryInventoryMovementToolStripButton_Click`0" priority="0" />
+      <Item value="SubTypeComboBox" priority="2" />
+      <Item value="SaveChanges`0" priority="3" />
+      <Item value="codeType" priority="0" />
+      <Item value="DiffusionMediaComboBox" priority="4" />
+      <Item value="IdDiffusionMedia" priority="0" />
+      <Item value="Close" priority="0" />
+      <Item value="ConsignationLabel" priority="0" />
+      <Item value="ConsignationAmountLabel" priority="1" />
+      <Item value="ExpiredConsignationCheckBox" priority="1" />
+      <Item value="DefaultCursor" priority="0" />
+      <Item value="ReferenceLabel" priority="1" />
+      <Item value="ReferenceValueLabel" priority="1" />
+      <Item value="CreateConsignationReturnButton" priority="0" />
+      <Item value="ConvertConsignationIntoSaleButton" priority="0" />
+      <Item value="Consignation" priority="0" />
+      <Item value="ZoomChangedEventHandler`0" priority="0" />
+      <Item value="consignationAssigned" priority="0" />
+      <Item value="outDataSet" priority="0" />
+      <Item value="currentShopId" priority="0" />
+      <Item value="outInDataHelper" priority="0" />
+      <Item value="oldOperation" priority="0" />
+      <Item value="AlertLabel" priority="2" />
+      <Item value="ConvertToSaleButton" priority="0" />
+      <Item value="newP" priority="4" />
+      <Item value="amountToPay" priority="2" />
+      <Item value="dimToPay" priority="3" />
+      <Item value="operationCurrencyId" priority="0" />
+      <Item value="cardType" priority="1" />
+      <Item value="currencyType" priority="1" />
+      <Item value="cashType" priority="0" />
+      <Item value="SaleCash" priority="0" />
+      <Item value="SaleCard" priority="0" />
+      <Item value="SaleCurrency" priority="0" />
+      <Item value="DimCreditCollect`0" priority="0" />
+      <Item value="currentCreditCollect" priority="2" />
+      <Item value="Buffer`0" priority="0" />
+      <Item value="SequenceId`0" priority="2" />
+      <Item value="HttpServerUtility`0" priority="0" />
+      <Item value="sequenceId" priority="1" />
+      <Item value="seq" priority="9" />
+      <Item value="Sequence" priority="0" />
+      <Item value="IdJDETextBox" priority="0" />
+      <Item value="TicketCity" priority="0" />
+      <Item value="TicketCityTextBox" priority="2" />
+      <Item value="currencyPrefix" priority="1" />
+      <Item value="OperationCurrencyCode" priority="0" />
+      <Item value="FindByDimTextBox" priority="0" />
+      <Item value="FindByNameTextBox" priority="0" />
+      <Item value="FindByMotherMaidenNameTextBox" priority="0" />
+      <Item value="ThreadStaticAttribute`0" priority="0" />
+      <Item value="statusStrip1" priority="0" />
+      <Item value="VersionToolStripStatusLabel" priority="0" />
+      <Item value="DBToolStripStatusLabel" priority="0" />
+      <Item value="Debug`0" priority="0" />
+      <Item value="FindByLastNameTextBox" priority="0" />
+      <Item value="Folder" priority="0" />
+      <Item value="temp" priority="0" />
+      <Item value="synchLog" priority="5" />
+      <Item value="temp1" priority="0" />
+      <Item value="lastExportation" priority="0" />
+      <Item value="idShop" priority="0" />
+      <Item value="FinalDateInLiteral" priority="0" />
+      <Item value="TableLayoutCellPaintEventArgs`0" priority="0" />
+      <Item value="newDC" priority="0" />
+      <Item value="dbOp" priority="1" />
+      <Item value="VerifyOperationState`0" priority="0" />
+      <Item value="SqlMethods`0" priority="0" />
+      <Item value="FlowLayoutSettings`0" priority="0" />
+      <Item value="Cursors`0" priority="1" />
+      <Item value="Stopping" priority="2" />
+      <Item value="ExportThread" priority="1" />
+      <Item value="ExitCode" priority="0" />
+      <Item value="AutoLog" priority="0" />
+      <Item value="ThreadState`0" priority="0" />
+      <Item value="codeSize" priority="2" />
+      <Item value="size" priority="1" />
+      <Item value="opt2" priority="0" />
+      <Item value="Decimal`0" priority="0" />
+      <Item value="ValidateExportOpcional2`0" priority="0" />
+      <Item value="TimeSpan" priority="0" />
+      <Item value="finally" priority="2" />
+      <Item value="IsOk" priority="0" />
+      <Item value="maxSize" priority="1" />
+      <Item value="AdminDataContext" priority="0" />
+      <Item value="RefreshMode`0" priority="0" />
+      <Item value="GetPosDataContext`0" priority="0" />
+      <Item value="WebBrowserRefreshOption`0" priority="0" />
+      <Item value="operations" priority="0" />
+      <Item value="time" priority="0" />
+      <Item value="dataContext" priority="0" />
+      <Item value="h" priority="0" />
+      <Item value="lastOpen" priority="0" />
+      <Item value="LotColumn" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBox">
+      <Item value="Enabled" priority="1" />
+      <Item value="Checked" priority="4" />
+      <Item value="onclick" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Admin.Code.Helpers.PortalHelper">
+      <Item value="ShowMessage`0" priority="6" />
+      <Item value="GetAdminDataContext`0" priority="13" />
+      <Item value="ThrowInvalidPageException`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TextBox">
+      <Item value="Text" priority="34" />
+      <Item value="Font" priority="1" />
+      <Item value="TextMode" priority="0" />
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="10" />
+      <Item value="Empty" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="12" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Substring`0" priority="9" />
+      <Item value="Contains`0" priority="4" />
+      <Item value="GetType`0" priority="0" />
+      <Item value="Trim`0" priority="20" />
+      <Item value="ToUpper`0" priority="2" />
+      <Item value="Split`0" priority="1" />
+      <Item value="Length" priority="10" />
+      <Item value="First`1" priority="0" />
+      <Item value="Replace`0" priority="0" />
+      <Item value="PadRight`0" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="Take`1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.AdminDataContext">
+      <Item value="UDCItems" priority="9" />
+      <Item value="Users" priority="6" />
+      <Item value="SubmitChanges`0" priority="29" />
+      <Item value="User_Rols" priority="3" />
+      <Item value="Shops" priority="7" />
+      <Item value="UDCs" priority="0" />
+      <Item value="Locations" priority="1" />
+      <Item value="Dims" priority="7" />
+      <Item value="Operations" priority="17" />
+      <Item value="OperationDetails" priority="5" />
+      <Item value="Refresh`0" priority="7" />
+      <Item value="LoadOptions" priority="0" />
+      <Item value="GetChangeSet`0" priority="0" />
+      <Item value="GetTable`0" priority="0" />
+      <Item value="Kardexes" priority="3" />
+      <Item value="Inventories" priority="9" />
+      <Item value="Transaction" priority="0" />
+      <Item value="Products" priority="2" />
+      <Item value="Operation_Pays" priority="4" />
+      <Item value="MoneyMovements" priority="5" />
+      <Item value="Cashiers" priority="4" />
+      <Item value="CashierCloses" priority="6" />
+      <Item value="CashierCloseDetails" priority="0" />
+      <Item value="Connection" priority="2" />
+      <Item value="Synchronizations" priority="0" />
+      <Item value="DatabaseExists`0" priority="0" />
+      <Item value="DimCreditCollects" priority="1" />
+      <Item value="Sequences" priority="2" />
+      <Item value="ExecuteQuery`0" priority="0" />
+      <Item value="ClearCache`0" priority="0" />
+      <Item value="PosOut_FillTmpTables`0" priority="1" />
+      <Item value="PosIn_FillTmpTables`0" priority="0" />
+      <Item value="PosIn_DropTmpTables`0" priority="1" />
+      <Item value="PosOut_DropTmpTables`0" priority="1" />
+      <Item value="PosOut_SynchronizeTables`0" priority="0" />
+      <Item value="PosIn_SynchronizeTables`0" priority="0" />
+      <Item value="PosOut_CreateTmpTables`0" priority="0" />
+      <Item value="PosIn_CreateTmpTables`0" priority="0" />
+      <Item value="Log" priority="0" />
+      <Item value="ObjectTrackingEnabled" priority="0" />
+      <Item value="ResetPoints`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.Table`1">
+      <Item value="Where`1" priority="53" />
+      <Item value="InsertOnSubmit`0" priority="11" />
+      <Item value="Select`2" priority="10" />
+      <Item value="Max`2" priority="0" />
+      <Item value="GetNewBindingList`0" priority="0" />
+      <Item value="GetModifiedMembers`0" priority="0" />
+      <Item value="Last`1" priority="2" />
+      <Item value="DeleteOnSubmit`0" priority="3" />
+      <Item value="DeleteAllOnSubmit`1" priority="2" />
+      <Item value="Sum`1" priority="0" />
+      <Item value="GroupBy`4" priority="0" />
+      <Item value="First`1" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.UDCItem">
+      <Item value="Id" priority="26" />
+      <Item value="Optional1" priority="23" />
+      <Item value="Name" priority="30" />
+      <Item value="Code" priority="22" />
+      <Item value="Optional2" priority="7" />
+      <Item value="Optional3" priority="7" />
+      <Item value="Optional4" priority="1" />
+      <Item value="Operations2" priority="0" />
+      <Item value="Operations3" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Constant">
+      <Item value="UserPswValidDays" priority="0" />
+      <Item value="SYS_ADMIN_ROLE_KEY" priority="1" />
+      <Item value="SYS_ADMIN_ROLE_UDC_KEY" priority="0" />
+      <Item value="SYS_ADMIN_ROLE_UDCITEM_KEY" priority="0" />
+      <Item value="CFG_SYSTEM_DEFAULT_CURRENCY_UDCITEM_KEY" priority="1" />
+      <Item value="CFG_NULL_ROW_VALUE_UDCITEM_KEY" priority="22" />
+      <Item value="CFG_PHONE_MASK_UDCITEM_KEY" priority="0" />
+      <Item value="PosAdminOrMore" priority="0" />
+      <Item value="SupervisorOrMore" priority="2" />
+      <Item value="CFG_DIM_MAX_SIZE_UDCITEM_KEY" priority="0" />
+      <Item value="CFG_MAX_DIFF_CHANGE_RATE_UDCITEM_KEY" priority="0" />
+      <Item value="CFG_DIM_DEFAULT_DISCOUNT_UDCITEM_KEY" priority="1" />
+      <Item value="CFG_TICKET_MARGINS_UDCITEMS_KEY" priority="0" />
+      <Item value="CFG_MAX_MONTHLY_PAYROLL_UDCITEMS_KEY" priority="0" />
+      <Item value="CFG_NOT_LOT_CODE" priority="3" />
+      <Item value="CFG_INVOICE_NAME_IN_TICKET_UDCITEM_KEY" priority="0" />
+      <Item value="MAX_DAYS_RETURN_CONSIGNATION_UDC_KEY" priority="0" />
+      <Item value="CFG_BARCODE_MAX_SIZE_UDCITEM_KEY" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="Single`1" priority="24" />
+      <Item value="Select`2" priority="20" />
+      <Item value="Count`1" priority="11" />
+      <Item value="SingleOrDefault`1" priority="17" />
+      <Item value="SelectMany`3" priority="0" />
+      <Item value="Union`1" priority="3" />
+      <Item value="ToList`1" priority="23" />
+      <Item value="ToString`0" priority="4" />
+      <Item value="Where`1" priority="10" />
+      <Item value="ToArray`1" priority="2" />
+      <Item value="Concat`1" priority="1" />
+      <Item value="Last`1" priority="1" />
+      <Item value="LastOrDefault`1" priority="1" />
+      <Item value="Max`2" priority="1" />
+      <Item value="OrderBy`2" priority="14" />
+      <Item value="First`1" priority="2" />
+      <Item value="GroupBy`4" priority="1" />
+      <Item value="OrderByDescending`2" priority="6" />
+      <Item value="FirstOrDefault`1" priority="1" />
+      <Item value="Distinct`1" priority="3" />
+      <Item value="SequenceEqual`1" priority="0" />
+      <Item value="Cast`1" priority="0" />
+      <Item value="Take`1" priority="2" />
+      <Item value="Sum`1" priority="0" />
+      <Item value="Reverse`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="9" />
+      <Item value="TryParse`0" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Diagnostics.Debug">
+      <Item value="Print`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Admin.Code.Logger">
+      <Item value="Log`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Today" priority="32" />
+      <Item value="Now" priority="35" />
+      <Item value="TryParse`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="AddDays`0" priority="7" />
+      <Item value="ToString`0" priority="15" />
+      <Item value="Year" priority="1" />
+      <Item value="Month" priority="1" />
+      <Item value="Date" priority="6" />
+      <Item value="AddMinutes`0" priority="0" />
+      <Item value="AddYears`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Admin.Code.Helpers.DataHelper">
+      <Item value="GetNewPassword`0" priority="0" />
+      <Item value="GetPasswordValidDate`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.User">
+      <Item value="Disabled" priority="7" />
+      <Item value="ModifiedBy" priority="0" />
+      <Item value="ModifiedDate" priority="0" />
+      <Item value="ModifiedOn" priority="0" />
+      <Item value="Id" priority="10" />
+      <Item value="Name" priority="6" />
+      <Item value="Email" priority="3" />
+      <Item value="Password" priority="5" />
+      <Item value="ValidDate" priority="4" />
+      <Item value="User_Rols" priority="0" />
+      <Item value="User_Shops" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ValidationSummary">
+      <Item value="ForeColor" priority="0" />
+      <Item value="ShowMessageBox" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Resources.CommonStrings">
+      <Item value="PageNotIsValid" priority="0" />
+      <Item value="PageInvalidParam" priority="0" />
+      <Item value="ExceptionMsgDuplicateKeyOnInsert" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToDateTime`0" priority="2" />
+      <Item value="ToBoolean`0" priority="2" />
+      <Item value="ToString`0" priority="14" />
+      <Item value="ToInt16`0" priority="0" />
+      <Item value="ToInt32`0" priority="43" />
+      <Item value="ToDouble`0" priority="5" />
+      <Item value="ToDecimal`0" priority="17" />
+      <Item value="DBNull" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="User" priority="1" />
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="3" />
+      <Item value="IsInRole`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="Name" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="UserHostName" priority="0" />
+      <Item value="UserHostAddress" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrWhiteSpace`0" priority="22" />
+      <Item value="Empty" priority="67" />
+      <Item value="Format`0" priority="42" />
+      <Item value="IsNullOrEmpty`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Properties.Settings">
+      <Item value="Default" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Helpers.DataHelper">
+      <Item value="GetRoles`0" priority="0" />
+      <Item value="FillAuditoryValues`0" priority="4" />
+      <Item value="GetSponsorDimComboList`0" priority="0" />
+      <Item value="GetSexComboList`0" priority="0" />
+      <Item value="GetPopulationComboList`0" priority="2" />
+      <Item value="GetStateComboList`0" priority="1" />
+      <Item value="GetUDCSexs`0" priority="0" />
+      <Item value="GetEmptyList`0" priority="1" />
+      <Item value="GetSponsorDimForAutoComplete`0" priority="0" />
+      <Item value="FillAuditoryValuesDesktop`0" priority="1" />
+      <Item value="GetUDCItemRowId`0" priority="0" />
+      <Item value="GetDefaultAddExceptionMessage`0" priority="0" />
+      <Item value="GetUDCIVA`0" priority="0" />
+      <Item value="GetChangeRate`0" priority="2" />
+      <Item value="GetOperationSign`0" priority="2" />
+      <Item value="GetUDCCurrencies`0" priority="1" />
+      <Item value="GetUDCOperationType`0" priority="0" />
+      <Item value="GetPhoneMask`0" priority="0" />
+      <Item value="GetCountryShop`0" priority="0" />
+      <Item value="GetUDCItemRow`0" priority="23" />
+      <Item value="GetUDCItemEmptyList`0" priority="0" />
+      <Item value="AddNullValueItem`0" priority="1" />
+      <Item value="IsClosedCashier`0" priority="0" />
+      <Item value="GetDeafultCurrencyId`0" priority="0" />
+      <Item value="IsActiveRoundByFive`0" priority="1" />
+      <Item value="GetLastCashierClose`0" priority="0" />
+      <Item value="GetUnClosedMoneyMovement`0" priority="0" />
+      <Item value="GetUDCIVAValue`0" priority="0" />
+      <Item value="GetUDCIVAGroupComboList`0" priority="1" />
+      <Item value="IsInventoryMovement`0" priority="1" />
+      <Item value="GetUDCOperationSubType`0" priority="0" />
+      <Item value="GetUDCIVAOperationSubTypeComboList`0" priority="0" />
+      <Item value="GetUDCDiffusionMediaComboList`0" priority="0" />
+      <Item value="GetUDCBanks`0" priority="0" />
+      <Item value="GetCashier`0" priority="0" />
+      <Item value="CommitTransaction`0" priority="11" />
+      <Item value="RollbackTransaction`0" priority="9" />
+      <Item value="GetServerDateTime`0" priority="0" />
+      <Item value="BeginTransaction`0" priority="0" />
+      <Item value="GetNextSequence`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Log.Logger">
+      <Item value="Log`0" priority="20" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CheckBoxList">
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.ListItemCollection">
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.User_Rol">
+      <Item value="IdUser" priority="3" />
+      <Item value="IdRol" priority="2" />
+      <Item value="User" priority="0" />
+      <Item value="UDCItem" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Shop">
+      <Item value="Id" priority="3" />
+      <Item value="Name" priority="9" />
+      <Item value="IdCompany" priority="3" />
+      <Item value="Address" priority="1" />
+      <Item value="LastSynchronizeDate" priority="2" />
+      <Item value="IdCountry" priority="3" />
+      <Item value="Phone1" priority="1" />
+      <Item value="Disabled" priority="2" />
+      <Item value="IdCurrency" priority="5" />
+      <Item value="Locations" priority="1" />
+      <Item value="Company" priority="5" />
+      <Item value="CurrencyName" priority="0" />
+      <Item value="KeyCodeName" priority="0" />
+      <Item value="KeyCodeSize" priority="1" />
+      <Item value="Country" priority="0" />
+      <Item value="CountryName" priority="0" />
+      <Item value="IdIVATypeByManagement" priority="2" />
+      <Item value="CurrencyCode" priority="0" />
+      <Item value="TicketCity" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Button">
+      <Item value="Text" priority="0" />
+      <Item value="CommandArgument" priority="1" />
+      <Item value="Enabled" priority="1" />
+      <Item value="Click" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlGenericControl">
+      <Item value="InnerText" priority="0" />
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.CssStyleCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.FontInfo">
+      <Item value="Bold" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="9" />
+      <Item value="Id" priority="0" />
+      <Item value="GetType`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Admin.Code.WebConfiguration">
+      <Item value="MailSmtpServer" priority="1" />
+      <Item value="MailSmtpPort" priority="0" />
+      <Item value="MailSSLEnabled" priority="1" />
+      <Item value="MailSmtpAuthenticationUser" priority="0" />
+      <Item value="MailSmtpAuthenticationPassword" priority="0" />
+      <Item value="MailFromName" priority="0" />
+      <Item value="MailFromEMail" priority="1" />
+      <Item value="MailAdminAddress" priority="0" />
+      <Item value="mailFromEmail" priority="0" />
+      <Item value="mailSSLEnabled" priority="1" />
+      <Item value="MailDateFormat" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.User_Shop">
+      <Item value="Shop" priority="0" />
+      <Item value="IdShop" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.DropDownList">
+      <Item value="SelectedValue" priority="9" />
+      <Item value="SelectedIndex" priority="0" />
+      <Item value="DataSourceID" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.UDC">
+      <Item value="Id" priority="0" />
+      <Item value="Disabled" priority="0" />
+      <Item value="AllowAdd" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Label">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinqDataSource">
+      <Item value="EnableUpdate" priority="0" />
+      <Item value="Updating" priority="0" />
+      <Item value="Insert`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridView">
+      <Item value="Enabled" priority="0" />
+      <Item value="Rows" priority="0" />
+      <Item value="DataBind`0" priority="1" />
+      <Item value="DataSourceID" priority="0" />
+      <Item value="DataSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TemplateField">
+      <Item value="FooterTemplate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewUpdateEventArgs">
+      <Item value="NewValues" priority="1" />
+      <Item value="RowIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.GridViewRow">
+      <Item value="DataItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Specialized.IOrderedDictionary">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinqDataSourceUpdateEventArgs">
+      <Item value="NewObject" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.RequiredFieldValidator">
+      <Item value="Display" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.BoundField">
+      <Item value="DataFormatString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpUtility">
+      <Item value="UrlEncode`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="HasValue" priority="4" />
+      <Item value="ToString`0" priority="16" />
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.CommandField">
+      <Item value="ItemStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.TableItemStyle">
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Type">
+      <Item value="Name" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.AboutBox">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Environment">
+      <Item value="NewLine" priority="7" />
+      <Item value="CurrentDirectory" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="YesNo" priority="0" />
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POS.Helper.DialogHelper">
+      <Item value="ShowError`0" priority="39" />
+      <Item value="ShowInformation`0" priority="9" />
+      <Item value="ShowWarning`0" priority="1" />
+      <Item value="ShowWarningQuestion`0" priority="9" />
+      <Item value="ShowWarningInfo`0" priority="21" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="Exit`0" priority="3" />
+      <Item value="OpenForms" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Main">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Login">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="AuthenticatedLogin" priority="0" />
+      <Item value="AuthenticatedRolName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabControl">
+      <Item value="TabPages" priority="2" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="SelectTab`0" priority="0" />
+      <Item value="SelectedTab" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TabPage">
+      <Item value="Visible" priority="2" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="Select`0" priority="0" />
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Client.ClientList">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POS.Properties.Settings">
+      <Item value="Default" priority="30" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Properties.Settings">
+      <Item value="MegaAdminConnectionString" priority="1" />
+      <Item value="CurrentShop" priority="9" />
+      <Item value="CurrentCashier" priority="12" />
+      <Item value="AppCulture" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POS.Helper.ApplicationHelper">
+      <Item value="GetAdminDataContext`0" priority="12" />
+      <Item value="ConfigComboUDCItems`0" priority="0" />
+      <Item value="ConfigureGridView`0" priority="3" />
+      <Item value="GetPosDataContext`0" priority="26" />
+      <Item value="ResetPosDataContext`0" priority="10" />
+      <Item value="GetCurrentUser`0" priority="3" />
+      <Item value="IsInRole`0" priority="0" />
+      <Item value="IsCurrentUserInRole`0" priority="1" />
+      <Item value="GetDefaultCurrency`0" priority="1" />
+      <Item value="GetCurrentShop`0" priority="11" />
+      <Item value="RoundByFive`0" priority="0" />
+      <Item value="RoundByFiveByExcess`0" priority="0" />
+      <Item value="RoundByFiveByDefault`0" priority="0" />
+      <Item value="GetCurrentCashier`0" priority="2" />
+      <Item value="GetCurrencyByCurrentShop`0" priority="1" />
+      <Item value="GetNewSinglePosDataContext`0" priority="1" />
+      <Item value="GetPosDataContextReseted`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="155" />
+      <Item value="Enabled" priority="15" />
+      <Item value="AppendText`0" priority="1" />
+      <Item value="Focus`0" priority="19" />
+      <Item value="ContextMenuStrip" priority="0" />
+      <Item value="TextLength" priority="0" />
+      <Item value="Location" priority="1" />
+      <Item value="Visible" priority="2" />
+      <Item value="MaxLength" priority="4" />
+      <Item value="ContextMenu" priority="0" />
+      <Item value="ShortcutsEnabled" priority="2" />
+      <Item value="SelectAll`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Enabled" priority="19" />
+      <Item value="Text" priority="3" />
+      <Item value="Visible" priority="14" />
+      <Item value="Location" priority="1" />
+      <Item value="PerformClick`0" priority="15" />
+      <Item value="Top" priority="0" />
+      <Item value="Size" priority="0" />
+      <Item value="Focus`0" priority="1" />
+      <Item value="Tag" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="DataSource" priority="21" />
+      <Item value="DisplayMember" priority="5" />
+      <Item value="ValueMember" priority="6" />
+      <Item value="Enabled" priority="11" />
+      <Item value="SelectedValue" priority="58" />
+      <Item value="SelectedItem" priority="1" />
+      <Item value="SelectedIndex" priority="6" />
+      <Item value="AutoCompleteSource" priority="1" />
+      <Item value="AutoCompleteMode" priority="0" />
+      <Item value="DropDownStyle" priority="0" />
+      <Item value="AutoCompleteCustomSource" priority="0" />
+      <Item value="Items" priority="0" />
+      <Item value="MaxDropDownItems" priority="0" />
+      <Item value="SelectedText" priority="2" />
+      <Item value="Visible" priority="2" />
+      <Item value="Focus`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="2" />
+      <Item value="No" priority="0" />
+      <Item value="Yes" priority="0" />
+      <Item value="Cancel" priority="0" />
+      <Item value="None" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="CurrentPrincipal" priority="4" />
+      <Item value="CurrentThread" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Client.ClientAdd">
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="Id" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="IsAdding" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="2" />
+      <Item value="Cancel" priority="0" />
+      <Item value="Yes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Value" priority="17" />
+      <Item value="Enabled" priority="5" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Visible" priority="4" />
+      <Item value="Text" priority="58" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.CheckBox">
+      <Item value="Checked" priority="17" />
+      <Item value="Enabled" priority="9" />
+      <Item value="Visible" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Dim">
+      <Item value="Id" priority="10" />
+      <Item value="Disabled" priority="10" />
+      <Item value="LowDate" priority="0" />
+      <Item value="FullName" priority="6" />
+      <Item value="CoHolder" priority="1" />
+      <Item value="Notes" priority="1" />
+      <Item value="Address1" priority="2" />
+      <Item value="UDCItem" priority="2" />
+      <Item value="CURP" priority="0" />
+      <Item value="Spouse" priority="0" />
+      <Item value="Phone1" priority="1" />
+      <Item value="Email" priority="0" />
+      <Item value="UDCItem1" priority="2" />
+      <Item value="UDCItem2" priority="1" />
+      <Item value="UDCItem3" priority="1" />
+      <Item value="UDCItem4" priority="1" />
+      <Item value="MaritalStatusName" priority="0" />
+      <Item value="CountryName" priority="1" />
+      <Item value="SexName" priority="0" />
+      <Item value="UDCItem5" priority="0" />
+      <Item value="TaxRegister" priority="2" />
+      <Item value="SaleProhibited" priority="0" />
+      <Item value="IdType" priority="4" />
+      <Item value="IVAToApply" priority="2" />
+      <Item value="DiscountPercent" priority="5" />
+      <Item value="IdIVAToApply" priority="0" />
+      <Item value="PointAmount" priority="4" />
+      <Item value="PointAmountDate" priority="2" />
+      <Item value="AmountCredit" priority="1" />
+      <Item value="AmountCreditDate" priority="1" />
+      <Item value="State" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="PopulationName" priority="0" />
+      <Item value="StateName" priority="1" />
+      <Item value="CP" priority="0" />
+      <Item value="IdPopulation" priority="0" />
+      <Item value="IdState" priority="0" />
+      <Item value="Calification" priority="0" />
+      <Item value="LastName" priority="3" />
+      <Item value="MotherMaidenName" priority="4" />
+      <Item value="SpouseLastName" priority="1" />
+      <Item value="SpouseMotherMaidenName" priority="1" />
+      <Item value="KeyAccount" priority="1" />
+      <Item value="ConsignableAmount" priority="4" />
+      <Item value="ConsignableAmountDate" priority="0" />
+      <Item value="Name" priority="3" />
+      <Item value="Sucursal" priority="0" />
+      <Item value="Sinpe" priority="0" />
+      <Item value="Reference" priority="0" />
+      <Item value="SaleRetention" priority="2" />
+      <Item value="Type" priority="0" />
+      <Item value="Consignable" priority="0" />
+      <Item value="MaxConsignableAmount" priority="0" />
+      <Item value="IdCountry" priority="0" />
+      <Item value="ExteriorNumber" priority="1" />
+      <Item value="InteriorNumber" priority="0" />
+      <Item value="NeedInvoice" priority="1" />
+      <Item value="IdIVAGroup" priority="0" />
+      <Item value="DiffusionMedia" priority="0" />
+      <Item value="CreditAmount" priority="0" />
+      <Item value="IdJDE" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append`0" priority="15" />
+      <Item value="Length" priority="0" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="ToString`0" priority="2" />
+      <Item value="AppendLine`0" priority="4" />
+      <Item value="AppendFormat`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Single">
+      <Item value="Parse`0" priority="0" />
+      <Item value="TryParse`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.ArrayList">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Tuple">
+      <Item value="Create`8" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.BindingSource">
+      <Item value="DataSource" priority="1" />
+      <Item value="Filter" priority="0" />
+      <Item value="Find`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Net.Dns">
+      <Item value="GetHostName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="5" />
+      <Item value="Select`2" priority="1" />
+      <Item value="Union`1" priority="1" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="SelectedRows" priority="0" />
+      <Item value="DataSource" priority="3" />
+      <Item value="Columns" priority="3" />
+      <Item value="SelectionMode" priority="0" />
+      <Item value="Rows" priority="4" />
+      <Item value="AutoGenerateColumns" priority="0" />
+      <Item value="SortOrder" priority="0" />
+      <Item value="Refresh`0" priority="0" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="ColumnCount" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewSelectedRowCollection">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRow">
+      <Item value="DataBoundItem" priority="2" />
+      <Item value="Cells" priority="3" />
+      <Item value="DefaultCellStyle" priority="0" />
+      <Item value="InheritedStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString`0" priority="35" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.IdNameItem">
+      <Item value="Id" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Operation">
+      <Item value="Consecutive" priority="18" />
+      <Item value="OfficialConsecutive" priority="16" />
+      <Item value="CancelConsecutive" priority="2" />
+      <Item value="Amount" priority="4" />
+      <Item value="IdType" priority="19" />
+      <Item value="Id" priority="10" />
+      <Item value="OperationDetails" priority="10" />
+      <Item value="Shop" priority="10" />
+      <Item value="Pediment" priority="2" />
+      <Item value="OperationCurrencyCode" priority="2" />
+      <Item value="OperationAmount" priority="11" />
+      <Item value="AddedDate" priority="11" />
+      <Item value="StatusName" priority="1" />
+      <Item value="ModifiedDate" priority="16" />
+      <Item value="IdStatus" priority="16" />
+      <Item value="IdOperationCurrency" priority="12" />
+      <Item value="ChangeRate" priority="5" />
+      <Item value="OperationDetail1s" priority="0" />
+      <Item value="EffectiveDate" priority="0" />
+      <Item value="UDCItem1" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="DimName" priority="1" />
+      <Item value="Dim" priority="15" />
+      <Item value="IdDim" priority="10" />
+      <Item value="IVAApplied" priority="1" />
+      <Item value="TotalIVAOperation" priority="0" />
+      <Item value="TotalPointOperation" priority="4" />
+      <Item value="SubTotalOperationAmount" priority="2" />
+      <Item value="TotalManagementOperation" priority="0" />
+      <Item value="Operation_Pays" priority="5" />
+      <Item value="DiscountPercentApply" priority="1" />
+      <Item value="TotalOperationDiscount" priority="1" />
+      <Item value="IdCashier" priority="2" />
+      <Item value="ShopName" priority="0" />
+      <Item value="IdShop" priority="3" />
+      <Item value="ModifiedBy" priority="2" />
+      <Item value="Cashier" priority="0" />
+      <Item value="ModifiedByName" priority="0" />
+      <Item value="IVAAppliedToManagement" priority="2" />
+      <Item value="Reference" priority="10" />
+      <Item value="Notes" priority="1" />
+      <Item value="IdSubType" priority="2" />
+      <Item value="SubTypeName" priority="0" />
+      <Item value="TypeName" priority="1" />
+      <Item value="CreditCollected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.OperationType">
+      <Item value="ConsignableSale" priority="12" />
+      <Item value="Receipt" priority="5" />
+      <Item value="Sale" priority="15" />
+      <Item value="ConsignationReturn" priority="7" />
+      <Item value="Consignation" priority="7" />
+      <Item value="AdjustPositive" priority="6" />
+      <Item value="Transfer" priority="7" />
+      <Item value="AdjustNegative" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.OperationStatus">
+      <Item value="NotConfirmed" priority="8" />
+      <Item value="Confirmed" priority="8" />
+      <Item value="Canceled" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.AutoCompleteSource">
+      <Item value="CustomSource" priority="0" />
+      <Item value="ListItems" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.AutoCompleteMode">
+      <Item value="Suggest" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.ComboBoxStyle">
+      <Item value="DropDown" priority="1" />
+      <Item value="Simple" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.AutoCompleteStringCollection">
+      <Item value="AddRange`0" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add`0" priority="0" />
+      <Item value="AddRange`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.IList">
+      <Item value="Add`0" priority="1" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Count" priority="2" />
+      <Item value="AsQueryable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.OperationDetail">
+      <Item value="Operation" priority="11" />
+      <Item value="IdOperation" priority="2" />
+      <Item value="OperationAmount" priority="1" />
+      <Item value="IdProduct" priority="10" />
+      <Item value="IdLocation" priority="3" />
+      <Item value="Count" priority="5" />
+      <Item value="IdUM" priority="1" />
+      <Item value="Lot" priority="9" />
+      <Item value="Pack" priority="1" />
+      <Item value="OperationPrice" priority="0" />
+      <Item value="Management" priority="1" />
+      <Item value="Points" priority="3" />
+      <Item value="Product" priority="5" />
+      <Item value="Location" priority="4" />
+      <Item value="Pediment" priority="1" />
+      <Item value="IdProductType" priority="4" />
+      <Item value="IdProductParent" priority="1" />
+      <Item value="AddedDate" priority="4" />
+      <Item value="ParentRow" priority="1" />
+      <Item value="Id" priority="0" />
+      <Item value="IdLocation2" priority="1" />
+      <Item value="ProductIVAApplied" priority="0" />
+      <Item value="OfficialConsecutive" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Round`0" priority="13" />
+      <Item value="Ceiling`0" priority="3" />
+      <Item value="Min`0" priority="1" />
+      <Item value="Abs`0" priority="2" />
+      <Item value="Floor`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Linq.EntitySet`1">
+      <Item value="Sum`1" priority="2" />
+      <Item value="Where`1" priority="6" />
+      <Item value="Contains`0" priority="2" />
+      <Item value="Insert`0" priority="3" />
+      <Item value="Remove`0" priority="0" />
+      <Item value="Select`2" priority="2" />
+      <Item value="Count" priority="1" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="ToList`1" priority="0" />
+      <Item value="OrderBy`2" priority="1" />
+      <Item value="Any`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewDataErrorEventArgs">
+      <Item value="ColumnIndex" priority="0" />
+      <Item value="Cancel" priority="0" />
+      <Item value="Exception" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewColumn">
+      <Item value="DataPropertyName" priority="0" />
+      <Item value="Visible" priority="2" />
+      <Item value="HeaderText" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DataGridViewSelectionMode">
+      <Item value="CellSelect" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellEventArgs">
+      <Item value="ColumnIndex" priority="1" />
+      <Item value="RowIndex" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCell">
+      <Item value="AccessibilityObject" priority="0" />
+      <Item value="Value" priority="2" />
+      <Item value="Style" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Inventory">
+      <Item value="IdProduct" priority="4" />
+      <Item value="IdLocation" priority="4" />
+      <Item value="Count" priority="15" />
+      <Item value="CostPrice" priority="0" />
+      <Item value="ModifiedDate" priority="2" />
+      <Item value="Lot" priority="7" />
+      <Item value="LotAddedDate" priority="1" />
+      <Item value="Location" priority="1" />
+      <Item value="Dim" priority="1" />
+      <Item value="IdDim" priority="3" />
+      <Item value="Product" priority="2" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Client.FindClient">
+      <Item value="Show`0" priority="0" />
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="targerControl" priority="0" />
+      <Item value="DialogResult" priority="1" />
+      <Item value="SelectedDIM" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MaskedTextBox">
+      <Item value="Text" priority="24" />
+      <Item value="Mask" priority="2" />
+      <Item value="TextLength" priority="1" />
+      <Item value="Focus`0" priority="1" />
+      <Item value="SelectAll`0" priority="0" />
+      <Item value="Click" priority="0" />
+      <Item value="Visible" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Operation.SaleEdit">
+      <Item value="Show`0" priority="2" />
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="ConfirmSale`0" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="UpdateZOrder`0" priority="0" />
+      <Item value="Close`0" priority="1" />
+      <Item value="ParentForm" priority="0" />
+      <Item value="Focus`0" priority="2" />
+      <Item value="Select`0" priority="0" />
+      <Item value="Activate`0" priority="1" />
+      <Item value="ShowInTaskbar" priority="0" />
+      <Item value="TopLevel" priority="0" />
+      <Item value="TopMost" priority="0" />
+      <Item value="Modal" priority="0" />
+      <Item value="Focused" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Operation.SaleAdd">
+      <Item value="Parent" priority="0" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Product">
+      <Item value="BarCode" priority="3" />
+      <Item value="Id" priority="9" />
+      <Item value="Disabled" priority="0" />
+      <Item value="Name" priority="2" />
+      <Item value="Product_Prices" priority="0" />
+      <Item value="IdUM" priority="2" />
+      <Item value="UMName" priority="3" />
+      <Item value="VATIncluded" priority="0" />
+      <Item value="ApplyDiscount" priority="0" />
+      <Item value="UMCode" priority="1" />
+      <Item value="IdType" priority="3" />
+      <Item value="ProductCompositions" priority="3" />
+      <Item value="ProductCompositions1" priority="0" />
+      <Item value="IdIVAType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Operation.SaleDetailAdd">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Location">
+      <Item value="IdShop" priority="3" />
+      <Item value="Disabled" priority="0" />
+      <Item value="IsSalePoint" priority="0" />
+      <Item value="AllowNegativeSale" priority="0" />
+      <Item value="Name" priority="2" />
+      <Item value="Shop" priority="2" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.CancelEventArgs">
+      <Item value="Cancel" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Product_Price">
+      <Item value="Disabled" priority="0" />
+      <Item value="IdCurrency" priority="1" />
+      <Item value="ValidDate" priority="0" />
+      <Item value="IdUM" priority="4" />
+      <Item value="UDCItem" priority="0" />
+      <Item value="Pack" priority="2" />
+      <Item value="Management" priority="2" />
+      <Item value="PublicPrice" priority="0" />
+      <Item value="EmployeePrice" priority="1" />
+      <Item value="Points" priority="2" />
+      <Item value="Id" priority="0" />
+      <Item value="Price" priority="1" />
+      <Item value="IdClientType" priority="1" />
+      <Item value="IdCompany" priority="3" />
+      <Item value="IdShop" priority="3" />
+      <Item value="IdPriceType" priority="3" />
+      <Item value="InitialDate" priority="0" />
+      <Item value="FinalDate" priority="0" />
+      <Item value="IdProduct" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="Count`1" priority="5" />
+      <Item value="Select`2" priority="2" />
+      <Item value="Contains`1" priority="2" />
+      <Item value="Where`1" priority="0" />
+      <Item value="Single`1" priority="0" />
+      <Item value="ToList`1" priority="3" />
+      <Item value="Sum`1" priority="0" />
+      <Item value="Last`1" priority="0" />
+      <Item value="OrderBy`2" priority="2" />
+      <Item value="Concat`1" priority="1" />
+      <Item value="OrderByDescending`2" priority="0" />
+      <Item value="GroupBy`4" priority="0" />
+      <Item value="ToString`0" priority="0" />
+      <Item value="First`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.DimType">
+      <Item value="DIM" priority="3" />
+      <Item value="Employment" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="TryParse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.Roles">
+      <Item value="Supervisor" priority="1" />
+      <Item value="Cashier" priority="0" />
+      <Item value="PosAdmin" priority="1" />
+      <Item value="SystemAdmin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Enum.Roles">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyPressEventArgs">
+      <Item value="KeyChar" priority="12" />
+      <Item value="Handled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Operation.Pay">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="dc" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Operation_Pay">
+      <Item value="UDCItem" priority="0" />
+      <Item value="Amount" priority="2" />
+      <Item value="IdType" priority="3" />
+      <Item value="IdCurrency" priority="0" />
+      <Item value="IdOperationCurrency" priority="0" />
+      <Item value="OperationAmount" priority="2" />
+      <Item value="TypeSign" priority="0" />
+      <Item value="Type" priority="1" />
+      <Item value="ReceivedAmountOperation" priority="1" />
+      <Item value="ChangeRate" priority="0" />
+      <Item value="ChangeAmount" priority="0" />
+      <Item value="Operation" priority="3" />
+      <Item value="IdOperation" priority="2" />
+      <Item value="DimCreditCollect" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.PayType">
+      <Item value="Cash" priority="0" />
+      <Item value="Credit" priority="0" />
+      <Item value="Card" priority="0" />
+      <Item value="Currency" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="TryParse`0" priority="1" />
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Printing.PrintDocument">
+      <Item value="DocumentName" priority="0" />
+      <Item value="Print`0" priority="0" />
+      <Item value="DefaultPageSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Printing.PageSettings">
+      <Item value="Margins" priority="3" />
+      <Item value="PaperSize" priority="1" />
+      <Item value="PrinterSettings" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Printing.PrintPageEventArgs">
+      <Item value="MarginBounds" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Width" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Font">
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Test">
+      <Item value="Show`0" priority="3" />
+      <Item value="operationId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Reporting.WinForms.ReportViewer">
+      <Item value="LocalReport" priority="10" />
+      <Item value="SetPageSettings`0" priority="0" />
+      <Item value="PrintDialog`0" priority="1" />
+      <Item value="ProcessingMode" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Reporting.WinForms.LocalReport">
+      <Item value="DataSources" priority="3" />
+      <Item value="ReportPath" priority="0" />
+      <Item value="ReportEmbeddedResource" priority="1" />
+      <Item value="SetParameters`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Reporting.WinForms.ReportDataSource">
+      <Item value="Value" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Reporting.WinForms.ReportDataSourceCollection">
+      <Item value="Indexer" priority="0" />
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Company">
+      <Item value="LegalCertificate" priority="0" />
+      <Item value="FullAddress" priority="0" />
+      <Item value="ctx" priority="0" />
+      <Item value="City" priority="0" />
+      <Item value="Phone1" priority="0" />
+      <Item value="Fax" priority="0" />
+      <Item value="Email" priority="0" />
+      <Item value="MaxAmountPayroll" priority="0" />
+      <Item value="DimDefaultDiscount" priority="0" />
+      <Item value="MaxDiffAmountInChangeRate" priority="0" />
+      <Item value="MaxCashInCashier" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Microsoft.Reporting.WinForms.SubreportProcessingEventArgs">
+      <Item value="Parameters" priority="0" />
+      <Item value="ReportPath" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Microsoft.Reporting.WinForms.ProcessingMode">
+      <Item value="Local" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POS.Settings">
+      <Item value="Default" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Settings">
+      <Item value="CurrentShop" priority="1" />
+      <Item value="CurrentCashier" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RadioButton">
+      <Item value="Checked" priority="4" />
+      <Item value="Name" priority="1" />
+      <Item value="Enabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.MovementType">
+      <Item value="CashierClose" priority="4" />
+      <Item value="SaleCurrency" priority="3" />
+      <Item value="AdjustByRound" priority="0" />
+      <Item value="CashierOpen" priority="1" />
+      <Item value="Extract" priority="1" />
+      <Item value="SaleCard" priority="1" />
+      <Item value="Payroll" priority="1" />
+      <Item value="SaleCredit" priority="0" />
+      <Item value="SaleChange" priority="1" />
+      <Item value="Deposit" priority="0" />
+      <Item value="SaleCash" priority="1" />
+      <Item value="CreditCollectCard" priority="0" />
+      <Item value="CreditCollectCurrency" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Cashier">
+      <Item value="Id" priority="2" />
+      <Item value="Shop" priority="12" />
+      <Item value="Name" priority="4" />
+      <Item value="MoneyMovements" priority="0" />
+      <Item value="TicketCountToPrint" priority="0" />
+      <Item value="Disabled" priority="0" />
+      <Item value="TicketPageSize" priority="0" />
+      <Item value="TicketPageMargin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.MoneyMovement">
+      <Item value="IdType" priority="7" />
+      <Item value="AddedDate" priority="7" />
+      <Item value="IsCanceling" priority="0" />
+      <Item value="IdOperationCurrency" priority="1" />
+      <Item value="OperationAmount" priority="0" />
+      <Item value="CurrencyName" priority="2" />
+      <Item value="TypeName" priority="4" />
+      <Item value="Id" priority="5" />
+      <Item value="ChangeRate" priority="0" />
+      <Item value="Consecutive" priority="1" />
+      <Item value="IdCashier" priority="1" />
+      <Item value="ModifiedBy" priority="0" />
+      <Item value="Amount" priority="0" />
+      <Item value="Cashier" priority="0" />
+      <Item value="IsManual" priority="0" />
+      <Item value="IsCashOperationType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="Last`1" priority="0" />
+      <Item value="LastOrDefault`1" priority="0" />
+      <Item value="ThenByDescending`2" priority="1" />
+      <Item value="Take`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Helpers.ToolHelper">
+      <Item value="ConvetNumberToLetters`0" priority="0" />
+      <Item value="DisableCopyAndPaste`0" priority="0" />
+      <Item value="GetPrinterMarging`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IGrouping`2">
+      <Item value="Key" priority="11" />
+      <Item value="Sum`1" priority="1" />
+      <Item value="First`1" priority="7" />
+      <Item value="Count`1" priority="2" />
+      <Item value="Last`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.CashierClose">
+      <Item value="InitialCloseMovement" priority="0" />
+      <Item value="CashierCloseDetails" priority="3" />
+      <Item value="Id" priority="7" />
+      <Item value="IsOK" priority="1" />
+      <Item value="Cashier" priority="6" />
+      <Item value="IdCashier" priority="2" />
+      <Item value="ModifiedBy" priority="1" />
+      <Item value="FinalCloseMovement" priority="0" />
+      <Item value="SaleSubTotalAmount" priority="0" />
+      <Item value="AddedDate" priority="4" />
+      <Item value="SaleCount" priority="1" />
+      <Item value="IsClosed" priority="2" />
+      <Item value="FinalDate" priority="6" />
+      <Item value="Consecutive" priority="3" />
+      <Item value="TotalAmount" priority="0" />
+      <Item value="InitialDate" priority="0" />
+      <Item value="CashierCloseMoneys" priority="0" />
+      <Item value="IsCashierVerification" priority="2" />
+      <Item value="SupervisedBy" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.CashierCloseDetail">
+      <Item value="OperationAmount" priority="0" />
+      <Item value="CashierOperationAmount" priority="0" />
+      <Item value="CashierClose" priority="0" />
+      <Item value="IdMovementType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Helper.ReportPrintDocumentHelper">
+      <Item value="Print`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Cursor">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ErrorProvider">
+      <Item value="SetError`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.MaritalStatus">
+      <Item value="Married" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.GroupBox">
+      <Item value="Enabled" priority="0" />
+      <Item value="Top" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Keys">
+      <Item value="Enter" priority="8" />
+      <Item value="F12" priority="1" />
+      <Item value="F11" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control">
+      <Item value="Text" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedQueryable`1">
+      <Item value="Last`1" priority="2" />
+      <Item value="LastOrDefault`1" priority="0" />
+      <Item value="Take`1" priority="3" />
+      <Item value="ThenBy`2" priority="2" />
+      <Item value="Where`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Panel">
+      <Item value="Top" priority="1" />
+      <Item value="Left" priority="0" />
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+      <Item value="Visible" priority="1" />
+      <Item value="Anchor" priority="0" />
+      <Item value="TabIndex" priority="0" />
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewRowsAddedEventArgs">
+      <Item value="RowIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewCellStyle">
+      <Item value="BackColor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Red" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Operation.OperationList">
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyEventArgs">
+      <Item value="KeyCode" priority="0" />
+      <Item value="Handled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Configuration.ConfigurationSettings">
+      <Item value="AppSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.AuthorizationRequired">
+      <Item value="requiredRol" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="AuthorizedUser" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Thread">
+      <Item value="CurrentCulture" priority="1" />
+      <Item value="CurrentUICulture" priority="0" />
+      <Item value="Abort`0" priority="0" />
+      <Item value="Start`0" priority="0" />
+      <Item value="ThreadState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Globalization.CultureInfo">
+      <Item value="CurrentCulture" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.ReportViewer">
+      <Item value="LocalReport" priority="1" />
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Movement.CashierClose">
+      <Item value="isCashierClose" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Printing.PrinterSettings">
+      <Item value="DefaultPageSettings" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Printing.PrinterSettings">
+      <Item value="InstalledPrinters" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripButton">
+      <Item value="Text" priority="1" />
+      <Item value="PerformClick`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.MoneyMovement.MovementAdd">
+      <Item value="movementTypeToDo" priority="0" />
+      <Item value="Show`0" priority="0" />
+      <Item value="TopLevel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Activate`0" priority="0" />
+      <Item value="Focus`0" priority="0" />
+      <Item value="GetType`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DataGridViewAutoSizeColumnsMode">
+      <Item value="AllCells" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Linq.SqlClient.SqlMethods">
+      <Item value="DateDiffMonth`0" priority="0" />
+      <Item value="DateDiffYear`0" priority="0" />
+      <Item value="DateDiffDay`0" priority="0" />
+      <Item value="DateDiffMinute`0" priority="0" />
+      <Item value="DateDiffSecond`0" priority="0" />
+      <Item value="DateDiffMillisecond`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.CashierCloseMoney">
+      <Item value="IdType" priority="0" />
+      <Item value="IdOperationCurrency" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Enum">
+      <Item value="Parse`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.ProductType">
+      <Item value="Simple" priority="6" />
+      <Item value="Composite" priority="3" />
+      <Item value="CompositeChild" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.ProductComposition">
+      <Item value="Count" priority="1" />
+      <Item value="IdProductSimple" priority="4" />
+      <Item value="IdProductComposite" priority="0" />
+      <Item value="Price" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Helpers.MailHelper">
+      <Item value="SendPlainTextMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POS.Helper.MailTemplateHelper">
+      <Item value="SendMessage`0" priority="0" />
+      <Item value="SendErrorMessage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.ListPriceType">
+      <Item value="Normal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FormCollection">
+      <Item value="AsQueryable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Kardex">
+      <Item value="IdProduct" priority="1" />
+      <Item value="InventoryCount" priority="1" />
+      <Item value="OperationCount" priority="2" />
+      <Item value="IdLocation" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.LinqDataSourceContextEventArgs">
+      <Item value="ObjectInstance" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Common.DbConnection">
+      <Item value="ConnectionString" priority="0" />
+      <Item value="DataSource" priority="0" />
+      <Item value="Database" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POSSynchronizer.Helper.DialogHelper">
+      <Item value="ShowError`0" priority="0" />
+      <Item value="ShowInformation`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POSSynchronizer.Helper.ApplicationHelper">
+      <Item value="GetPosDataContext`0" priority="1" />
+      <Item value="GetConnectionString`0" priority="1" />
+      <Item value="GetPosConnectionString`0" priority="1" />
+      <Item value="GetWebConnectionString`0" priority="2" />
+      <Item value="GetPosEmptyConnectionString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Synchronization">
+      <Item value="LastSynchronizeDateOut" priority="0" />
+      <Item value="HoursPlanIn" priority="0" />
+      <Item value="HoursPlanOut" priority="0" />
+      <Item value="LastNotesOut" priority="0" />
+      <Item value="LastInitialDateIn" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Runtime.Serialization.DataContractSerializer">
+      <Item value="WriteObject`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POSSynchronizer.PosExportDataSet">
+      <Item value="WriteXml`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POSSynchronizer.PosExportDataSet">
+      <Item value="InventoryDataTable`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POSSynchronizer.PosExportDataSetTableAdapters.InventoryTableAdapter">
+      <Item value="Connection" priority="0" />
+      <Item value="Fill`0" priority="0" />
+      <Item value="GetData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlConnection">
+      <Item value="ConnectionString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POSSynchronizer.Properties.Settings">
+      <Item value="Default" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POSSynchronizer.Properties.Settings">
+      <Item value="MegaAdminConnectionString1" priority="0" />
+      <Item value="CurrentShop" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POSSynchronizer.Helper.PosOutDataHelper">
+      <Item value="SPP_POS_OUT_FILL_TABLES" priority="0" />
+      <Item value="SPP_POS_OUT_DROP_TABLES" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.POSSynchronizer.Helper.OutInDataHelper">
+      <Item value="SPP_POS_OUT_CREATE_TABLES" priority="0" />
+      <Item value="PosExportDropTablesInDb`0" priority="0" />
+      <Item value="GetShops`0" priority="0" />
+      <Item value="XML_OUT_FILENAME" priority="1" />
+      <Item value="XML_IN_FILENAME" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.SqlClient.SqlDataAdapter">
+      <Item value="Fill`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.ILog">
+      <Item value="Logger" priority="4" />
+      <Item value="Error`0" priority="10" />
+      <Item value="Info`0" priority="11" />
+      <Item value="Debug`0" priority="1" />
+      <Item value="InfoFormat`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:log4net.Core.ILogger">
+      <Item value="Log`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Synchronizer.Service.Monitor.Properties.Settings">
+      <Item value="Default" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Service.Monitor.Properties.Settings">
+      <Item value="IntervalToRefreshLog" priority="0" />
+      <Item value="Log4netDatePattern" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Common.Data.PosOutDataSet">
+      <Item value="Xml_ExecutedScript" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Common.Data.PosOutDataSet+Xml_ExecutedScriptDataTable">
+      <Item value="AddXml_ExecutedScriptRow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Common.Data.PosOutDataSet+Xml_ExecutedScriptRow">
+      <Item value="IdShop" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Common.Helpers.OutInDataHelper">
+      <Item value="UpdateShopToExecuteScript`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.DimCreditCollect">
+      <Item value="IdStatus" priority="1" />
+      <Item value="ModifiedBy" priority="0" />
+      <Item value="Id" priority="2" />
+      <Item value="OperationAmount" priority="0" />
+      <Item value="IdOperationCurrency" priority="0" />
+      <Item value="SupervisedBy" priority="1" />
+      <Item value="IdCashier" priority="1" />
+      <Item value="ModifiedDate" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Operation.GenralPay">
+      <Item value="amountToPay" priority="0" />
+      <Item value="dimToPay" priority="0" />
+      <Item value="operationCurrencyId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.POS.Operation.GeneralPay">
+      <Item value="cardType" priority="0" />
+      <Item value="currencyType" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.SynchronizationLog">
+      <Item value="SynDate" priority="1" />
+      <Item value="InitialDate" priority="2" />
+      <Item value="FinalDate" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Service.Properties.Settings">
+      <Item value="ImportURLFormat" priority="0" />
+      <Item value="ExportURLFormat" priority="1" />
+      <Item value="AutomaticImportEnabled" priority="0" />
+      <Item value="PartialImportEnabled" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Enum.SequenceId">
+      <Item value="DimIdJDE" priority="0" />
+      <Item value="SaleConsecutive" priority="0" />
+      <Item value="ConsignationConsecutive" priority="0" />
+      <Item value="ConsignationReturnConsecutive" priority="0" />
+      <Item value="ReceipOfficialConsecutive" priority="0" />
+      <Item value="InventoryMovementCanceledConsecutive" priority="0" />
+      <Item value="CashierCloseConsecutive" priority="0" />
+      <Item value="ResetPointMonthControlValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.Sequence">
+      <Item value="IdSequence" priority="1" />
+      <Item value="SequenceValue" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursors">
+      <Item value="WaitCursor" priority="12" />
+      <Item value="Default" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripStatusLabel">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Service.Monitor.Main">
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Common.InventoryMovementReport">
+      <Item value="IdLocation" priority="0" />
+      <Item value="IdProduct" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Synchronizer.Service.Monitor.Helpers.SynchronizerServiceHelper">
+      <Item value="SERVICE_LOG_FOLDER" priority="0" />
+      <Item value="MONITOR_LOG_FOLDER" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Synchronizer.Service.Properties.Settings">
+      <Item value="Default" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Mega.Synchronizer.Common.Data.PosOutDataSet+Xml_SynchronizationRow">
+      <Item value="LastNotesOut" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.WebControls.Literal">
+      <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Mega.Common.Helpers.DialogHelper">
+      <Item value="ShowError`0" priority="3" />
+      <Item value="ShowWarningInfo`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Warning" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Threading.Timer">
+      <Item value="Change`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.ThreadState">
+      <Item value="Suspended" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ServiceProcess.ServiceControllerStatus">
+      <Item value="Stopped" priority="0" />
+      <Item value="StopPending" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Data.Linq.RefreshMode">
+      <Item value="OverwriteCurrentValues" priority="3" />
+      <Item value="KeepChanges" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridViewTextBoxColumn">
+      <Item value="ReadOnly" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Transactions.TransactionScope">
+      <Item value="Complete`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Void">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Movement/f:MovementAdd.cs" caret="85" fromTop="3" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="140" fromTop="5" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:EntryExitOperationEdit.cs" caret="300" fromTop="11" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/f:ReportSelector.cs" caret="112" fromTop="4" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:ReceiptEdit.cs" caret="189" fromTop="7" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:Pay.cs" caret="142" fromTop="5" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:OperationList.cs" caret="137" fromTop="5" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:GeneralPay.cs" caret="107" fromTop="4" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:Program.cs" caret="425" fromTop="16" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/f:Main.cs" caret="542" fromTop="21" />
+      <File id="B514A418-5765-4B96-90DD-E7F078F55654/f:Global.asax.cs" caret="202" fromTop="9" />
+      <File id="B514A418-5765-4B96-90DD-E7F078F55654/d:Synchronization/f:POSConfiguration.aspx" caret="0" fromTop="0" />
+      <File id="B514A418-5765-4B96-90DD-E7F078F55654/d:Synchronization/f:POSConfiguration.aspx.cs" caret="0" fromTop="0" />
+      <File id="B514A418-5765-4B96-90DD-E7F078F55654/d:Synchronization/f:POSConfigurationEdit.aspx" caret="0" fromTop="0" />
+      <File id="B514A418-5765-4B96-90DD-E7F078F55654/d:Synchronization/f:POSConfigurationEdit.aspx.cs" caret="2563" fromTop="17" />
+      <File id="81AB70DE-A38F-4885-9BE1-036F32A2D178/d:Helpers/f:ApplicationHelper.cs" caret="831" fromTop="26" />
+      <File id="81AB70DE-A38F-4885-9BE1-036F32A2D178/f:Program.cs" caret="8044" fromTop="229" />
+      <File id="81AB70DE-A38F-4885-9BE1-036F32A2D178/d:Properties/f:Settings.Designer.cs" caret="1333" fromTop="16" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:ProjectInstaller.Designer.cs" caret="68" fromTop="2" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:ProjectInstaller.cs" caret="316" fromTop="11" />
+      <File id="5EEEB4B8-DC6D-43B0-A91E-E3A7BEE9B8FB/d:Enum/f:OperationType.cs" caret="0" fromTop="0" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:app.config" caret="807" fromTop="10" />
+      <File id="81AB70DE-A38F-4885-9BE1-036F32A2D178/f:app.config" caret="0" fromTop="0" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/f:app.config" caret="778" fromTop="7" />
+      <File id="EB746159-2866-4870-8E0A-A07CABBC50E9/d:Helpers/f:SynchronizationOperationEnun.cs" caret="143" fromTop="5" />
+      <File id="81AB70DE-A38F-4885-9BE1-036F32A2D178/d:Helpers/f:SynchronizerServiceHelper.cs" caret="1826" fromTop="19" />
+      <File id="81AB70DE-A38F-4885-9BE1-036F32A2D178/f:Main.cs" caret="11160" fromTop="27" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="200" fromTop="8" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/d:Helpers/f:ServerOperations.cs" caret="531" fromTop="0" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:SynchronizerService.cs" caret="5769" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="20315" fromTop="28" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="20315" fromTop="27" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="18606" fromTop="21" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="18606" fromTop="25" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="19813" fromTop="26" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="20315" fromTop="31" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="91626" fromTop="21" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="91626" fromTop="11" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="91626" fromTop="15" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="91626" fromTop="21" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="91626" fromTop="12" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="91626" fromTop="21" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="74983" fromTop="16" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="74847" fromTop="11" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:SaleEdit.cs" caret="75210" fromTop="22" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="15547" fromTop="8" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="18225" fromTop="28" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="24124" fromTop="6" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="19796" fromTop="14" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="19796" fromTop="17" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/d:Operation/f:CreditCollect.cs" caret="19460" fromTop="20" />
+      <File id="EB746159-2866-4870-8E0A-A07CABBC50E9/d:Helpers/f:OutInDataHelper.cs" caret="6435" fromTop="0" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/d:Helpers/f:ApplicationHelper.cs" caret="918" fromTop="28" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:SynchronizerService.cs" caret="18737" fromTop="19" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:SynchronizerService.cs" caret="162" fromTop="6" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:app.config" caret="19" fromTop="0" />
+      <File id="A0ECACF5-3637-43AC-B874-8CB660378C56/f:app.config" caret="447" fromTop="3" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:ProjectInstaller.Designer.cs" caret="2474" fromTop="2" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:ProjectInstaller.cs" caret="316" fromTop="11" />
+      <File id="100147CD-6A47-452B-8B65-2DA8447F1813/f:SynchronizerService.cs" caret="5769" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+</Configuration>

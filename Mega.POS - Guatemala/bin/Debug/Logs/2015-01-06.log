@@ -1,0 +1,37 @@
+2015-01-06 10:38:54,699 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 10:50:01,210 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 11:28:37,892 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 11:49:00,671 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 11:56:16,887 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 11:57:27,770 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 11:57:38,363 ERROR Mega.POS.Operation.SaleEdit – Error agregando producto a la venta
+System.Data.SqlClient.SqlException (0x80131904): Arithmetic overflow error converting expression to data type nvarchar.
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   en Mega.Common.AdminDataContext.Insert_DeniedProducts(Nullable`1 idProduct, Nullable`1 addedDate, String idShop, Nullable`1 idDim, Nullable`1 idOperationDetail, Nullable`1 count, String idProductParent) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Admin.designer.cs:línea 508
+   en Mega.POS.Operation.SaleEdit.CreateChildProducts(Guid parentRow) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1248
+   en Mega.POS.Operation.SaleEdit.AddProductButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1022
+ClientConnectionId:e0a97378-3910-4399-b926-17bf1b8f646c
+2015-01-06 12:02:46,795 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 12:05:10,563 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 12:39:10,303 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 12:41:09,471 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 12:46:46,697 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 12:50:23,397 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 12:52:38,281 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 13:05:56,786 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 13:07:32,180 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 13:17:24,057 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-06 13:25:24,958 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400

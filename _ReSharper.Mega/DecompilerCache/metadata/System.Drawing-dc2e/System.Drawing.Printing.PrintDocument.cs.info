@@ -1,0 +1,7 @@
+R# version: 5.1.3000.12
+assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll mtime 3/19/2010 1:31:26 AM
+referenced assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll mtime 3/18/2010 7:16:28 PM
+referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 3/19/2010 1:31:26 AM

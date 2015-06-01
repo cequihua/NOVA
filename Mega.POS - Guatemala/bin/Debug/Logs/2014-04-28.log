@@ -1,0 +1,90 @@
+2014-04-28 10:24:03,853 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 10:24:16,271 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 507, Tipo. Apertura de Caja
+2014-04-28 10:24:26,145 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 10:28:31,066 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 10:28:40,426 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 508, Tipo. Apertura de Caja
+2014-04-28 10:28:48,101 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 10:41:34,811 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 10:41:42,455 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 509, Tipo. Apertura de Caja
+2014-04-28 10:41:50,957 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 10:45:03,571 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 10:45:11,698 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 510, Tipo. Apertura de Caja
+2014-04-28 10:45:20,278 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 10:47:02,646 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 10:47:10,571 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 511, Tipo. Apertura de Caja
+2014-04-28 10:47:19,681 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 10:52:54,458 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 10:53:02,663 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 512, Tipo. Apertura de Caja
+2014-04-28 10:53:15,440 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 11:22:32,143 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 11:22:40,505 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 513, Tipo. Apertura de Caja
+2014-04-28 11:22:48,710 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 11:24:00,798 INFO  Mega.POS.Movement.CashierClose – La factura general se realizo con exito
+2014-04-28 12:23:28,883 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 12:23:38,805 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 514, Tipo. Apertura de Caja
+2014-04-28 12:25:36,460 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5895
+2014-04-28 12:25:36,585 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-28 12:27:18,391 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5896
+2014-04-28 12:27:18,453 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-28 12:28:03,881 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5897
+2014-04-28 12:28:03,974 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-28 12:29:28,136 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5898
+2014-04-28 12:29:28,230 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-28 12:41:22,118 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5899
+2014-04-28 12:41:22,196 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-28 12:51:00,474 ERROR Mega.POS.Operation.SaleEdit – Ha ocurrido un error Enviado el mensaje de Exceso de Efectivo
+System.FormatException: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+   en System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   en System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendPlainTextMessage(String mailSubject, String plainTextBody, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 87
+   en Mega.POS.Helper.MailTemplateHelper.SendPlainTextMessage(String subject, String plainTextBody, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 144
+   en Mega.POS.Operation.SaleEdit.VerifyCashLimit() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1940
+2014-04-28 13:44:53,065 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 13:45:07,682 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 458
+2014-04-28 13:45:23,297 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA System.Data.Linq.ChangeConflictException: Fila no encontrada o modificada.
+   en System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges()
+   en Mega.POS.Operation.InvoicesOperations.SendToXSA(Boolean& errorFiscalData, Boolean& failConection, String& errorFiscalDataDescription, Boolean& statusDoc, String idCasherClose, Int32 typeInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 308
+2014-04-28 13:45:29,678 ERROR Mega.POS.Movement.CashierClose – Fila no encontrada o modificada.
+2014-04-28 13:45:31,175 INFO  Mega.POS.Movement.CashierClose – La factura general se realizo con exito
+2014-04-28 19:47:17,306 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-28 19:47:27,196 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 515, Tipo. Apertura de Caja
+2014-04-28 19:47:36,712 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-28 19:47:56,384 INFO  Mega.POS.Movement.CashierClose – La factura general se realizo con exito

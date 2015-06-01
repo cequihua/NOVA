@@ -1,0 +1,32 @@
+2012-02-22 12:36:10,909 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en D:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-02-22 12:36:12,447 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en D:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-02-22 12:36:13,127 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en D:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-02-22 17:19:50,158 ERROR Mega.Admin.Shop.ShopEdit – Error salvando la Configuración de Sincronización.
+System.Threading.ThreadAbortException: Subproceso anulado.
+   en System.Threading.Thread.AbortInternal()
+   en System.Threading.Thread.Abort(Object stateInfo)
+   en System.Web.HttpResponse.End()
+   en System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   en System.Web.HttpResponse.Redirect(String url)
+   en Mega.Admin.Synchronization.POSConfigurationEdit.SaveButton_Click(Object sender, EventArgs e) en D:\Mega\source\Mega.Admin\Synchronization\POSConfigurationEdit.aspx.cs:línea 57

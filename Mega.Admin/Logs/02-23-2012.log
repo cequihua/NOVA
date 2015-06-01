@@ -1,0 +1,8 @@
+2012-02-23 18:04:14,938 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en D:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46

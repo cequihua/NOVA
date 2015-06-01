@@ -1,0 +1,35 @@
+2015-03-30 12:10:10,291 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 12:12:15,403 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 262
+2015-03-30 12:13:53,605 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 263
+2015-03-30 12:59:08,814 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 13:21:09,764 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 13:21:49,248 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 264
+2015-03-30 13:50:27,909 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 13:51:10,684 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 265
+2015-03-30 14:58:56,965 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 15:02:27,676 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 15:03:18,641 INFO  Mega.POS.Operation.SaleEdit – Comenzando la Confirmación de la Consignación o Retorno. Consecutivo 4 Tipo Consignación
+2015-03-30 15:03:46,066 INFO  Mega.POS.Operation.SaleEdit – Comenzando la Confirmación de la Consignación o Retorno. Consecutivo 4 Tipo Consignación
+2015-03-30 15:05:23,270 ERROR Mega.POS.Operation.SaleEdit – Error Confirmando la Operación. Consecutivo 4 OfficialConsecutive  Tipo Consignación
+System.Transactions.TransactionAbortedException: Se anuló la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionStateAborted.BeginCommit(InternalTransaction tx, Boolean asyncCommit, AsyncCallback asyncCallback, Object asyncState)
+   en System.Transactions.CommittableTransaction.Commit()
+   en System.Transactions.TransactionScope.InternalDispose()
+   en System.Transactions.TransactionScope.Dispose()
+   en Mega.POS.Operation.SaleEdit.ConfirmOperationButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 411
+2015-03-30 15:08:46,881 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 269
+2015-03-30 15:10:42,867 INFO  Mega.POS.Operation.SaleEdit – Comenzando la Confirmación de la Consignación o Retorno. Consecutivo 5 Tipo Consignación
+2015-03-30 15:11:46,048 INFO  Mega.POS.Operation.SaleEdit – Comenzando la Confirmación de la Consignación o Retorno. Consecutivo 6 Tipo Consignación
+2015-03-30 15:15:00,923 INFO  Mega.POS.Operation.SaleEdit – Comenzando la Confirmación de la Consignación o Retorno. Consecutivo 7 Tipo Consignación
+2015-03-30 15:15:22,670 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 15:15:49,798 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 270
+2015-03-30 15:16:56,644 INFO  Mega.POS.Operation.SaleEdit – Comenzando la Confirmación de la Consignación o Retorno. Consecutivo 8 Tipo Consignación
+2015-03-30 15:22:00,290 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 15:42:19,981 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 15:45:36,841 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 15:50:54,443 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 15:55:47,771 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 16:03:54,568 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 16:40:55,191 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-30 16:41:30,151 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 272

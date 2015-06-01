@@ -1,0 +1,10 @@
+2011-07-28 12:51:25,678 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2011-07-28 12:59:13,425 [9] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Comenzando el proceso de Importación del POS para la tienda 7201
+2011-07-28 12:59:13,446 [9] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/IN/7201-WebExport.zip.
+2011-07-28 12:59:34,794 [9] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Error! El proceso de Importación del POS ha Fallado para la tienda 7201. System.Exception: Error! Descargando el archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/IN/7201-WebExport.zip. ---> System.Net.WebException: Unable to connect to the remote server
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.POSOperations.Import() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\POSOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.POSOperations.Import() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\POSOperations.cs:line 50
+2011-07-28 13:00:58,317 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.

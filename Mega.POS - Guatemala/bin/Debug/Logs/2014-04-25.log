@@ -1,0 +1,128 @@
+2014-04-25 00:02:11,357 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 00:03:51,431 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 00:05:31,490 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 01:02:11,359 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 01:03:51,418 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 01:05:31,492 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 02:02:11,345 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 02:03:51,420 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 02:05:31,478 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 03:02:11,373 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 03:03:51,432 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 03:05:31,475 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 04:02:11,379 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 04:03:51,422 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 04:05:31,496 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 05:02:11,398 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 05:03:51,457 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 05:05:31,499 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 06:02:11,383 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 06:03:51,457 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 06:05:31,515 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 07:02:11,399 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 07:03:51,458 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 07:05:31,517 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 08:02:11,354 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 08:03:51,428 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 08:05:31,487 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 09:02:11,386 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 09:03:51,445 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 09:05:31,519 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 10:02:11,420 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 10:03:51,479 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 10:05:31,522 ERROR Mega.POS.Operation.InvoicesOperations – Error al intentar generar la factura en XSA Se excedió el tiempo de espera de la operación
+2014-04-25 12:17:12,935 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-25 12:17:24,948 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-25 12:20:17,843 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-25 12:20:28,248 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 503, Tipo. Apertura de Caja
+2014-04-25 13:47:26,111 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-25 15:07:15,116 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5890
+2014-04-25 15:07:15,272 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-25 15:08:03,944 ERROR Mega.POS.Operation.SaleEdit – Ha ocurrido un error Enviado el mensaje de Exceso de Efectivo
+System.FormatException: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+   en System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   en System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendPlainTextMessage(String mailSubject, String plainTextBody, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 87
+   en Mega.POS.Helper.MailTemplateHelper.SendPlainTextMessage(String subject, String plainTextBody, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 144
+   en Mega.POS.Operation.SaleEdit.VerifyCashLimit() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1940
+2014-04-25 15:08:31,774 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5891
+2014-04-25 15:08:31,852 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-25 15:09:08,278 ERROR Mega.POS.Operation.SaleEdit – Ha ocurrido un error Enviado el mensaje de Exceso de Efectivo
+System.FormatException: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+   en System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   en System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendPlainTextMessage(String mailSubject, String plainTextBody, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 87
+   en Mega.POS.Helper.MailTemplateHelper.SendPlainTextMessage(String subject, String plainTextBody, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 144
+   en Mega.POS.Operation.SaleEdit.VerifyCashLimit() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1940
+2014-04-25 15:10:11,489 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5892
+2014-04-25 15:10:11,552 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-25 15:10:30,990 ERROR Mega.POS.Operation.SaleEdit – Ha ocurrido un error Enviado el mensaje de Exceso de Efectivo
+System.FormatException: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+   en System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   en System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendPlainTextMessage(String mailSubject, String plainTextBody, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 87
+   en Mega.POS.Helper.MailTemplateHelper.SendPlainTextMessage(String subject, String plainTextBody, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 144
+   en Mega.POS.Operation.SaleEdit.VerifyCashLimit() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1940
+2014-04-25 15:11:00,099 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5893
+2014-04-25 15:11:00,193 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-25 15:11:22,111 ERROR Mega.POS.Operation.SaleEdit – Ha ocurrido un error Enviado el mensaje de Exceso de Efectivo
+System.FormatException: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+   en System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   en System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendPlainTextMessage(String mailSubject, String plainTextBody, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 87
+   en Mega.POS.Helper.MailTemplateHelper.SendPlainTextMessage(String subject, String plainTextBody, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 144
+   en Mega.POS.Operation.SaleEdit.VerifyCashLimit() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1940
+2014-04-25 15:11:46,306 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 5894
+2014-04-25 15:11:46,384 ERROR Mega.POS.Operation.Pay – Error en Pay.CurrencyComboBox_SelectedIndexChanged
+System.DivideByZeroException: Intento de dividir por cero.
+   en System.Decimal.FCallDivide(Decimal& d1, Decimal& d2)
+   en System.Decimal.op_Division(Decimal d1, Decimal d2)
+   en Mega.POS.Operation.Pay.UpdateCurrencyPayValues() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 515
+   en Mega.POS.Operation.Pay.CurrencyComboBox_SelectedIndexChanged(Object sender, EventArgs e) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\Pay.cs:línea 485
+2014-04-25 15:12:07,647 ERROR Mega.POS.Operation.SaleEdit – Ha ocurrido un error Enviado el mensaje de Exceso de Efectivo
+System.FormatException: La cadena especificada no tiene la forma obligatoria para una dirección de correo electrónico.
+   en System.Net.Mail.MailAddressParser.ReadCfwsAndThrowIfIncomplete(String data, Int32 index)
+   en System.Net.Mail.MailAddressParser.ParseDomain(String data, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseAddress(String data, Boolean expectMultipleAddresses, Int32& index)
+   en System.Net.Mail.MailAddressParser.ParseMultipleAddresses(String data)
+   en System.Net.Mail.MailAddressCollection.ParseValue(String addresses)
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendPlainTextMessage(String mailSubject, String plainTextBody, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 87
+   en Mega.POS.Helper.MailTemplateHelper.SendPlainTextMessage(String subject, String plainTextBody, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 144
+   en Mega.POS.Operation.SaleEdit.VerifyCashLimit() en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1940

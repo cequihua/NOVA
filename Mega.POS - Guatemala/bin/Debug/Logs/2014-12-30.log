@@ -1,0 +1,11 @@
+2014-12-30 08:50:44,073 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2014-12-30 08:55:20,209 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2014-12-30 08:55:45,684 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 81
+2014-12-30 08:59:03,461 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 81 OfficialConsecutive 68 Tipo Venta
+System.Exception: La Confirmacion no se puede realizar porque generaria Inventarios negativos sobre el Producto: 03-HAMA, Almacen mostrador, Cantidad a Vender: 1, Cantidad final en Inventario: -1
+   en Mega.POS.Operation.SaleEdit.GenerateKardexAndInventoryEntries(Boolean isCanceling) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 840
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 467
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1768
+2014-12-30 21:41:13,993 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2014-12-30 21:50:39,275 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2014-12-30 21:54:57,253 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400

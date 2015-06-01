@@ -1,0 +1,12 @@
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Mega.Web.Synchronizer.Service.exe.config
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Mega.Web.Synchronizer.Service.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Mega.Web.Synchronizer.Service.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\obj\x86\Debug\Mega.Web.Synchronizer.Service.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\obj\x86\Debug\Mega.Web.Synchronizer.Service.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Web.Synchronizer.Service\bin\Debug\log4net.dll

@@ -1,0 +1,186 @@
+2011-07-08 01:57:56,870 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7214 desde ftp://127.0.0.1/MegaFtp/OUT/7214-PosExport.zip.
+2011-07-08 01:57:56,949 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7214. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7214 desde ftp://127.0.0.1/MegaFtp/OUT/7214-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 01:57:56,977 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7229
+2011-07-08 01:57:56,981 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7229 desde ftp://127.0.0.1/MegaFtp/OUT/7229-PosExport.zip.
+2011-07-08 01:57:57,038 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7229. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7229 desde ftp://127.0.0.1/MegaFtp/OUT/7229-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 01:57:57,059 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7241
+2011-07-08 01:57:57,063 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7241 desde ftp://127.0.0.1/MegaFtp/OUT/7241-PosExport.zip.
+2011-07-08 01:57:57,149 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7241.
+2011-07-08 01:57:57,300 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7241.
+2011-07-08 01:57:57,617 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7241.
+2011-07-08 01:58:08,076 [9] INFO  Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha Terminado con éxito para la tienda 7241.
+2011-07-08 01:58:08,126 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7242
+2011-07-08 01:58:08,131 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7242 desde ftp://127.0.0.1/MegaFtp/OUT/7242-PosExport.zip.
+2011-07-08 01:58:08,187 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7242. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7242 desde ftp://127.0.0.1/MegaFtp/OUT/7242-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 01:58:08,229 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7276
+2011-07-08 01:58:08,234 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7276 desde ftp://127.0.0.1/MegaFtp/OUT/7276-PosExport.zip.
+2011-07-08 01:58:08,304 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7276. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7276 desde ftp://127.0.0.1/MegaFtp/OUT/7276-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 01:58:08,326 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7320
+2011-07-08 01:58:08,330 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7320 desde ftp://127.0.0.1/MegaFtp/OUT/7320-PosExport.zip.
+2011-07-08 01:58:08,388 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7320. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7320 desde ftp://127.0.0.1/MegaFtp/OUT/7320-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 01:58:08,427 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7321
+2011-07-08 01:58:08,432 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7321 desde ftp://127.0.0.1/MegaFtp/OUT/7321-PosExport.zip.
+2011-07-08 01:58:08,509 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7321. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7321 desde ftp://127.0.0.1/MegaFtp/OUT/7321-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 02:00:08,542 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-07-08 02:00:08,548 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://127.0.0.1/MegaFtp/OUT/7201-PosExport.zip.
+2011-07-08 02:00:08,606 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7201. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7201 desde ftp://127.0.0.1/MegaFtp/OUT/7201-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 02:00:08,679 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7210
+2011-07-08 02:00:08,687 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7210 desde ftp://127.0.0.1/MegaFtp/OUT/7210-PosExport.zip.
+2011-07-08 02:00:08,751 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7210. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7210 desde ftp://127.0.0.1/MegaFtp/OUT/7210-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 02:00:08,819 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7213
+2011-07-08 02:00:08,830 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7213 desde ftp://127.0.0.1/MegaFtp/OUT/7213-PosExport.zip.
+2011-07-08 02:00:08,896 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7213. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7213 desde ftp://127.0.0.1/MegaFtp/OUT/7213-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 02:00:08,963 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7214
+2011-07-08 02:00:08,967 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7214 desde ftp://127.0.0.1/MegaFtp/OUT/7214-PosExport.zip.
+2011-07-08 02:00:09,023 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7214. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7214 desde ftp://127.0.0.1/MegaFtp/OUT/7214-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 02:00:09,046 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7229
+2011-07-08 02:00:09,051 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7229 desde ftp://127.0.0.1/MegaFtp/OUT/7229-PosExport.zip.
+2011-07-08 02:00:09,112 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7229. Error: System.Exception: Error! Descargando Archivo de Importación para la tienda 7229 desde ftp://127.0.0.1/MegaFtp/OUT/7229-PosExport.zip. ---> System.Net.WebException: The remote server returned an error: (550) File unavailable (e.g., file not found, no access).
+   at System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   at System.Net.FtpWebRequest.RequestCallback(Object obj)
+   at System.Net.CommandStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Stream.Dispose()
+   at System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   at System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   at System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   at System.Net.FtpWebRequest.GetResponse()
+   at Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:line 20
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 44
+   --- End of inner exception stack trace ---
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 50
+2011-07-08 02:00:09,144 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7241
+2011-07-08 02:00:09,148 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7241 desde ftp://127.0.0.1/MegaFtp/OUT/7241-PosExport.zip.
+2011-07-08 02:00:09,248 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7241.
+2011-07-08 02:00:09,336 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7241.
+2011-07-08 02:00:09,620 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7241.

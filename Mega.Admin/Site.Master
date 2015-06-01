@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Mega.Admin.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="main_container">
+        <div class="header">
+            <h1>
+                <%= Mega.Admin.Code.WebConfiguration.PortalTitle %>
+            </h1>
+        </div>
+        <div class="login_status">
+            <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                <AnonymousTemplate>
+                    <a href="~/Account/Login.aspx" id="HeadLoginStatus" runat="server">[Entrar al Sistema]</a>
+                </AnonymousTemplate>
+                <LoggedInTemplate>
+                    Usuario actual: <span class="bold">
+                        <asp:LoginName ID="HeadLoginName" runat="server" />
+                    </span>
+                    <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="[Salir]"
+                        LogoutPageUrl="~/" />
+                </LoggedInTemplate>
+            </asp:LoginView>
+        </div>
+        <div class="menu_container">
+            <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                IncludeStyleBlock="false" Orientation="Horizontal">
+                <Items>
+                    <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Inicio" />
+                    <asp:MenuItem Text="Administración" Selectable="False">
+                        <asp:MenuItem Text="Codificadores (UDC)" Value="Codificadores (UDC)" NavigateUrl="~/UDC/UDCItem.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Compañias" Value="Codificadores (UDC)" NavigateUrl="~/Shop/CompanyList.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Tiendas" Value="Tiendas" NavigateUrl="~/Shop/ShopList.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Usuarios y Accesos" Value="Usuarios y Accesos" NavigateUrl="~/Account/UserList.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Clientes (Dim)" Value="Clientes (Dim)" NavigateUrl="~/Dim/DimList.aspx">
+                        </asp:MenuItem>
+                        <asp:MenuItem Text="Listar Productos" Value="Listar Productos" NavigateUrl="~/Product/ProductList.aspx">
+                        </asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Selectable="False" Text="Sincronización">
+                        <asp:MenuItem Text="Configuración de Sincronización Web" NavigateUrl="~/Synchronization/ServerConfiguration.aspx" />
+                        <asp:MenuItem Text="Configuración de Sincronización Tiendas" NavigateUrl="~/Synchronization/POSConfiguration.aspx" />
+                        <asp:MenuItem Text="Histórico de Sincronización" NavigateUrl="~/Synchronization/Logs.aspx" />
+                        <asp:MenuItem Text="Scripts de Actualización Ejecutados" NavigateUrl="~/DBScripts/ExecutedScripts.aspx" />
+                    </asp:MenuItem>
+                    <asp:MenuItem NavigateUrl="~/About.aspx" Text="Acerca de MegaPOS" Value="Acerca de Nosotros">
+                    </asp:MenuItem>
+                </Items>
+            </asp:Menu>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="separator">
+        </div>
+        <div class="footer">
+            MegaHealth, te cambia la vida
+        </div>
+    </div>
+    </form>
+</body>
+</html>

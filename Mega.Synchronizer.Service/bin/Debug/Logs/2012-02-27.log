@@ -1,0 +1,26 @@
+2012-02-27 10:00:12,775 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-27 10:00:26,035 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-27 10:00:41,276 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 23/02/2012 12:00:00 a.m..
+2012-02-27 10:00:46,783 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-27 10:00:49,076 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://127.0.0.1:21/IN/7201-WebExport.zip.
+2012-02-27 10:00:52,524 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Exportación para la tienda 7201 ha Terminado con éxito
+2012-02-27 10:00:09,879 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-27 10:00:29,930 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-27 10:00:33,861 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 23/02/2012 12:00:00 a.m..
+2012-02-27 10:00:39,649 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-27 10:00:42,270 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://127.0.0.1:21/IN/7201-WebExport.zip.
+2012-02-27 10:00:46,809 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Exportación para la tienda 7201 ha Terminado con éxito
+2012-02-27 10:00:10,487 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-27 10:00:16,805 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-27 10:00:16,852 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 01/11/2011 12:00:00 a.m..
+2012-02-27 10:00:29,940 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-27 10:00:31,984 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://127.0.0.1:21/IN/7201-WebExport.zip.
+2012-02-27 10:00:32,077 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Exportación para la tienda 7201 ha Terminado con éxito
+2012-02-27 15:00:06,986 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-27 15:00:17,422 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-27 15:00:28,529 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 01/11/2011 12:00:00 a.m..
+2012-02-27 15:00:06,835 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-27 15:00:07,225 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-27 15:00:07,256 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 01/11/2011 12:00:00 a.m..
+2012-02-27 16:16:00,364 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-27 16:58:27,543 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.

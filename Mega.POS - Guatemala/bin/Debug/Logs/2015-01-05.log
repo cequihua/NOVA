@@ -1,0 +1,46 @@
+2015-01-05 17:05:37,462 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-05 17:30:19,574 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-05 17:39:23,563 ERROR Mega.POS.SyncroFacturacionXSA – Operación no válida, se ha terminado la conexión.
+2015-01-05 17:39:23,687 ERROR Mega.POS.Operation.SaleEdit – Error agregando producto a la venta
+System.InvalidOperationException: Ya hay un DataReader abierto asociado a este Command, debe cerrarlo primero.
+   en System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   en System.Data.SqlClient.SqlConnection.ValidateConnectionForExecute(String method, SqlCommand command)
+   en System.Data.SqlClient.SqlCommand.ValidateCommand(String method, Boolean async)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.ExecuteReader()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.CommonDataServices.GetObjectByKey(MetaType type, Object[] keyValues)
+   en System.Data.Linq.DataContext.Refresh(RefreshMode mode, IEnumerable entities)
+   en Mega.POS.Operation.SaleEdit.GetLots(String idProduct) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1484
+   en Mega.POS.Operation.SaleEdit.GetFirstLot(String idProductSimple) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1249
+   en Mega.POS.Operation.SaleEdit.CreateChildProducts(Guid parentRow) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1183
+   en Mega.POS.Operation.SaleEdit.AddProductButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1023
+2015-01-05 17:44:18,384 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-01-05 17:45:55,494 ERROR Mega.POS.Operation.SaleEdit – Error agregando producto a la venta
+System.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_DeniedProducts_OperationDetail". The conflict occurred in database "MegaAdmin", table "dbo.OperationDetail", column 'Id'.
+The statement has been terminated.
+   en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.ChangeDirector.StandardChangeDirector.DynamicInsert(TrackedObject item)
+   en System.Data.Linq.ChangeDirector.StandardChangeDirector.Insert(TrackedObject item)
+   en System.Data.Linq.ChangeProcessor.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   en System.Data.Linq.DataContext.SubmitChanges()
+   en Mega.POS.Operation.SaleEdit.AddProductButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\SaleEdit.cs:línea 1096
+ClientConnectionId:b8770379-cd17-477e-9636-4f22ff9a9372
+2015-01-05 17:53:31,939 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400

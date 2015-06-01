@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5EEEB4B8-DC6D-43B0-A91E-E3A7BEE9B8FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Mega.Common</RootNamespace>
+    <AssemblyName>Mega.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Resources\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin.cs">
+      <DependentUpon>Admin.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Admin.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Enum\InvoiceStatusXSA.cs" />
+    <Compile Include="Enum\InvoiceType.cs" />
+    <Compile Include="Enum\SequenceId.cs" />
+    <Compile Include="Enum\ListPriceType.cs" />
+    <Compile Include="Enum\ProductType.cs" />
+    <Compile Include="Enum\MaritalStatus.cs" />
+    <Compile Include="Enum\MovementType.cs" />
+    <Compile Include="Enum\Roles.cs" />
+    <Compile Include="Enum\DimType.cs" />
+    <Compile Include="Enum\OperationStatus.cs" />
+    <Compile Include="Enum\OperationType.cs" />
+    <Compile Include="Helpers\DataHelper.cs" />
+    <Compile Include="Constant.cs" />
+    <Compile Include="Helpers\DialogHelper.cs" />
+    <Compile Include="Helpers\MailHelper.cs" />
+    <Compile Include="Helpers\ToolHelper.cs" />
+    <Compile Include="Model\CashierCloseDetail.cs" />
+    <Compile Include="Model\CashierCloseMoney.cs" />
+    <Compile Include="Model\CashierClose.cs" />
+    <Compile Include="Model\Company.cs" />
+    <Compile Include="Model\DimCreditCollect.cs" />
+    <Compile Include="Model\CreditSaleToCollect.cs" />
+    <Compile Include="Model\Invoices.cs" />
+    <Compile Include="Model\Synchronization.cs" />
+    <Compile Include="Model\ProductComposition.cs" />
+    <Compile Include="Model\Kardex.cs" />
+    <Compile Include="Model\InventoryMovementReport.cs" />
+    <Compile Include="Model\Product_Price.cs" />
+    <Compile Include="Model\Inventory.cs" />
+    <Compile Include="Model\SynchronizationLog.cs" />
+    <Compile Include="Model\UDCItems.cs" />
+    <Compile Include="Model\MoneyMovement.cs" />
+    <Compile Include="Model\Operation_Pay.cs" />
+    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\OperationDetail.cs" />
+    <Compile Include="Model\Shop.cs" />
+    <Compile Include="Model\Dim.cs" />
+    <Compile Include="Model\Operation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Admin.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Admin.dbml.views">
+      <DependentUpon>Admin.dbml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\Dim.datasource" />
+    <None Include="Properties\DataSources\DimCreditCollect.datasource">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\vwInvoicePreView.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin.dbml.layout">
+      <DependentUpon>Admin.dbml</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin.dbml.views_def.layout">
+      <DependentUpon>Admin.dbml</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

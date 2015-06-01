@@ -1,0 +1,481 @@
+2015-03-25 09:21:21,384 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 09:42:35,844 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:03:07,747 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:05:24,793 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:23:49,323 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:24:47,700 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:35:46,427 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:37:39,168 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:39:33,585 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:41:06,936 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:45:28,604 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:46:31,837 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 10:52:27,271 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 11:11:39,222 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 11:13:55,022 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 11:15:29,175 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 11:17:05,896 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 11:17:37,236 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 11:19:50,127 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 11:24:13,075 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:02:08,708 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:04:30,301 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:13:37,831 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:17:29,647 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:17:36,090 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 221
+2015-03-25 12:18:05,215 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 221 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 115
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 550
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 12:18:29,894 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:21:03,227 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 222
+2015-03-25 12:21:49,029 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 222 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 115
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 550
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 12:28:48,061 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:29:25,173 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 223
+2015-03-25 12:30:05,499 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 223 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 115
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 550
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 12:30:40,553 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 223
+2015-03-25 12:35:14,988 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 223
+2015-03-25 12:36:14,690 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 223 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 115
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 550
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 12:42:33,443 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:45:19,100 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 224
+2015-03-25 12:46:16,882 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 224 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 115
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 550
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 12:48:20,075 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:48:50,854 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 225
+2015-03-25 12:49:35,221 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 225 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 115
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 494
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 12:52:12,797 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 226
+2015-03-25 12:52:40,955 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 226 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 115
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 494
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 12:53:34,136 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 12:53:52,919 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 227
+2015-03-25 12:54:19,142 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 227 OfficialConsecutive 126 Tipo Venta
+System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en Mega.POS.Client.FormFiscalData.CargarDimEnForm() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 116
+   en Mega.POS.Client.FormFiscalData.FormFiscalData_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Client\FiscalData.cs:línea 217
+   en System.Windows.Forms.Form.OnLoad(EventArgs e)
+   en System.Windows.Forms.Form.OnCreateControl()
+   en System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)
+   en System.Windows.Forms.Control.CreateControl()
+   en System.Windows.Forms.Control.WmShowWindow(Message& m)
+   en System.Windows.Forms.Control.WndProc(Message& m)
+   en System.Windows.Forms.ScrollableControl.WndProc(Message& m)
+   en System.Windows.Forms.ContainerControl.WndProc(Message& m)
+   en System.Windows.Forms.Form.WmShowWindow(Message& m)
+   en System.Windows.Forms.Form.WndProc(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message& m)
+   en System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message& m)
+   en System.Windows.Forms.NativeWindow.DebuggableCallback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+   en System.Windows.Forms.SafeNativeMethods.ShowWindow(HandleRef hWnd, Int32 nCmdShow)
+   en System.Windows.Forms.Control.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Form.SetVisibleCore(Boolean value)
+   en System.Windows.Forms.Control.set_Visible(Boolean value)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   en System.Windows.Forms.Application.RunDialog(Form form)
+   en System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 494
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1955
+2015-03-25 13:05:14,942 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 13:06:30,228 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 228
+2015-03-25 13:12:49,886 ERROR Mega.POS.Operation.SaleEdit – Error imprimiendo Ticket con numero: 126
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 399
+   en Mega.POS.Operation.SaleEdit.PrintTicket(Boolean rePrint) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 663
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 616
+2015-03-25 13:12:51,555 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 228 OfficialConsecutive 126 Tipo Venta
+System.Transactions.TransactionAbortedException: Se anuló la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionStateAborted.BeginCommit(InternalTransaction tx, Boolean asyncCommit, AsyncCallback asyncCallback, Object asyncState)
+   en System.Transactions.CommittableTransaction.Commit()
+   en System.Transactions.TransactionScope.InternalDispose()
+   en System.Transactions.TransactionScope.Dispose()
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1958
+2015-03-25 13:46:04,033 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 13:59:46,371 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 14:02:15,102 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 230
+2015-03-25 14:07:06,178 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 14:07:53,290 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 231
+2015-03-25 16:04:22,064 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 16:06:02,856 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 232
+2015-03-25 16:21:59,348 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 16:24:14,024 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 16:27:30,321 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 16:57:19,638 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 16:59:59,801 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 17:01:50,638 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 17:03:37,755 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 17:11:59,669 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 18:10:18,294 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 18:12:32,579 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9400
+2015-03-25 18:13:10,487 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 233
+2015-03-25 18:13:43,216 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 234
+2015-03-25 18:15:54,490 ERROR Mega.POS.Operation.SaleEdit – Error imprimiendo Ticket con numero: 129
+System.Transactions.TransactionException: La operación no es válida para el estado de la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionState.EnlistPromotableSinglePhase(InternalTransaction tx, IPromotableSinglePhaseNotification promotableSinglePhaseNotification, Transaction atomicTransaction)
+   en System.Transactions.Transaction.EnlistPromotableSinglePhase(IPromotableSinglePhaseNotification promotableSinglePhaseNotification)
+   en System.Data.SqlClient.SqlInternalConnection.EnlistNonNull(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnection.Enlist(Transaction tx)
+   en System.Data.SqlClient.SqlInternalConnectionTds.Activate(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionInternal.ActivateConnection(Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.PrepareConnection(DbConnection owningObject, DbConnectionInternal obj, Transaction transaction)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetUDCItemRow(AdminDataContext dc, Int32 id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 399
+   en Mega.POS.Operation.SaleEdit.PrintTicket(Boolean rePrint) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 663
+   en Mega.POS.Operation.SaleEdit.ConfirmSale() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 616
+2015-03-25 18:15:58,609 ERROR Mega.POS.Operation.SaleEdit – Error Pagando y Confirmando la Operación. Consecutivo 234 OfficialConsecutive 129 Tipo Venta
+System.Transactions.TransactionAbortedException: Se anuló la transacción. ---> System.TimeoutException: Tiempo de espera de la transacción
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en System.Transactions.TransactionStateAborted.BeginCommit(InternalTransaction tx, Boolean asyncCommit, AsyncCallback asyncCallback, Object asyncState)
+   en System.Transactions.CommittableTransaction.Commit()
+   en System.Transactions.TransactionScope.InternalDispose()
+   en System.Transactions.TransactionScope.Dispose()
+   en Mega.POS.Operation.SaleEdit.DoPayButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Operation\SaleEdit.cs:línea 1958
+2015-03-25 18:42:16,146 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Main.cs:línea 52
+2015-03-25 18:42:29,796 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Main.cs:línea 52
+2015-03-25 18:43:11,007 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Main.cs:línea 52
+2015-03-25 18:45:50,431 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Main.cs:línea 52
+2015-03-25 18:46:55,872 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Main.cs:línea 52
+2015-03-25 18:47:34,311 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Main.cs:línea 52
+2015-03-25 18:48:18,942 ERROR Mega.POS.Main – Error al cargar el formulario principal
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Common.Helpers.DataHelper.GetCashier(AdminDataContext dc, String id) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\DataHelper.cs:línea 404
+   en Mega.POS.Helper.ApplicationHelper.GetCurrentCashier() en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Helper\ApplicationHelper.cs:línea 100
+   en Mega.POS.Main.Main_Load(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Main.cs:línea 52
+2015-03-25 18:52:07,205 ERROR Mega.POS.Login – El usuario 9345 o la contraseña son incorrectos
+2015-03-25 18:52:13,538 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9345
+2015-03-25 19:01:39,181 ERROR Mega.POS.Login – Error autenticando
+System.Data.SqlClient.SqlException (0x80131904): Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server) ---> System.ComponentModel.Win32Exception (0x80004005): No se ha encontrado la ruta de acceso de la red
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   en System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   en Mega.POS.Login.OkButton_Click(Object sender, EventArgs e) en C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS - Guatemala\Login.cs:línea 40
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+2015-03-25 19:02:57,914 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 19:04:35,913 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 19:14:53,019 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:15:12,441 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:16:04,343 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:19:45,373 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 19:22:02,372 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:23:46,050 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:28:22,810 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:41:14,949 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:53:30,740 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 19:54:05,606 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:54:37,102 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 19:58:17,375 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 19:59:40,632 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 22:33:41,579 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 22:36:15,747 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:09:12,530 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 23:10:06,756 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:11:59,138 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:14:32,352 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:27:03,743 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 23:27:23,961 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:33:51,038 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:34:07,777 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:41:58,804 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 23:42:26,899 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:44:43,821 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:54:05,277 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 23:54:24,075 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:55:15,461 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 
+2015-03-25 23:55:35,788 ERROR Mega.POS.Login – El usuario g9201 o la contraseña son incorrectos
+2015-03-25 23:55:43,900 ERROR Mega.POS.Login – El usuario g8001 o la contraseña son incorrectos
+2015-03-25 23:55:47,285 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g8001
+2015-03-25 23:56:19,281 ERROR Mega.POS.Operation.SaleEdit – Error en SaleEdit.DIMTextBox_KeyPress 

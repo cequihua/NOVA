@@ -1,0 +1,47 @@
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Admin.dll
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Admin.pdb
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Common.dll
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Common.pdb
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.Admin\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.dll
+D:\Users\Deisbel\Proyectos\EndToEnd\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Admin.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Admin.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\bin\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\bin\log4net.dll
+C:\Mega\source\Mega.Admin\bin\Mega.Admin.dll
+C:\Mega\source\Mega.Admin\bin\Mega.Admin.pdb
+C:\Mega\source\Mega.Admin\bin\log4net.dll
+C:\Mega\source\Mega.Admin\bin\Mega.Common.dll
+C:\Mega\source\Mega.Admin\bin\Mega.Common.pdb
+C:\Mega\source\Mega.Admin\obj\Debug\ResolveAssemblyReference.cache
+C:\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.dll
+C:\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.pdb
+D:\Mega\source\Mega.Admin\bin\Mega.Admin.dll
+D:\Mega\source\Mega.Admin\bin\Mega.Admin.pdb
+D:\Mega\source\Mega.Admin\bin\log4net.dll
+D:\Mega\source\Mega.Admin\bin\Mega.Common.dll
+D:\Mega\source\Mega.Admin\bin\Mega.Common.pdb
+D:\Mega\source\Mega.Admin\obj\Debug\ResolveAssemblyReference.cache
+D:\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.dll
+D:\Mega\source\Mega.Admin\obj\Debug\Mega.Admin.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Admin.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Admin.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\log4net.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Debug\Mega.Admin.csprojResolveAssemblyReference.cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Debug\Mega.Admin.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Debug\Mega.Admin.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Admin.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Admin.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\log4net.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\bin\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Debug\Mega.Admin.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Debug\Mega.Admin.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Admin\obj\Debug\Mega.Admin.pdb

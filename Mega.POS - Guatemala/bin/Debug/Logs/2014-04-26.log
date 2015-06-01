@@ -1,0 +1,37 @@
+2014-04-26 14:24:02,905 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario G9201
+2014-04-26 14:24:09,145 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-26 14:24:46,897 ERROR Mega.POS.Movement.CashierClose – Un error ha ocurrido durante el envio del Correo de Notificación: 
+System.ArgumentException: El parámetro 'addresses' no puede ser una cadena vacía.
+Nombre del parámetro: addresses
+   en System.Net.Mail.MailAddressCollection.Add(String addresses)
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList, IEnumerable`1 attachments) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 44
+   en Mega.Common.Helpers.MailHelper.SendMessage(String mailSubject, AlternateView htmlBodyView, String mailFromName, String mailFromAddress, String mailToAddressList, String mailCcAddressList, String mailBccAddressList) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Common\Helpers\MailHelper.cs:línea 33
+   en Mega.POS.Helper.MailTemplateHelper.SendMessage(String subject, AlternateView htmlBodyView, String toAddresses, String ccAdresses, String bccAdresses) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Helper\MailTemplateHelper.cs:línea 59
+   en Mega.POS.Movement.CashierClose.CloseCashier(Boolean isOk) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Movement\CashierClose.cs:línea 458
+2014-04-26 14:25:51,279 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: No se pueden enumerar varias veces los resultados de la consulta.
+   en System.Data.Linq.SqlClient.SqlProvider.OneTimeEnumerable`1.GetEnumerator()
+   en System.Data.Linq.SqlClient.SqlProvider.SingleResult`1.GetEnumerator()
+   en System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   en System.Linq.Enumerable.Sum(IEnumerable`1 source)
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 220
+2014-04-26 14:28:32,739 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-26 14:28:48,074 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-26 14:29:06,497 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 504, Tipo. Apertura de Caja
+2014-04-26 14:29:15,202 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-26 14:31:33,824 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-26 14:31:42,030 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 505, Tipo. Apertura de Caja
+2014-04-26 14:31:50,173 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-26 14:32:01,904 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: No se pueden enumerar varias veces los resultados de la consulta.
+   en System.Data.Linq.SqlClient.SqlProvider.OneTimeEnumerable`1.GetEnumerator()
+   en System.Data.Linq.SqlClient.SqlProvider.SingleResult`1.GetEnumerator()
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 217
+2014-04-26 14:32:39,796 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-04-26 14:32:49,032 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 506, Tipo. Apertura de Caja
+2014-04-26 14:32:57,112 INFO  Mega.POS.Movement.CashierClose – Iniciando el proceso para Efectuar el Cierre
+2014-04-26 14:33:19,046 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 0
+System.InvalidOperationException: No se pueden enumerar varias veces los resultados de la consulta.
+   en System.Data.Linq.SqlClient.SqlProvider.OneTimeEnumerable`1.GetEnumerator()
+   en System.Data.Linq.SqlClient.SqlProvider.SingleResult`1.GetEnumerator()
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXTInvoiceGeneral(Guid idCasherClose) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 217

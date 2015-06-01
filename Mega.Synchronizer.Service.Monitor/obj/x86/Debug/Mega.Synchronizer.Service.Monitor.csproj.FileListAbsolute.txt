@@ -1,0 +1,88 @@
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe.config
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\log4net.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Main.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Properties.Resources.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ViewTraces.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ChangeExportDate.resources
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe.config
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.pdb
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\log4net.dll
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.dll
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.pdb
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ChangeExportDate.resources
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Main.resources
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Properties.Resources.resources
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ViewTraces.resources
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.exe
+C:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.pdb
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe.config
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.pdb
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\log4net.dll
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.dll
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.pdb
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ChangeExportDate.resources
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Main.resources
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Properties.Resources.resources
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ViewTraces.resources
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.exe
+D:\Mega\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe.config
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\log4net.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.csprojResolveAssemblyReference.cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ChangeExportDate.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Main.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Properties.Resources.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ViewTraces.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.csproj.GenerateResource.Cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe.config
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Service.Monitor.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\log4net.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ChangeExportDate.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Main.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.Properties.Resources.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.ViewTraces.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Service.Monitor\obj\x86\Debug\Mega.Synchronizer.Service.Monitor.pdb

@@ -1,0 +1,100 @@
+2012-01-02 14:09:56,994 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en C:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-01-02 14:10:25,699 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en C:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-01-02 15:07:50,092 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en C:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-01-02 15:09:05,851 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en C:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-01-02 15:19:02,070 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.InvalidOperationException: La secuencia no contiene elementos
+   en System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   en System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   en System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   en System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   en System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   en Mega.Admin.Account.Login.PerformLogin(String login, String password) en C:\Mega\source\Mega.Admin\Account\Login.aspx.cs:línea 46
+2012-01-02 15:31:02,431 ERROR Mega.Admin.Code.CommonPage – System.OutOfMemoryException: Se produjo una excepción de tipo 'System.OutOfMemoryException'.
+   en Mega.Common.Dim..ctor() en C:\Mega\source\Mega.Common\Admin.designer.cs:línea 3674
+   en Read_Dim(ObjectMaterializer`1 )
+   en System.Data.Linq.SqlClient.ObjectReaderCompiler.ObjectReader`2.MoveNext()
+   en System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   en System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   en System.Data.Linq.Provider.BindingList.Create[T](DataContext context, IEnumerable`1 sequence)
+   en System.Data.Linq.DataQuery`1.GetNewBindingList()
+   en System.Data.Linq.DataQuery`1.System.ComponentModel.IListSource.GetList()
+   en System.Web.UI.DataSourceHelper.GetResolvedDataSource(Object dataSource, String dataMember)
+   en System.Web.UI.WebControls.ReadOnlyDataSource.System.Web.UI.IDataSource.GetView(String viewName)
+   en System.Web.UI.WebControls.DataBoundControl.ConnectToDataSourceView()
+   en System.Web.UI.WebControls.DataBoundControl.GetData()
+   en System.Web.UI.WebControls.DataBoundControl.PerformSelect()
+   en System.Web.UI.WebControls.BaseDataBoundControl.DataBind()
+   en System.Web.UI.WebControls.GridView.DataBind()
+   en Mega.Admin.Dim.DimList.PopulateDims() en C:\Mega\source\Mega.Admin\Dim\DimList.aspx.cs:línea 183
+   en Mega.Admin.Dim.DimList.FilterButton_Click(Object sender, EventArgs e) en C:\Mega\source\Mega.Admin\Dim\DimList.aspx.cs:línea 61
+   en System.Web.UI.WebControls.Button.OnClick(EventArgs e)
+   en System.Web.UI.WebControls.Button.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.Button.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-02 16:18:23,823 ERROR Mega.Admin.Code.CommonPage – System.NotSupportedException: LinqDataSource 'CompaniesLinqDataSource' no admite la operación Delete a menos que EnableDelete sea true.
+   en System.Web.UI.WebControls.LinqDataSourceView.ValidateDeleteSupported(IDictionary keys, IDictionary oldValues)
+   en System.Web.UI.WebControls.LinqDataSourceView.ExecuteDelete(IDictionary keys, IDictionary oldValues)
+   en System.Web.UI.DataSourceView.Delete(IDictionary keys, IDictionary oldValues, DataSourceViewOperationCallback callback)
+   en System.Web.UI.WebControls.GridView.HandleDelete(GridViewRow row, Int32 rowIndex)
+   en System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   en System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-02 16:18:32,789 ERROR Mega.Admin.Code.CommonPage – Error enviando mail de Error.El buzón de correo no está disponible. La respuesta del servidor fue: 5.1.1 User unknown: deisbel@gmail.com
+2012-01-02 16:19:49,970 ERROR Mega.Admin.Code.CommonPage – System.NotSupportedException: LinqDataSource 'CompaniesLinqDataSource' no admite la operación Delete a menos que EnableDelete sea true.
+   en System.Web.UI.WebControls.LinqDataSourceView.ValidateDeleteSupported(IDictionary keys, IDictionary oldValues)
+   en System.Web.UI.WebControls.LinqDataSourceView.ExecuteDelete(IDictionary keys, IDictionary oldValues)
+   en System.Web.UI.DataSourceView.Delete(IDictionary keys, IDictionary oldValues, DataSourceViewOperationCallback callback)
+   en System.Web.UI.WebControls.GridView.HandleDelete(GridViewRow row, Int32 rowIndex)
+   en System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   en System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-02 16:19:55,402 ERROR Mega.Admin.Code.CommonPage – Error enviando mail de Error.El buzón de correo no está disponible. La respuesta del servidor fue: 5.1.1 User unknown: deisbel@gmail.com
+2012-01-02 16:25:36,639 ERROR Mega.Admin.Code.CommonPage – System.NotSupportedException: LinqDataSource 'CompaniesLinqDataSource' no admite la operación Delete a menos que EnableDelete sea true.
+   en System.Web.UI.WebControls.LinqDataSourceView.ValidateDeleteSupported(IDictionary keys, IDictionary oldValues)
+   en System.Web.UI.WebControls.LinqDataSourceView.ExecuteDelete(IDictionary keys, IDictionary oldValues)
+   en System.Web.UI.DataSourceView.Delete(IDictionary keys, IDictionary oldValues, DataSourceViewOperationCallback callback)
+   en System.Web.UI.WebControls.GridView.HandleDelete(GridViewRow row, Int32 rowIndex)
+   en System.Web.UI.WebControls.GridView.HandleEvent(EventArgs e, Boolean causesValidation, String validationGroup)
+   en System.Web.UI.WebControls.GridView.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.WebControls.GridView.System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(IPostBackEventHandler sourceControl, String eventArgument)
+   en System.Web.UI.Page.RaisePostBackEvent(NameValueCollection postData)
+   en System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2012-01-02 16:25:36,899 ERROR Mega.Admin.Code.CommonPage – Error enviando mail de Error.Error al procesar. La respuesta del servidor fue: 4.7.1 Please try again later

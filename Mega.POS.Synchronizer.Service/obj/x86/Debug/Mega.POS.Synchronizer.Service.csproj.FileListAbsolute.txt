@@ -1,0 +1,12 @@
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Mega.POS.Synchronizer.Service.exe.config
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Mega.POS.Synchronizer.Service.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Mega.POS.Synchronizer.Service.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\obj\x86\Debug\Mega.POS.Synchronizer.Service.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\obj\x86\Debug\Mega.POS.Synchronizer.Service.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.POS.Synchronizer.Service\bin\Debug\log4net.dll

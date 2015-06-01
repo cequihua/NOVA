@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:ns2="http://soap.xml.javax" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:tns="http://xsafilereceiver.webservices.manager.xsa.tralix.com" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="http://lang.java" targetNamespace="http://xsafilereceiver.webservices.manager.xsa.tralix.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://xsafilereceiver.webservices.manager.xsa.tralix.com">
+      <xsd:element name="obtenerEstadoDocumento">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="obtenerEstadoDocumentoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="out" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="SOAPException" type="ns2:SOAPException" />
+      <xsd:element name="guardarDocumento">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in3" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in4" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="guardarDocumentoResponse">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="guardarDocumentoB2B">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="in0" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in1" nillable="true" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="in2" nillable="true" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="guardarDocumentoB2BResponse">
+        <xsd:complexType />
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://soap.xml.javax">
+      <xsd:complexType name="SOAPException">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" name="cause" nillable="true" type="ns1:Throwable" />
+          <xsd:element minOccurs="0" name="message" nillable="true" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://lang.java">
+      <xsd:complexType name="Throwable" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="guardarDocumentoB2BResponse">
+    <wsdl:part name="parameters" element="tns:guardarDocumentoB2BResponse" />
+  </wsdl:message>
+  <wsdl:message name="obtenerEstadoDocumentoResponse">
+    <wsdl:part name="parameters" element="tns:obtenerEstadoDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SOAPException">
+    <wsdl:part name="SOAPException" element="tns:SOAPException" />
+  </wsdl:message>
+  <wsdl:message name="obtenerEstadoDocumentoRequest">
+    <wsdl:part name="parameters" element="tns:obtenerEstadoDocumento" />
+  </wsdl:message>
+  <wsdl:message name="guardarDocumentoB2BRequest">
+    <wsdl:part name="parameters" element="tns:guardarDocumentoB2B" />
+  </wsdl:message>
+  <wsdl:message name="guardarDocumentoResponse">
+    <wsdl:part name="parameters" element="tns:guardarDocumentoResponse" />
+  </wsdl:message>
+  <wsdl:message name="guardarDocumentoRequest">
+    <wsdl:part name="parameters" element="tns:guardarDocumento" />
+  </wsdl:message>
+  <wsdl:portType name="FileReceiverServicePortType">
+    <wsdl:operation name="obtenerEstadoDocumento">
+      <wsdl:input name="obtenerEstadoDocumentoRequest" message="tns:obtenerEstadoDocumentoRequest" />
+      <wsdl:output name="obtenerEstadoDocumentoResponse" message="tns:obtenerEstadoDocumentoResponse" />
+      <wsdl:fault name="SOAPException" message="tns:SOAPException" />
+    </wsdl:operation>
+    <wsdl:operation name="guardarDocumento">
+      <wsdl:input name="guardarDocumentoRequest" message="tns:guardarDocumentoRequest" />
+      <wsdl:output name="guardarDocumentoResponse" message="tns:guardarDocumentoResponse" />
+      <wsdl:fault name="SOAPException" message="tns:SOAPException" />
+    </wsdl:operation>
+    <wsdl:operation name="guardarDocumentoB2B">
+      <wsdl:input name="guardarDocumentoB2BRequest" message="tns:guardarDocumentoB2BRequest" />
+      <wsdl:output name="guardarDocumentoB2BResponse" message="tns:guardarDocumentoB2BResponse" />
+      <wsdl:fault name="SOAPException" message="tns:SOAPException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FileReceiverServiceHttpBinding" type="tns:FileReceiverServicePortType">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="obtenerEstadoDocumento">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="obtenerEstadoDocumentoRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="obtenerEstadoDocumentoResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <wsdlsoap:fault use="literal" name="SOAPException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="guardarDocumento">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="guardarDocumentoRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="guardarDocumentoResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <wsdlsoap:fault use="literal" name="SOAPException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="guardarDocumentoB2B">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="guardarDocumentoB2BRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="guardarDocumentoB2BResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SOAPException">
+        <wsdlsoap:fault use="literal" name="SOAPException" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FileReceiverService">
+    <wsdl:port name="FileReceiverServiceHttpPort" binding="tns:FileReceiverServiceHttpBinding">
+      <wsdlsoap:address location="https://cfdi.redmega.com.mx/xsamanager/services/FileReceiverService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,22 @@
+2011-07-04 18:35:24,339 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2011-07-04 18:36:09,036 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Importación del Web para la tienda 7201
+2011-07-04 18:36:15,542 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp://192.168.1.14/MegaFtp/OUT/7201-PosExport.zip.
+2011-07-04 18:36:41,263 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Descompactando Archivo descargado para la tienda 7201.
+2011-07-04 18:36:43,898 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Cargando Datos del Archivo descargado para la tienda 7201.
+2011-07-04 18:36:53,465 [9] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Importando Datos del Archivo descargado para la tienda 7201.
+2011-07-04 18:41:51,880 [9] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - El proceso de Importación del Web ha fallado para la tienda 7201. Error: System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK_ExecutedScript'. Cannot insert duplicate key in object 'dbo.ExecutedScript'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at System.Data.Linq.SqlClient.SqlProvider.Execute(Expression query, QueryInfo queryInfo, IObjectReaderFactory factory, Object[] parentArgs, Object[] userArgs, ICompiledSubQuery[] subQueries, Object lastResult)
+   at System.Data.Linq.SqlClient.SqlProvider.ExecuteAll(Expression query, QueryInfo[] queryInfos, IObjectReaderFactory factory, Object[] userArguments, ICompiledSubQuery[] subQueries)
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataContext.ExecuteMethodCall(Object instance, MethodInfo methodInfo, Object[] parameters)
+   at Mega.Common.AdminDataContext.PosOut_SynchronizeTables() in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Common\Admin.designer.cs:line 425
+   at Mega.Synchronizer.Service.Helpers.ServerOperations.Import(String idShop) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:line 87

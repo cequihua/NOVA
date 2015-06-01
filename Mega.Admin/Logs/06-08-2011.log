@@ -1,0 +1,129 @@
+2011-06-08 19:35:40,880 ERROR Mega.Admin.Code.CommonPage – System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'posuser'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.SingleOrDefault[TSource](IQueryable`1 source)
+   at Mega.Common.Helpers.DataHelper.GetUDCGridViewPageSize(AdminDataContext dc) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Common\Helpers\DataHelper.cs:line 147
+   at Mega.Admin.Shop.ShopList.Page_Load(Object sender, EventArgs e) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\Shop\ShopList.aspx.cs:line 13
+   at System.Web.Util.CalliHelper.EventArgFunctionCaller(IntPtr fp, Object o, Object t, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+2011-06-08 19:35:57,165 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.Data.SqlClient.SqlException (0x80131904): Login failed for user 'posuser'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at Mega.Admin.Account.Login.PerformLogin(String login, String password) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\Account\Login.aspx.cs:line 46
+2011-06-08 19:40:02,600 ERROR Mega.Admin.Account.Login – Error autenticando Usuario
+System.Data.SqlClient.SqlException (0x80131904): Cannot open database "MegaAdmin" requested by the login. The login failed.
+Login failed for user 'posuser'.
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.DataQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.Single[TSource](IQueryable`1 source)
+   at Mega.Admin.Account.Login.PerformLogin(String login, String password) in D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\Account\Login.aspx.cs:line 46
+2011-06-08 20:28:45,352 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 20:33:37,012 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 20:41:19,705 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 20:45:24,473 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 20:47:55,668 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 20:50:44,334 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 20:53:11,216 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 20:56:11,747 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:00:08,854 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:02:45,670 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:06:24,971 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:09:18,489 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:24:41,117 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:30:01,822 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:33:00,939 ERROR Mega.Admin.Shop.ShopAdd – Error en ShopAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:51:00,022 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 21:53:18,457 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:06:47,859 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:07:54,788 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:08:44,424 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:09:28,128 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:10:23,247 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:11:06,986 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:11:44,134 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:12:25,398 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:14:05,130 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:14:41,051 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:15:30,185 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:16:01,622 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 22:16:50,688 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot insert duplicate key row in object 'dbo.Users' with unique index 'IX_Users'.
+The statement has been terminated.
+2011-06-08 22:16:54,655 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:17:08,946 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:17:31,489 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:18:14,309 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:18:52,437 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:19:57,036 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:20:48,956 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:21:16,834 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:22:16,550 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:22:57,749 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:23:36,903 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 22:24:52,148 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 23:14:21,021 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 23:33:37,916 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 23:37:40,634 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Cannot add an entity with a key that is already in use.
+2011-06-08 23:42:09,240 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.
+2011-06-08 23:43:33,854 ERROR Mega.Admin.Account.UserAdd – Error en UserAdd (AddButton_Click). Detalle: Thread was being aborted.

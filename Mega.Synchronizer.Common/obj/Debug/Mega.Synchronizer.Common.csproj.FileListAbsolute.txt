@@ -1,0 +1,45 @@
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll.config
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.pdb
+C:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll.config
+C:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.dll
+C:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.pdb
+C:\Mega\source\Mega.Synchronizer.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Mega\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.dll
+C:\Mega\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.pdb
+D:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll.config
+D:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll
+D:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.pdb
+D:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Ionic.Zip.Reduced.dll
+D:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.dll
+D:\Mega\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.pdb
+D:\Mega\source\Mega.Synchronizer.Common\obj\Debug\ResolveAssemblyReference.cache
+D:\Mega\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.dll
+D:\Mega\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll.config
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.csprojResolveAssemblyReference.cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll.config
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Synchronizer.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\bin\Debug\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Synchronizer.Common\obj\Debug\Mega.Synchronizer.Common.pdb

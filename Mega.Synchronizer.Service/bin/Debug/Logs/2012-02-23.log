@@ -1,0 +1,82 @@
+2012-02-23 11:23:04,190 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:24:48,351 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:25:11,024 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:27:34,513 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:28:13,600 [10] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Comenzando el proceso de Importación del POS para la tienda 7201
+2012-02-23 11:28:40,104 [10] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Descargando Archivo de Importación para la tienda 7201 desde ftp:///192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 11:28:48,121 [10] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Error! El proceso de Importación del POS ha Fallado para la tienda 7201. System.Exception: Error! Descargando el archivo de Importación para la tienda 7201 desde ftp:///192.168.71.1/MegaFtp/IN/7201-WebExport.zip. ---> System.UriFormatException: URI no válido: no se puede analizar el nombre de host.
+   en System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   en System.Uri..ctor(String uriString)
+   en System.Net.WebRequest.Create(String requestUriString)
+   en Mega.Synchronizer.Common.Utilities.FtpProvider.Download(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) en D:\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:línea 10
+   en Mega.Synchronizer.Service.Helpers.POSOperations.Import() en D:\Mega\source\Mega.Synchronizer.Service\Helpers\POSOperations.cs:línea 44
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.Synchronizer.Service.Helpers.POSOperations.Import() en D:\Mega\source\Mega.Synchronizer.Service\Helpers\POSOperations.cs:línea 50
+2012-02-23 11:29:24,310 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:29:57,093 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:31:06,540 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Comenzando el proceso de Exportación del POS para la tienda 7201.
+2012-02-23 11:31:17,675 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 02/22/2012 12:00 a.m..
+2012-02-23 11:32:36,899 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-23 11:32:40,896 [11] DEBUG Mega.Synchronizer.Service.Helpers.POSOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp:///192.168.71.1/MegaFtp/OUT/7201-PosExport.zip.
+2012-02-23 11:34:50,735 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:36:20,811 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:40:14,456 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:41:11,684 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:51:22,596 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:52:49,444 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:53:16,715 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 11:54:25,735 [13] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-23 11:55:13,951 [13] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 22/02/2012 12:00:00 a.m..
+2012-02-23 11:55:40,965 [13] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-23 11:55:44,352 [13] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp:///192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 11:55:55,202 [13] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp:///192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 11:55:55,207 [13] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Exception: Error! Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp:///192.168.71.1/MegaFtp/IN/7201-WebExport.zip. ---> System.UriFormatException: URI no válido: no se puede analizar el nombre de host.
+   en System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   en System.Uri..ctor(String uriString)
+   en System.Net.WebRequest.Create(String requestUriString)
+   en Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) en D:\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:línea 45
+   en Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop) en D:\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:línea 225
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop) en D:\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:línea 232
+2012-02-23 18:36:29,175 [10] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 18:37:29,797 [12] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-23 18:38:09,468 [12] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 22/02/2012 12:00:00 a.m..
+2012-02-23 18:38:19,811 [12] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-23 18:38:22,837 [12] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp:///192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 18:40:16,512 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 18:40:55,455 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-23 18:41:00,291 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 22/02/2012 12:00:00 a.m..
+2012-02-23 18:41:10,993 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-23 18:41:14,206 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 18:41:54,807 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 18:41:54,869 [11] ERROR Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Error! El proceso de Exportación del Web para la tienda 7201 ha fallado.
+System.Exception: Error! Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.71.1/MegaFtp/IN/7201-WebExport.zip. ---> System.Net.WebException: Error en el servidor remoto: (550) Archivo no disponible (ej. no se encuentra el archivo o no se tiene acceso).
+   en System.Net.FtpWebRequest.SyncRequestCallback(Object obj)
+   en System.Net.FtpWebRequest.RequestCallback(Object obj)
+   en System.Net.CommandStream.Dispose(Boolean disposing)
+   en System.IO.Stream.Close()
+   en System.IO.Stream.Dispose()
+   en System.Net.ConnectionPool.Destroy(PooledStream pooledStream)
+   en System.Net.ConnectionPool.PutConnection(PooledStream pooledStream, Object owningObject, Int32 creationTimeout, Boolean canReuse)
+   en System.Net.FtpWebRequest.FinishRequestStage(RequestStage stage)
+   en System.Net.FtpWebRequest.GetRequestStream()
+   en Mega.Synchronizer.Common.Utilities.FtpProvider.Upload(String user, String password, String ftpFileUrl, String localFileName, Boolean usePassive) en D:\Mega\source\Mega.Synchronizer.Common\Utilities\FtpProvider.cs:línea 60
+   en Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop) en D:\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:línea 225
+   --- Fin del seguimiento de la pila de la excepción interna ---
+   en Mega.Synchronizer.Service.Helpers.ServerOperations.Export(String idShop) en D:\Mega\source\Mega.Synchronizer.Service\Helpers\ServerOperations.cs:línea 232
+2012-02-23 18:43:09,221 [8] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 18:43:44,976 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-23 18:43:48,814 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 22/02/2012 12:00:00 a.m..
+2012-02-23 18:43:54,383 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-23 18:44:10,014 [10] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 18:45:59,309 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 18:46:26,173 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-23 18:46:29,932 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 22/02/2012 12:00:00 a.m..
+2012-02-23 18:46:35,174 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-23 18:46:39,854 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.71.1/MegaFtp/IN/7201-WebExport.zip.
+2012-02-23 18:48:28,494 [9] INFO  Mega.Synchronizer.Service.SynchronizerService [(null)] - Iniciando el Servicio.
+2012-02-23 18:48:56,839 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Comenzando el proceso de Exportación del Web para la tienda 7201
+2012-02-23 18:48:59,959 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Generando Archivo de Exportación para la tienda 7201 desde la ultima fecha de Exportación 22/02/2012 12:00:00 a.m..
+2012-02-23 18:49:08,321 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Compactando Archivo generado para la tienda 7201.
+2012-02-23 18:49:10,754 [11] DEBUG Mega.Synchronizer.Service.Helpers.ServerOperations [(null)] - Subiendo Archivo de Exportación para la tienda 7201 al FTP ftp://192.168.71.1/MegaFtp/IN/7201-WebExport.zip.

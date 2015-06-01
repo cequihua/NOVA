@@ -1,0 +1,12 @@
+2014-05-22 12:20:33,516 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-22 12:20:53,765 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6003
+2014-05-22 12:21:12,033 ERROR Mega.POS.Operation.InvoicesOperations – Error al generar el archivo de texto de la factura 146
+System.IO.DirectoryNotFoundException: No se puede encontrar una parte de la ruta de acceso 'C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\bin\Debug\InvoiceTemp\PED344.txt'.
+   en System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   en System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   en System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   en System.IO.File.Create(String path)
+   en Mega.POS.Operation.InvoicesOperations.CreateFileTXT(Int32 idInvoice) en C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.POS\Operation\InvoicesOperations.cs:línea 184
+2014-05-22 12:41:11,570 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-22 12:41:41,818 INFO  Mega.POS.SyncroFacturacionXSA – La factura individual con id 146 se realizo con exito
+2014-05-22 12:43:16,791 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6004

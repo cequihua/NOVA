@@ -1,0 +1,3 @@
+2014-05-13 15:11:33,291 INFO  Mega.POS.Main – El sistema ha sido abierto por el usuario g9201
+2014-05-13 15:11:47,004 INFO  Mega.POS.Movement.MovementAdd – Movimiento de Caja Insertado. No. 544, Tipo. Apertura de Caja
+2014-05-13 15:12:03,524 INFO  Mega.POS.Operation.SaleEdit – Comenzando El Pago y Confirmación del Ticket. Consecutivo 6000

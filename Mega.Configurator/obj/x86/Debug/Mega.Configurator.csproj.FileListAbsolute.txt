@@ -1,0 +1,99 @@
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe.config
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Microsoft.SqlServerCe.Client.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Main.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Properties.Resources.resources
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.exe
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Mega.Common.dll
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\bin\Debug\Mega.Common.pdb
+D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.CashierListForm.resources
+C:\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe.config
+C:\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe
+C:\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.pdb
+C:\Mega\source\Mega.Configurator\bin\Debug\Mega.Common.dll
+C:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+C:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll
+C:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.SqlServerCe.Client.dll
+C:\Mega\source\Mega.Configurator\bin\Debug\Mega.Common.pdb
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.CashierListForm.resources
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Main.resources
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Properties.Resources.resources
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.exe
+C:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.pdb
+D:\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe.config
+D:\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe
+D:\Mega\source\Mega.Configurator\bin\Debug\Mega.Configurator.pdb
+D:\Mega\source\Mega.Configurator\bin\Debug\Mega.Common.dll
+D:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+D:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.dll
+D:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll
+D:\Mega\source\Mega.Configurator\bin\Debug\Microsoft.SqlServerCe.Client.dll
+D:\Mega\source\Mega.Configurator\bin\Debug\Mega.Common.pdb
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.CashierListForm.resources
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Main.resources
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Properties.Resources.resources
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.exe
+D:\Mega\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe.config
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Configurator.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Common.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.SqlServerCe.Client.dll
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Common.pdb
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.csprojResolveAssemblyReference.cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.CashierListForm.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Main.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Properties.Resources.resources
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.csproj.GenerateResource.Cache
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.exe
+C:\Users\CaRLoS\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.pdb
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Mega.Configurator.exe.config
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\obj\x86\Debug\Mega.Configurator.exe
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\obj\x86\Debug\Mega.Configurator.pdb
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Mega.Configurator.exe
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Mega.Configurator.pdb
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Mega.Common.dll
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Microsoft.SqlServerCe.Client.dll
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\bin\Debug\Mega.Common.pdb
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\obj\x86\Debug\Mega.Configurator.csprojResolveAssemblyReference.cache
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\obj\x86\Debug\Mega.Configurator.CashierListForm.resources
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Main.resources
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Properties.Resources.resources
+C:\Users\Equihua\Documents\CODIGO POS MEGA\CODIGO POS MEGA\Mega.Configurator\obj\x86\Debug\Mega.Configurator.csproj.GenerateResource.Cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe.config
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Configurator.exe
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Configurator.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Common.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.Dialog.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.Data.ConnectionUI.SqlCeDataProvider.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Microsoft.SqlServerCe.Client.dll
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\bin\Debug\Mega.Common.pdb
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.csprojResolveAssemblyReference.cache
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.CashierListForm.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Main.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.Properties.Resources.resources
+C:\Users\Desarrollo\Documents\Visual Studio 2010\Projects\Mega\Sistemas\Proyectos\NOVA\codigo\Fuentes PV 24022012\source\Mega.Configurator\obj\x86\Debug\Mega.Configurator.csproj.GenerateResource.Cache

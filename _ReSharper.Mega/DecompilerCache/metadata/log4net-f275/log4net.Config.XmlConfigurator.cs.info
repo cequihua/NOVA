@@ -1,0 +1,17 @@
+R# version: 5.1.3000.12
+assembly log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+  file D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Resources\log4net.dll mtime 10/05/2011 12:22:57 a.m.
+  file D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Synchronizer.Common\bin\Debug\log4net.dll mtime 10/05/2011 12:22:57 a.m.
+  file D:\Users\Deisbel\Projects\EndToEnd\Mega\source\Mega.Admin\Bin\log4net.dll mtime 10/05/2011 12:22:57 a.m.
+referenced assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll mtime 07/02/2011 11:34:18 p.m.
+referenced assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll mtime 19/03/2010 01:31:26 a.m.
+referenced assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll mtime 19/03/2010 01:31:26 a.m.
+referenced assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll mtime 19/03/2010 01:31:26 a.m.
+referenced assembly System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Web.dll mtime 19/03/2010 01:31:26 a.m.
+referenced assembly System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  file C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Configuration.dll mtime 19/03/2010 01:31:26 a.m.

@@ -1,0 +1,453 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+	background: #b6b7bc;
+	font-size: .80em;
+	font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: #696969;
+}
+
+.main_container
+{
+	width: 960px;
+	background-color: #fff;
+	margin: 20px auto 0px auto;
+	border: 1px solid #496077;
+}
+
+.header, .login_status
+{
+	margin: 0px;
+	padding: 0px;
+	background: #4b6c9e;
+	width: 100%;
+	clear: both;
+}
+
+.header h1
+{
+	font-weight: 700;
+	margin: 0px;
+	padding: 0px 0px 0px 8px;
+	color: #f9f9f9;
+	border: none;
+	line-height: 2em;
+	font-size: 2em;
+}
+
+.login_status
+{
+	text-align: right;
+	padding-bottom: 4px;
+	color: White;
+}
+
+.login_status a:visited, .login_status a:link, .login_status a:active
+{
+	color: White;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+.login_status a:hover
+{
+	color: White;
+	padding-right: 10px;
+	text-decoration: underline;
+}
+
+.main
+{
+	padding: 8px 8px 8px 8px;
+	min-height: 320px;
+}
+
+.footer
+{
+	color: #4e5766;
+	padding: 4px 0px 4px 0px;
+	margin: 0px;
+	text-align: center;
+	line-height: normal;
+	width: 100%;
+	clear: both;
+	border-top: 1px #4e667d solid;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-size: 1.5em;
+	color: #666666;
+	text-transform: none;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+}
+
+h1
+{
+	font-size: 1.6em;
+}
+
+h2
+{
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+h3
+{
+	font-size: 1.2em;
+}
+
+p
+{
+	padding-bottom: 10px;
+}
+
+a
+{
+	font-size: .90em;
+}
+
+a:link, a:visited
+{
+	color: #034af3;
+}
+
+a:hover
+{
+	color: #1d60ff;
+	text-decoration: none;
+}
+
+a:active
+{
+	color: #034af3;
+}
+
+input, select, textarea
+{
+	font-size: .90em;
+	border: 1px solid #ccc;
+	font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+}
+
+textarea
+{
+	margin-bottom: 6px;
+}
+
+input[type=checkbox]
+{
+	border: none;
+	width: auto;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.separator
+{
+	clear: both;
+	width: 100%;
+	height: 5px;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.menu_container
+{
+	background-color: #3a4f63;
+	width: 100%;
+	clear: both;
+}
+
+div.menu
+{
+	padding: 4px 0px 4px 4px;
+}
+
+div.menu ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+	background-color: #465c71;
+	border: 1px #4e667d solid;
+	color: #dde4ec;
+	display: block;
+	line-height: 1.35em;
+	padding: 4px 10px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+	background-color: #bfcbd6;
+	color: #465c71;
+	text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+	background-color: #465c71;
+	color: #cfdbe6;
+	text-decoration: none;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+	padding: 8px;
+	border: 1px solid #ccc;
+}
+
+legend
+{
+	padding: 0 2px 2px 2px;
+	font-weight: bold;
+}
+
+.control_container
+{
+	padding: 8px;
+}
+
+fieldset p, .control_container p
+{
+	clear: both;
+}
+
+.control_container p label, fieldset p label
+{
+	width: 150px;
+	float: left;
+}
+
+.control_container p input, .control_container p textarea, .control_container p select, fieldset p input, fieldset p textarea, fieldset p select
+{
+	width: 150px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+.control_container p select, fieldset p select
+{
+	width: 153px;
+}
+
+input[type=submit]
+{
+	border: 1px solid #ccc;
+	float: left;
+	text-align: center;
+	width: 80px;
+	background-color: #ddd;
+	cursor: pointer;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+input[type=submit].big_button
+{
+	width: 98%;
+	clear: both;
+	margin-top: 6px;
+	text-align: left;
+}
+
+.error_msg
+{
+	color: Red;
+}
+
+.table_container
+{
+	width: 100%;
+	overflow: auto;
+}
+
+.table_container table
+{
+	width: 100%;
+	border: 1px solid #ccc;
+}
+
+.table_container table input
+{
+	border: 1px solid #ccc;
+}
+
+table th, table td
+{
+	text-align: left;
+}
+
+table .header_row
+{
+	background-color: #DBDBDB;
+	border: 1px solid #ccc;
+}
+
+.doble_column_content
+{
+	float: left;
+	width: 450px;
+	margin-right: 10px;
+}
+
+.doble_column_content fieldset
+{
+	min-height: 200px;
+}
+
+.doble_column_content #sub
+{
+	min-height: 100px;
+}
+
+.information
+{
+	border: 1px solid #D3D4D5;
+	padding: 5px;
+	color: #2272ed;
+}
+
+.information spam
+{
+	color: #2272ed;
+}
+
+.information img
+{
+	float: right;
+	vertical-align: top;
+}
+
+#commands
+{
+	margin-left: 490px;
+}
+
+#edit-client textarea
+{
+	border: 1px solid #CCCCCC;
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+#product-list label
+{
+	width: 200px;
+}
+
+#product-details p
+{
+	height: 13px;
+	margin: 0;
+}
+
+#product-details p label
+{
+	float: left;
+	font-weight: bold;
+	padding-right: 10px;
+	text-align: right;
+	width: 120px;
+}
+
+#edit-client #MainContent_SponsorUpdatePanel
+{
+	width: 450px;
+}
+
+#edit-client #MainContent_SponsorUpdatePanel input
+{
+	width: 150px;
+}
+
+#edit-client #MainContent_SponsorLabel
+{
+	width: 150px;
+	float: left;
+}
+
+#edit-client #MainContent_SponsorResultLabel
+{
+	width: 300px;
+	float: left;
+	padding-left: 150px;
+	font-weight: bold;
+}
+
+#edit-client #MainContent_PageUpdateProgress
+{
+	margin-left: 307px;
+	margin-top: -39px;
+	float: left;
+}
+
+tr.grid-pager td
+{
+	 text-align:center;
+}
+
+tr.grid-pager table
+{
+	width:auto;
+	margin:auto;
+	border:none;
+	padding:5px;
+}
+
+tr.grid-pager table a
+{
+	padding:5px;
+}
+
+tr.grid-empty-data td
+{
+	 text-align:center;
+}
+
+tr.grid-empty-datatable
+{
+	width:auto;
+	margin:auto;
+	border:none;
+	padding:5px;
+}
+
+tr.grid-empty-data table a
+{
+	padding:5px;
+}
+
+.AddConfigurationsPanel 
+{
+	 text-align:center;
+	 width:100%;
+}
+
+.AddConfigurationsPanel input
+{
+	width: 300px;
+	margin-bottom:25px;
+}
+
+
+
